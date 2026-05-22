@@ -472,7 +472,7 @@ class MainWindow(QMainWindow):
         self.tts = tts_service
         self.db = db_module
         self._search_thread = None
-        self.setWindowTitle("LogiDict v1.2.6 — 物流外贸词典")
+        self.setWindowTitle("LogiDict v1.2.7 — 物流外贸词典")
         self.setMinimumSize(720, 560)
         self.resize(860, 620)
         qss_path = (os.path.join(sys._MEIPASS, "styles.qss")
