@@ -414,19 +414,12 @@ def persist_online_word(word: str, data: dict):
     wid = c.lastrowid
     for i, d in enumerate(data.get("defs", [])):
         c.execute(
-            "INSERT INTO definitions (word_id,pos,def_cn,def_en,domain,is_pro,sort_order) VALUES (?,?,?,?,?,?,?)",
+            "INSERT INTO definitions (word_id,pos,def_cn,def_en,example_en,example_cn,domain,is_pro,sort_order) VALUES (?,?,?,?,?,?,?,?,?)",
             (wid, d.get("pos",""), d.get("def_cn",""), d.get("def_en",""),
+             d.get("example_en",""), d.get("example_cn",""),
              d.get("domain","general"), d.get("is_pro",0), i)
         )
-        def_id = c.lastrowid
-        # 例句存 examples 表（definitions 表无 example 列）
-        ex_en = d.get("example_en","")
-        ex_cn = d.get("example_cn","")
-        if ex_en or ex_cn:
-            c.execute(
-                "INSERT INTO examples (def_id, example_en, example_cn) VALUES (?,?,?)",
-                (def_id, ex_en, ex_cn)
-            )
+        # 例句直接写入 definitions 表的 example_en/example_cn 列
     conn.commit(); conn.close()
 
 
