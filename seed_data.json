@@ -1,0 +1,3641 @@
+[
+  {
+    "word": "FOB",
+    "phonetic_uk": "/ˌef.əʊˈbiː/",
+    "phonetic_us": "/ˌef.oʊˈbiː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "离岸价；船上交货",
+        "def_en": "Free On Board — seller delivers when goods pass the ship rail at the named port of shipment",
+        "example_en": "The goods are sold FOB Shanghai, USD 5,000.",
+        "example_cn": "货物以上海离岸价出售，5000美元。",
+        "domain": "trade",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "FOB",
+      "full_form": "Free On Board",
+      "domain": "incoterms",
+      "pro_def_cn": "卖方将货物装上买方指定船只，此后一切风险和费用转移至买方。适用于海运及内河运输。国际贸易中最常用的贸易术语之一。",
+      "pro_def_en": "Seller delivers goods on board the vessel nominated by buyer at named port. Risk and cost transfer to buyer from that point. Applies to sea and inland waterway only.",
+      "biz_example_1": "报价 FOB NINGBO USD 1200/CBM：货装船后风险归买方，买方需自行安排货代订舱付运费。",
+      "biz_example_2": "FOB下卖方不负责海运费和保险，对卖方最省事但报价较低，买方掌握运输主动权。",
+      "related": "CIF,EXW,CFR,DDP,FCA",
+      "tags": "incoterms,trade terms,pricing"
+    },
+    "cn_keywords": "离岸价,船上交货,贸易术语"
+  },
+  {
+    "word": "CIF",
+    "phonetic_uk": "/ˌsiː.aɪˈef/",
+    "phonetic_us": "/ˌsiː.aɪˈef/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "成本加保险费加运费；到岸价",
+        "def_en": "Cost, Insurance and Freight — seller pays costs, insurance and freight to destination port",
+        "example_en": "Price is CIF Los Angeles, USD 8,500.",
+        "example_cn": "价格为到岸价洛杉矶8500美元。",
+        "domain": "trade",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "CIF",
+      "full_form": "Cost Insurance Freight",
+      "domain": "incoterms",
+      "pro_def_cn": "卖方负责将货物运至目的港并支付运费及最低保险费（Invoice金额110%）。货物装船后风险转买方。常用于大宗海运商品。",
+      "pro_def_en": "Seller pays freight and minimum insurance to destination port. Risk passes to buyer when goods are on board at origin port.",
+      "biz_example_1": "CIF LONG BEACH报价已含海运费和保险，买方到港后自行清关提货，无需安排运输。",
+      "biz_example_2": "CIF与FOB的核心差别：CIF卖方负责运输和保险，报价更高但买方操作简单。",
+      "related": "FOB,CFR,EXW,DDP",
+      "tags": "incoterms,trade terms,pricing"
+    },
+    "cn_keywords": "到岸价,成本加保险费加运费,贸易术语"
+  },
+  {
+    "word": "EXW",
+    "phonetic_uk": "/ˌiː.eks.ˈdʌb.əl.juː/",
+    "phonetic_us": "/ˌiː.eks.ˈdʌb.əl.juː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "工厂交货价；出厂价",
+        "def_en": "Ex Works — seller places goods at disposal at premises; buyer bears all costs and risks",
+        "example_en": "Factory quote: EXW Guangzhou CNY 15,000/MT.",
+        "example_cn": "工厂报价：广州出厂价每吨人民币15000元。",
+        "domain": "trade",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "EXW",
+      "full_form": "Ex Works",
+      "domain": "incoterms",
+      "pro_def_cn": "卖方仅需在工厂或仓库备好货物，买方承担从工厂到目的地的全部费用和风险，包括出口清关和装车。对卖方义务最小。",
+      "pro_def_en": "Minimum seller obligation. Buyer collects from seller premises and handles all export formalities, transport, and risks.",
+      "biz_example_1": "EXW价格最低，但买方需自行安排国内拖车和出口报关，实操复杂，适合在华有代理的买家。",
+      "biz_example_2": "外贸新手建议用FOB而非EXW：EXW下出口清关在买方，卖方可能无法顺利办理退税。",
+      "related": "FOB,FCA,DDP",
+      "tags": "incoterms,trade terms"
+    },
+    "cn_keywords": "工厂交货,出厂价,贸易术语"
+  },
+  {
+    "word": "DDP",
+    "phonetic_uk": "/ˌdiː.diːˈpiː/",
+    "phonetic_us": "/ˌdiː.diːˈpiː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "完税后交货；到门含税价",
+        "def_en": "Delivered Duty Paid — seller delivers cleared for import bearing all costs to named destination",
+        "example_en": "DDP buyer warehouse Chicago, includes all duties.",
+        "example_cn": "完税后交货至芝加哥买方仓库，含所有税费。",
+        "domain": "trade",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "DDP",
+      "full_form": "Delivered Duty Paid",
+      "domain": "incoterms",
+      "pro_def_cn": "卖方承担最大义务：负责将货运至目的地并完成进口清关、缴纳全部税费后交给买方。跨境电商常用。",
+      "pro_def_en": "Maximum seller obligation. Seller bears all costs including import duties, taxes, and delivery to buyer premises.",
+      "biz_example_1": "跨境电商平台（如亚马逊FBA）常用DDP条款，卖方负责完整到门服务，买方体验最佳。",
+      "biz_example_2": "DDP报价须精确预估目的国关税和增值税税率，若预估偏低将直接亏损。",
+      "related": "FOB,EXW,DAP",
+      "tags": "incoterms,trade terms,ecommerce"
+    },
+    "cn_keywords": "完税后交货,到门价,进口包税,贸易术语"
+  },
+  {
+    "word": "CFR",
+    "phonetic_uk": "/ˌsiː.ef.ˈɑːr/",
+    "phonetic_us": "/ˌsiː.ef.ˈɑːr/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "成本加运费（到目的港）",
+        "def_en": "Cost and Freight — seller pays freight to destination port; risk transfers at origin port",
+        "example_en": "CFR Hamburg — seller covers ocean freight, buyer arranges insurance.",
+        "example_cn": "汉堡成本加运费——卖方负担海运费，买方自行投保。",
+        "domain": "trade",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "CFR",
+      "full_form": "Cost and Freight",
+      "domain": "incoterms",
+      "pro_def_cn": "卖方支付运费至目的港，但货物装船后风险即转移至买方，买方需自行购买货运保险。与CIF的唯一区别在于保险。",
+      "pro_def_en": "Seller pays freight; risk passes to buyer at loading port. Unlike CIF, buyer must arrange insurance.",
+      "biz_example_1": "CFR条款下买方若不自行投保，运输途中货损自担，建议买方签订货运险。",
+      "biz_example_2": "CFR与FOB区别：FOB买方安排运输，CFR卖方安排运输，但均在装船后风险转买方。",
+      "related": "CIF,FOB,FCA",
+      "tags": "incoterms,trade terms"
+    },
+    "cn_keywords": "成本加运费,贸易术语"
+  },
+  {
+    "word": "B/L",
+    "phonetic_uk": "/ˌbiː.əv.ˈlæd.ɪŋ/",
+    "phonetic_us": "/ˌbiː.əv.ˈlæd.ɪŋ/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "提单；海运提单",
+        "def_en": "Bill of Lading — carrier-issued document acknowledging receipt of cargo for shipment",
+        "example_en": "The original B/L must be presented to release cargo.",
+        "example_cn": "须凭正本提单方可提货。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "B/L",
+      "full_form": "Bill of Lading",
+      "domain": "shipping docs",
+      "pro_def_cn": "承运人签发的货运单据，具三重功能：货物收据、运输合同证明、物权凭证（可转让）。分正本提单（OBL）和电放提单（Telex Release/SWB）。",
+      "pro_def_en": "Three-function document: receipt of goods, evidence of contract of carriage, document of title (negotiable). Types: OBL (paper original) or Telex Release/Express B/L (surrendered).",
+      "biz_example_1": "信用证项下须提交全套正本提单（Full Set of OBL，通常3/3），任何一份提示即可提货。",
+      "biz_example_2": "电放（Surrender）：发货人在起运港背书交还正本给船公司，目的港无需凭证提货，适合T/T付款。",
+      "related": "OBL,SWB,AWB,Telex Release,Express B/L,MBL,HBL",
+      "tags": "shipping docs,customs,trade finance"
+    },
+    "cn_keywords": "提单,海运提单,船单"
+  },
+  {
+    "word": "OBL",
+    "phonetic_uk": "/ˌəʊ.biːˈel/",
+    "phonetic_us": "/ˌoʊ.biːˈel/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "正本提单；原始提单",
+        "def_en": "Original Bill of Lading — negotiable paper document required to release cargo",
+        "example_en": "The issuing bank holds the OBL under L/C terms.",
+        "example_cn": "开证行凭信用证持有正本提单。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "OBL",
+      "full_form": "Original Bill of Lading",
+      "domain": "shipping docs",
+      "pro_def_cn": "纸质正本提单，具物权凭证性质，凭证提货。通常签发3份正本，任意一份提示放货其余失效。遗失风险极大。",
+      "pro_def_en": "Physical paper B/L with title function. Usually issued in 3 originals; first surrender releases cargo, others become void. Loss is catastrophic.",
+      "biz_example_1": "T/T付款方式：收到全款后将OBL快递给客户，客户凭原件到目的港提货。",
+      "biz_example_2": "OBL遗失补办极麻烦，现代物流多用电放（Telex Release）或海运单（SWB）代替，降低风险。",
+      "related": "B/L,Telex Release,SWB,L/C",
+      "tags": "shipping docs,trade finance"
+    },
+    "cn_keywords": "正本提单,原始提单,海运提单"
+  },
+  {
+    "word": "AWB",
+    "phonetic_uk": "/ˌeɪ.dʌb.əlˈjuːbiː/",
+    "phonetic_us": "/ˌeɪ.dʌb.əlˈjuːbiː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "航空运单；空运提单",
+        "def_en": "Air Waybill — non-negotiable air transport document issued by airline or forwarder",
+        "example_en": "The AWB number tracks this air shipment.",
+        "example_cn": "用航空运单号追踪此批空运货物。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "AWB",
+      "full_form": "Air Waybill",
+      "domain": "air freight",
+      "pro_def_cn": "空运货物的运输合同及收货凭证，不可转让，非物权凭证（与B/L不同）。分主运单（MAWB，航空公司签发）和分运单（HAWB，货代签发）。",
+      "pro_def_en": "Non-negotiable air transport document. Not a document of title. MAWB issued by airline; HAWB by forwarder. Consignee can collect with just the AWB number.",
+      "biz_example_1": "航空货代向客户签发HAWB，自己向航空公司换取MAWB，实现拼货（Consolidation）赚取差价。",
+      "biz_example_2": "空运凭AWB号和收货人身份即可提货，无需原件，速度快；与OBL相比，风险和手续都大幅简化。",
+      "related": "MAWB,HAWB,B/L,Air Freight",
+      "tags": "air freight,shipping docs"
+    },
+    "cn_keywords": "航空运单,空运单"
+  },
+  {
+    "word": "MBL",
+    "phonetic_uk": "/ˌem.biːˈel/",
+    "phonetic_us": "/ˌem.biːˈel/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "主提单；船东提单",
+        "def_en": "Master Bill of Lading — B/L issued by carrier to NVOCC/forwarder",
+        "example_en": "Track with the carrier using the MBL number.",
+        "example_cn": "用MBL号在船公司系统追踪货物。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "MBL",
+      "full_form": "Master Bill of Lading",
+      "domain": "shipping docs",
+      "pro_def_cn": "船公司（VOCC）签发给NVOCC/货代的提单，是承运人与货代间的运输合同。MBL的Shipper为货代，与货代签发给实际货主的HBL对应。",
+      "pro_def_en": "B/L from vessel operator to NVOCC. Forwarder is shipper on MBL. Backed by multiple HBLs issued by forwarder to actual shippers.",
+      "biz_example_1": "货主一般只持有HBL，货代持有MBL；追踪到船公司系统需用MBL号，BC团队操作中需区分两者。",
+      "biz_example_2": "MBL和HBL的货描须一致，否则目的港代理无法正确拆箱，导致客户提货困难。",
+      "related": "HBL,NVOCC,B/L,Carrier",
+      "tags": "shipping docs,NVOCC,documentation"
+    },
+    "cn_keywords": "主提单,总提单,船公司提单"
+  },
+  {
+    "word": "HBL",
+    "phonetic_uk": "/ˌeɪtʃ.biːˈel/",
+    "phonetic_us": "/ˌeɪtʃ.biːˈel/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "分提单；货代提单",
+        "def_en": "House Bill of Lading — B/L issued by NVOCC/forwarder to actual shipper",
+        "example_en": "Our company is listed as shipper on the HBL.",
+        "example_cn": "我公司在分提单上列为托运人。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "HBL",
+      "full_form": "House Bill of Lading",
+      "domain": "shipping docs",
+      "pro_def_cn": "NVOCC/货代签发给实际货主的提单，显示真实Shipper（出口商）和Consignee（进口商）。货主凭HBL提货或向银行交单，是NVOCC运营模式的核心文件。",
+      "pro_def_en": "B/L from NVOCC to actual shipper showing real shipper/consignee. Shipper negotiates against HBL. Backed by MBL between NVOCC and vessel operator.",
+      "biz_example_1": "信用证项下银行通常要求提交HBL，因其显示真实买卖双方信息，便于银行审核。",
+      "biz_example_2": "各货代HBL单号格式不同，BC操作团队需熟悉各合作货代的单号规则以便快速追踪。",
+      "related": "MBL,NVOCC,B/L,Shipper,Consignee",
+      "tags": "shipping docs,NVOCC,documentation"
+    },
+    "cn_keywords": "货代提单,子提单,分提单"
+  },
+  {
+    "word": "FCL",
+    "phonetic_uk": "/ˌef.siːˈel/",
+    "phonetic_us": "/ˌef.siːˈel/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "整箱货；整柜运输",
+        "def_en": "Full Container Load — one shipper fills and books an entire container",
+        "example_en": "This large order will ship FCL, one 40HQ.",
+        "example_cn": "这批大货整柜装运，一个40高柜。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "FCL",
+      "full_form": "Full Container Load",
+      "domain": "container shipping",
+      "pro_def_cn": "一个托运人独占整个集装箱，直接从工厂装箱到目的港。相比LCL，FCL单位运费低，安全性高，适合货量>15CBM的货物。",
+      "pro_def_en": "Single shipper occupies entire container. More cost-effective than LCL for large shipments (typically >15 CBM). Direct stuffing at factory, lower risk of cargo damage.",
+      "biz_example_1": "FCL操作流程：BC→拿S/O→工厂装箱→拖车送港→截关→开船→签发提单。",
+      "biz_example_2": "FCL报价通常以箱为单位（per box），20GP/40GP/40HQ分别计价，40HQ最常用。",
+      "related": "LCL,20GP,40HQ,40GP,SOC,S/O",
+      "tags": "container,ocean freight"
+    },
+    "cn_keywords": "货柜,整柜,整箱,整箱运输,集装箱,箱运,整箱货"
+  },
+  {
+    "word": "LCL",
+    "phonetic_uk": "/ˌel.siːˈel/",
+    "phonetic_us": "/ˌel.siːˈel/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "拼箱货；散货；拼柜运输",
+        "def_en": "Less than Container Load — cargo shares container with other shippers",
+        "example_en": "Small orders usually go LCL to reduce freight costs.",
+        "example_cn": "小批量订单通常走拼箱以节省运费。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "LCL",
+      "full_form": "Less than Container Load",
+      "domain": "container shipping",
+      "pro_def_cn": "多个托运人的货物合并装入同一集装箱。在CFS（集装箱货运站）完成拼箱，按CBM或吨计费（取大值），有额外拼箱费和拆箱费（Deconsolidation）。",
+      "pro_def_en": "Multiple shippers share one container. Billed by CBM or ton (W/M), whichever greater. Additional charges: CFS handling, LCL surcharge, deconsolidation at destination.",
+      "biz_example_1": "LCL报价通常为USD X/CBM，最低1CBM起算；货量超15CBM时改整箱往往更划算。",
+      "biz_example_2": "LCL货物在CFS进行拼箱和拆箱，操作周期比FCL长3-5天，且存在货物混装碰损风险。",
+      "related": "FCL,CFS,CBM,Consolidation",
+      "tags": "container,ocean freight,small shipment"
+    },
+    "cn_keywords": "拼箱,拼柜,散货,拼货,拼装,散货拼箱"
+  },
+  {
+    "word": "20GP",
+    "phonetic_uk": "/ˌtwenti.dʒiːˈpiː/",
+    "phonetic_us": "/ˌtwenti.dʒiːˈpiː/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "20尺标准集装箱",
+        "def_en": "20-foot General Purpose container — standard dry container, 20 feet long",
+        "example_en": "One 20GP can hold approximately 25 CBM with a max payload of 21.7 MT.",
+        "example_cn": "一个20尺标准柜约可装25CBM，最大载重21.7吨。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "20GP",
+      "full_form": "20-foot General Purpose Container",
+      "domain": "container specs",
+      "pro_def_cn": "长20英尺的标准干货集装箱。内尺寸约5.9m×2.35m×2.39m，容积约33CBM，实装约25CBM，最大载重约21.7吨。1TEU=1个20GP。",
+      "pro_def_en": "Standard dry container, 20ft. Internal: ~5.9m×2.35m×2.39m, usable volume ~25 CBM, max payload ~21.7 MT. 1 TEU unit.",
+      "biz_example_1": "重货（石材、机械、金属）常用20GP，货量重但体积小，装不满40GP但重量已到上限。",
+      "biz_example_2": "运费中20GP基础运价通常约为40GP的60-70%，TEU/FEU运价换算时需注意。",
+      "related": "40GP,40HQ,45HQ,TEU,FCL",
+      "tags": "container specs,ocean freight"
+    },
+    "cn_keywords": "20尺柜,小柜,标准箱,二十尺柜,20尺集装箱,20GP柜"
+  },
+  {
+    "word": "40HQ",
+    "phonetic_uk": "/ˌfɔːti.eɪtʃˈkjuː/",
+    "phonetic_us": "/ˌfɔːrti.eɪtʃˈkjuː/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "40尺高箱；40尺高柜",
+        "def_en": "40-foot High Cube container — 9ft 6in tall, higher than standard 8ft 6in",
+        "example_en": "Load light bulky cargo into 40HQ to maximize cubic capacity.",
+        "example_cn": "轻泡货装40高柜可最大化利用容积。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "40HQ",
+      "full_form": "40-foot High Cube Container",
+      "domain": "container specs",
+      "pro_def_cn": "高度比标准40GP高30cm（9英尺6英寸），内部容积约76-78CBM，最大载重约26.5吨。是目前最常用的集装箱箱型，适合轻泡货。",
+      "pro_def_en": "Extra height (9ft 6in) 40-foot container. Volume ~76-78 CBM, max payload ~26.5 MT. Most popular container type for general cargo.",
+      "biz_example_1": "家具、纺织品、轻工业品首选40HQ，充分利用垂直空间，比40GP多约8CBM容积。",
+      "biz_example_2": "40HQ运费仅比40GP略高，性价比极高，目前大多数班轮公司标准舱位即为40HQ。",
+      "related": "20GP,40GP,45HQ,FCL,TEU",
+      "tags": "container specs,ocean freight"
+    },
+    "cn_keywords": "40尺高柜,高柜,四十高柜,40HC,40高柜,高箱"
+  },
+  {
+    "word": "TEU",
+    "phonetic_uk": "/ˌtiː.iːˈjuː/",
+    "phonetic_us": "/ˌtiː.iːˈjuː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "标准集装箱单位（二十尺等量单位）",
+        "def_en": "Twenty-foot Equivalent Unit — standard measurement unit for container capacity",
+        "example_en": "The port handles over 30 million TEUs per year.",
+        "example_cn": "该港口年集装箱吞吐量超过3000万标准箱。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "TEU",
+      "full_form": "Twenty-foot Equivalent Unit",
+      "domain": "container",
+      "pro_def_cn": "集装箱运量的国际通用计量单位。1 TEU=1个20尺柜，1个40尺柜=2 TEU。用于衡量港口吞吐量（TEU/年）、船舶容量（TEU/Vessel）和货量统计。",
+      "pro_def_en": "Standard unit: 1 TEU = one 20ft container; one 40ft = 2 TEU (= 1 FEU). Used for port throughput, vessel capacity, and trade volume statistics.",
+      "biz_example_1": "宁波舟山港年吞吐量超3500万TEU，为全球前三大港口之一。",
+      "biz_example_2": "运价常以per TEU或per FEU（40尺=2TEU）报价，比价时须统一换算成同口径比较。",
+      "related": "FEU,20GP,40GP,Container,Port Throughput",
+      "tags": "container,measurements,statistics"
+    },
+    "cn_keywords": "标准集装箱,标箱,二十英尺等效单位,集装箱数量,箱量,标准柜"
+  },
+  {
+    "word": "S/O",
+    "phonetic_uk": "/ˌes.ˈəʊ/",
+    "phonetic_us": "/ˌes.ˈoʊ/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "装货单；关港通知单",
+        "def_en": "Shipping Order — document authorizing cargo loading onto a specific vessel sailing",
+        "example_en": "S/O issued, please arrange trucking to CY before cut-off.",
+        "example_cn": "装货单已签发，请在截关前安排拖车送达堆场。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "S/O",
+      "full_form": "Shipping Order",
+      "domain": "booking",
+      "pro_def_cn": "由船公司或货代签发给发货人的装货指示单，凭此安排码头装船。包含：船名、航次、箱型、截关日期、指定堆场（CY）等关键信息。",
+      "pro_def_en": "Authorization from carrier/forwarder to deliver cargo to terminal. Contains vessel, voyage, container type, cut-off date, and designated CY/terminal details.",
+      "biz_example_1": "拿到S/O后即可安排工厂装箱和拖车，须在S/O上注明的CY截关时间前将重箱送达。",
+      "biz_example_2": "S/O上的截关时间是硬性要求，晚一分钟船公司有权拒收，造成甩柜（Roll）。",
+      "related": "B/L,VGM,Cut-off,CY,booking confirmation",
+      "tags": "booking,ocean freight,documentation"
+    },
+    "cn_keywords": "装货单,下货单,订舱确认,出货通知,收货收据"
+  },
+  {
+    "word": "VGM",
+    "phonetic_uk": "/ˌviː.dʒiːˈem/",
+    "phonetic_us": "/ˌviː.dʒiːˈem/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "集装箱总重量核实；箱重核实",
+        "def_en": "Verified Gross Mass — mandatory declared weight of packed container per SOLAS regulations",
+        "example_en": "VGM must be submitted before the CY cut-off.",
+        "example_cn": "必须在货物截关前提交集装箱核重数据。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "VGM",
+      "full_form": "Verified Gross Mass",
+      "domain": "safety",
+      "pro_def_cn": "根据SOLAS修正案（2016年7月起强制执行），所有出口集装箱装船前必须提交经核实的总重（货物+包装+箱体自重）。申报方式：Method 1（整箱称重）或Method 2（货物+包材分别称重求和）。",
+      "pro_def_en": "Mandatory SOLAS 2016 requirement: total verified weight of packed container must be declared before loading. Method 1: weigh packed container; Method 2: weigh all contents and packaging separately and add tare weight.",
+      "biz_example_1": "VGM申报截止时间通常比文件截关（Doc Cut-off）早1-2天，需单独关注不可混淆。",
+      "biz_example_2": "VGM申报错误或超重严重（>1吨差异）会被船公司扣柜查验，影响装船计划。",
+      "related": "SOLAS,Cut-off,S/O,Weight Declaration",
+      "tags": "safety,ocean freight,regulatory"
+    },
+    "cn_keywords": "货物重量认证,箱重认证,验证总重量,货重认证"
+  },
+  {
+    "word": "booking confirmation",
+    "phonetic_uk": "/ˈbʊk.ɪŋ kɒn.fɜːˈmeɪ.ʃən/",
+    "phonetic_us": "/ˈbʊk.ɪŋ kɑːn.fɜːˈmeɪ.ʃən/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "订舱确认书；BC单",
+        "def_en": "Written confirmation from carrier/agent that cargo space is reserved on a named vessel",
+        "example_en": "Please send the booking confirmation with all cut-off dates.",
+        "example_cn": "请发送订舱确认书并附上所有截关时间。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "BC",
+      "full_form": "Booking Confirmation",
+      "domain": "ocean freight",
+      "pro_def_cn": "货代或船公司发给托运人的订舱确认文件，包含：船名航次、起讫港、箱型箱量、截关时间（CY/Doc/VGM）、S/O号等关键信息。是后续一切操作的基础文件。",
+      "pro_def_en": "Document confirming space reservation. Contains vessel/voyage, ports, container type/quantity, all cut-off times, and S/O number. Foundation document for all subsequent operations.",
+      "biz_example_1": "BC下达后，货代须核对所有字段（箱型、港口、截关日期）并及时反馈给客户，发现问题立即更改。",
+      "biz_example_2": "BC上的MBL号（或Booking No.）是贯穿整个运输流程的主要追踪单号，需妥善记录。",
+      "related": "S/O,B/L,Cut-off,CY,SI",
+      "tags": "booking,ocean freight,documentation"
+    },
+    "cn_keywords": "订舱确认,订舱回单,订舱,BC,订仓,确认订舱"
+  },
+  {
+    "word": "SI",
+    "phonetic_uk": "/ˌes.ˈaɪ/",
+    "phonetic_us": "/ˌes.ˈaɪ/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "装箱指示；提单补料",
+        "def_en": "Shipping Instructions — details from shipper to carrier for issuing the bill of lading",
+        "example_en": "Submit SI before document cut-off to avoid B/L amendments.",
+        "example_cn": "在文件截关前提交补料，避免修改提单。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "SI",
+      "full_form": "Shipping Instructions",
+      "domain": "documentation",
+      "pro_def_cn": "托运人向船公司/货代提供的用于制作提单的全部信息，包括：Shipper、Consignee、Notify Party、港口信息、货描（Goods Description）、件数、重量、体积等。",
+      "pro_def_en": "Instructions for B/L issuance: shipper, consignee, notify party, port pair, cargo description, packages, weight, volume. Must match L/C requirements exactly if under letter of credit.",
+      "biz_example_1": "SI须在文件截关（Doc Cut-off）前提交，通常开船前4-5天，部分远洋航线提前更多。",
+      "biz_example_2": "SI资料与信用证不符是单证不符（Discrepancy）的主要原因，须逐字对照L/C每个条款核实。",
+      "related": "B/L,Cut-off,Consignee,Shipper,L/C",
+      "tags": "documentation,ocean freight,B/L"
+    },
+    "cn_keywords": "装船指示,截关资料,托运资料,装箱指示,SI单"
+  },
+  {
+    "word": "cut-off",
+    "phonetic_uk": "/ˈkʌt.ɒf/",
+    "phonetic_us": "/ˈkʌt.ɔːf/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "截关时间；截单时间",
+        "def_en": "The deadline for delivering cargo or documents to meet a specific vessel sailing",
+        "example_en": "Cargo cut-off for this sailing is Thursday 15:00 at CY.",
+        "example_cn": "本航次货物截关时间为周四下午15:00，堆场截止。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Cut-off Time",
+      "domain": "booking",
+      "pro_def_cn": "分三种：货物截关（CY Cut-off）——重箱进港截止时间；文件截关（Doc Cut-off/SI Cut-off）——提单补料截止；VGM截关——箱重申报截止。错过任一均可能导致甩柜（Roll）。",
+      "pro_def_en": "Three types: CY/Cargo Cut-off (container at terminal deadline), Doc Cut-off (B/L instructions deadline), VGM Cut-off (weight declaration deadline). Missing any may result in cargo being rolled to next sailing.",
+      "biz_example_1": "宁波港FCL典型节奏：CY截关=开船前2天，Doc截关=开船前4天，VGM截关=开船前3天。",
+      "biz_example_2": "台风季或节假日前后截关时间会提前，每次须向船公司/货代确认最新时间，不可依赖历史规律。",
+      "related": "S/O,SI,VGM,Roll,ETD,CY",
+      "tags": "booking,timeline,ocean freight"
+    },
+    "cn_keywords": "截关,截止时间,截货,截提单,截单,截柜"
+  },
+  {
+    "word": "CY",
+    "phonetic_uk": "/ˌsiː.ˈwaɪ/",
+    "phonetic_us": "/ˌsiː.ˈwaɪ/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "集装箱堆场",
+        "def_en": "Container Yard — area at port terminal where containers are stored and handed over",
+        "example_en": "Deliver the container to CY before the cut-off time.",
+        "example_cn": "在截关时间前将集装箱送达堆场。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "CY",
+      "full_form": "Container Yard",
+      "domain": "port",
+      "pro_def_cn": "港口内用于存放、交接集装箱的露天堆场。FCL出口流程：工厂装箱→拖车送至CY→进港登记→装船。CY截关是货物进港最终期限。",
+      "pro_def_en": "Terminal area for container storage and handoff. FCL export: truck loaded container to CY before cut-off for loading. Import: empty containers returned to CY after delivery.",
+      "biz_example_1": "订舱条款CY/CY=两端堆场交接（标准整箱）；Door/Door=含两端内陆运输的门到门服务。",
+      "biz_example_2": "不同港口和船公司的CY地址不同，S/O上指定的CY须确认具体地址，安排拖车时须告知司机。",
+      "related": "CFS,Cut-off,Terminal,FCL,S/O",
+      "tags": "port,container,terminal"
+    },
+    "cn_keywords": "集装箱堆场,堆场,码头堆场,空箱堆场,提箱,还箱"
+  },
+  {
+    "word": "customs clearance",
+    "phonetic_uk": "/ˈkʌs.təmz ˈklɪər.əns/",
+    "phonetic_us": "/ˈkʌs.təmz ˈklɪr.əns/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "清关；通关",
+        "def_en": "The process of passing goods through customs so they can enter or leave a country",
+        "example_en": "Goods are pending customs clearance at destination port.",
+        "example_cn": "货物正在目的港等待清关。",
+        "domain": "customs",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Customs Clearance",
+      "domain": "customs",
+      "pro_def_cn": "货物进出口时向海关申报、缴税、完成放行的整个流程。包括提交报关单、提供商业发票/装箱单/提单等单证，海关审核、查验（CFS查验或码头查验）、放行。",
+      "pro_def_en": "Complete process of declaring goods to customs, paying duties/taxes, and receiving release authorization. Key documents: commercial invoice, packing list, B/L. May involve physical inspection.",
+      "biz_example_1": "卡关（Customs Hold）常见原因：单证不全、货描不符、商品受限（如含化学品）、欠税、随机查验。",
+      "biz_example_2": "目的港清关费用通常含报关费、关税、增值税，需在到港Free Time内完成，否则产生Demurrage。",
+      "related": "Customs Duty,HS Code,Import Declaration,Customs Hold,Free Time",
+      "tags": "customs,compliance,import"
+    },
+    "cn_keywords": "报关,清关,通关,海关清关,清关手续"
+  },
+  {
+    "word": "HS Code",
+    "phonetic_uk": "/ˌeɪtʃ.es.ˈkəʊd/",
+    "phonetic_us": "/ˌeɪtʃ.es.ˈkoʊd/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "海关编码；商品编码",
+        "def_en": "Harmonized System Code — international numerical system for classifying traded products",
+        "example_en": "The HS Code for laptop computers is 8471.30.",
+        "example_cn": "笔记本电脑的海关编码为8471.30。",
+        "domain": "customs",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Harmonized System Code",
+      "domain": "customs",
+      "pro_def_cn": "世界海关组织（WCO）制定的商品分类编码体系。前6位国际统一，各国在此基础上延伸（中国10位，美国10位HTS）。决定进出口关税税率、监管条件、贸易统计分类。",
+      "pro_def_en": "International 6-digit product classification code by WCO. Extended to 10 digits nationally (China) or 10-digit HTS (US). Determines tariff rates, trade restrictions, and statistics.",
+      "biz_example_1": "HS Code归类错误会导致多缴或少缴关税，严重情况构成走私罪，建议委托专业报关行归类复核。",
+      "biz_example_2": "美国对华301关税对特定HS Code加征25%-100%额外关税，报价前须确认商品税则号及适用附加税。",
+      "related": "Tariff,Customs Duty,Import Declaration,Trade Policy,HTS",
+      "tags": "customs,compliance,tariff"
+    },
+    "cn_keywords": "海关编码,商品编码,税则号,税号"
+  },
+  {
+    "word": "AMS",
+    "phonetic_uk": "/ˌeɪ.em.ˈes/",
+    "phonetic_us": "/ˌeɪ.em.ˈes/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "美国自动舱单系统；美线舱单申报",
+        "def_en": "Automated Manifest System — US CBP system requiring advance cargo data for US-bound shipments",
+        "example_en": "AMS filing must be done 24 hours before vessel departure.",
+        "example_cn": "运往美国的货物须在开船前24小时完成AMS舱单申报。",
+        "domain": "customs",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "AMS",
+      "full_form": "Automated Manifest System",
+      "domain": "customs",
+      "pro_def_cn": "美国海关边境保卫局（CBP）要求，所有进入美国的海运货物需在开船前24小时由承运人/货代申报HBL明细，包括：Shipper、Consignee、货描、件重尺等信息。",
+      "pro_def_en": "US CBP requirement: manifest with all HBL details must be filed 24 hours before vessel departure for all US-bound ocean cargo. Filed by carrier or NVOCC.",
+      "biz_example_1": "AMS申报费约USD 25-35/HBL，由货代代申报，未按时申报被CBP发现会导致扣货并处高额罚款。",
+      "biz_example_2": "AMS信息须与ISF（10+2，由进口商提交）数据一致，不符将触发CBP查验，延误提货。",
+      "related": "ISF,CBP,10+2,ACE,ENS",
+      "tags": "customs,US trade,compliance"
+    },
+    "cn_keywords": "美国海关申报,舱单系统,自动舱单"
+  },
+  {
+    "word": "ISF",
+    "phonetic_uk": "/ˌaɪ.es.ˈef/",
+    "phonetic_us": "/ˌaɪ.es.ˈef/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "美国进口商安全申报；10+2申报",
+        "def_en": "Importer Security Filing (10+2) — US CBP requirement for importers to file cargo data before vessel loading",
+        "example_en": "ISF must be filed by importer 24 hours before cargo loading.",
+        "example_cn": "进口商须在货物装船前24小时提交ISF申报。",
+        "domain": "customs",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "ISF",
+      "full_form": "Importer Security Filing",
+      "domain": "customs",
+      "pro_def_cn": "美国CBP要求进口商在货物装船前24小时提交的安全申报，包含10项数据（卖家、买家、进口商、收货人、HS Code等）和2项船方数据，故称10+2。未申报最高罚款USD 5000/票。",
+      "pro_def_en": "US CBP 10+2 rule. Importer files 10 data elements before vessel loading. Penalty up to USD 5,000 per shipment for non-compliance or late filing.",
+      "biz_example_1": "ISF通常由进口商的报关行代理申报，出口方须及时提供发票、装箱单等资料配合。",
+      "biz_example_2": "ISF数据与实际装船货物不符（mismatch）会触发CBP查验，导致清关延误并产生Demurrage。",
+      "related": "AMS,CBP,10+2,Customs Clearance",
+      "tags": "customs,US trade,compliance"
+    },
+    "cn_keywords": "进口商安全申报,ISF申报"
+  },
+  {
+    "word": "customs duty",
+    "phonetic_uk": "/ˈkʌs.təmz ˈdjuː.ti/",
+    "phonetic_us": "/ˈkʌs.təmz ˈduː.ti/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "进口关税；海关税",
+        "def_en": "Tax imposed on goods crossing international borders, typically upon import",
+        "example_en": "The customs duty rate for this product is 5% of CIF value.",
+        "example_cn": "该产品进口关税税率为到岸价的5%。",
+        "domain": "customs",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Customs Duty",
+      "domain": "customs",
+      "pro_def_cn": "进出口商品须缴纳的税款，由进口国海关按HS Code对应税率征收。计税方式：从价税（Ad Valorem，按货值%）、从量税（Specific，按数量/重量）或混合税。关税计算基础通常为CIF价。",
+      "pro_def_en": "Tax on imported goods based on HS code. Types: ad valorem (% of CIF value), specific duty (per unit), or compound. Additional duties: anti-dumping (ADD), countervailing (CVD), safeguard (SG).",
+      "biz_example_1": "中美贸易摩擦中美方对中国商品加征301关税（10%-100%），大幅提高中国出口商品竞争力。",
+      "biz_example_2": "关税的计算基础通常是CIF到岸价（含运费和保险），而非FOB价格，这是报价时的常见误区。",
+      "related": "HS Code,Tariff,Customs Clearance,Anti-Dumping,301 Tariff",
+      "tags": "customs,taxation,trade policy"
+    },
+    "cn_keywords": "关税,进口税,进口关税"
+  },
+  {
+    "word": "certificate of origin",
+    "phonetic_uk": "/səˈtɪf.ɪ.kət əv ˈɒr.ɪ.dʒɪn/",
+    "phonetic_us": "/sərˈtɪf.ɪ.kɪt əv ˈɔːr.ɪ.dʒɪn/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "原产地证书；产地证",
+        "def_en": "Document certifying the country in which goods were produced or manufactured",
+        "example_en": "Form E is the preferential CO for ASEAN-China FTA trade.",
+        "example_cn": "Form E是中国-东盟自贸区的优惠原产地证书。",
+        "domain": "customs",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Certificate of Origin",
+      "domain": "customs",
+      "pro_def_cn": "证明货物原产地的官方文件。分一般原产地证（CO）和优惠原产地证（GSP/FTA，如Form A、Form E、RCEP证书）。凭优惠产地证可申请进口关税减免，降低买方采购成本。",
+      "pro_def_en": "Official document certifying goods country of origin. Types: general CO and preferential CO (for FTA tariff concessions, e.g., Form E for ASEAN-China, Form A for GSP, RCEP Certificate of Origin).",
+      "biz_example_1": "中国出口到东盟国家可申请Form E（中国-东盟FTA），享受东盟各国进口关税减免甚至免税待遇。",
+      "biz_example_2": "原产地证由中国贸促会（CCPIT）或商务局出具，申请须提供发票、装箱单等证明材料，通常开船前3天申请。",
+      "related": "GSP,FTA,HS Code,Customs Duty,Form E,RCEP",
+      "tags": "customs,trade compliance,tariff"
+    },
+    "cn_keywords": "产地证,原产地证书,产地证明"
+  },
+  {
+    "word": "ETA",
+    "phonetic_uk": "/ˌiː.tiːˈeɪ/",
+    "phonetic_us": "/ˌiː.tiːˈeɪ/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "预计到达时间；预抵时间",
+        "def_en": "Estimated Time of Arrival — expected date and time of vessel or cargo arrival at destination",
+        "example_en": "ETA at Port of LA is November 15th.",
+        "example_cn": "预计11月15日抵达洛杉矶港。",
+        "domain": "logistics",
+        "is_pro": 0,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "ETA",
+      "full_form": "Estimated Time of Arrival",
+      "domain": "shipping",
+      "pro_def_cn": "船舶或货物预计到达目的港/目的地的时间。会因天气、港口拥堵、绕航等因素变化，需持续跟踪更新。",
+      "pro_def_en": "Expected arrival time at destination. Subject to change due to weather, port congestion, deviation, or transshipment delays. Needs continuous monitoring.",
+      "biz_example_1": "货代需定期向客户更新ETA，尤其在港口拥堵期（如洛杉矶、汉堡旺季）或绕航（如红海危机）时期。",
+      "biz_example_2": "ETA通知客户后，客户即可提前安排清关代理、预约仓库收货，减少Demurrage风险。",
+      "related": "ETD,ATD,ATA,Transit Time",
+      "tags": "shipping,tracking,timeline"
+    },
+    "cn_keywords": "预计到港,到港时间,预计抵达,到港,船期"
+  },
+  {
+    "word": "ETD",
+    "phonetic_uk": "/ˌiː.tiːˈdiː/",
+    "phonetic_us": "/ˌiː.tiːˈdiː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "预计开船时间；预计离港时间",
+        "def_en": "Estimated Time of Departure — expected date and time of vessel sailing from origin port",
+        "example_en": "ETD from Ningbo is October 28th.",
+        "example_cn": "预计10月28日从宁波开船。",
+        "domain": "logistics",
+        "is_pro": 0,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "ETD",
+      "full_form": "Estimated Time of Departure",
+      "domain": "shipping",
+      "pro_def_cn": "船舶预计从装货港出发的时间。港口拥堵、装卸效率低等会导致ETD推迟或货物被甩（Rolled）至下一航次。",
+      "pro_def_en": "Expected departure time from loading port. May be delayed by port congestion or equipment shortage. Cargo missing the vessel is rolled to next sailing.",
+      "biz_example_1": "客户追踪货物时ETD是首要关注指标，ETD突变（提前或推迟超1天）需第一时间通知相关方。",
+      "biz_example_2": "ETD与ETA共同确定整个Transit Time（运输周期），是买方计划库存和安排收货的核心依据。",
+      "related": "ETA,ATD,Vessel Schedule,Rolled",
+      "tags": "shipping,tracking,timeline"
+    },
+    "cn_keywords": "预计开船,离港时间,预计出发,开船时间,出发时间"
+  },
+  {
+    "word": "demurrage",
+    "phonetic_uk": "/dɪˈmʌr.ɪdʒ/",
+    "phonetic_us": "/dɪˈmɜːr.ɪdʒ/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "滞期费；超期停留费（港内集装箱超期费）",
+        "def_en": "Fee charged when a container remains at the terminal beyond the allowed free time",
+        "example_en": "We incurred demurrage because customs clearance was delayed.",
+        "example_cn": "因清关延误，我们产生了滞期费。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Demurrage",
+      "domain": "charges",
+      "pro_def_cn": "集装箱在港口码头（CY/Terminal）超过免费使用期（Free Time，通常3-7天）后，船公司向收货人收取的超期费用。与Detention（港外滞箱费）不同。",
+      "pro_def_en": "Fee for container overstaying at terminal beyond free time. Distinct from Detention (container outside terminal). Rate: typically USD 60-200+ per container per day, escalating.",
+      "biz_example_1": "清关延误是Demurrage的首要原因，货代应提前催促收货方备齐清关资料，在Free Time内完成清关提箱。",
+      "biz_example_2": "旺季（9-11月）欧美港口Demurrage费率可达USD 200+/箱/天，5-10天滞费可能超过运费本身。",
+      "related": "Detention,Free Time,CY,Customs Clearance,D&D",
+      "tags": "charges,container,port"
+    },
+    "cn_keywords": "超期堆存费,滞期费,压港费,箱租费,超期费,滞港费"
+  },
+  {
+    "word": "detention",
+    "phonetic_uk": "/dɪˈten.ʃən/",
+    "phonetic_us": "/dɪˈten.ʃən/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "滞箱费；集装箱超期使用费",
+        "def_en": "Fee for keeping a container outside the port terminal beyond the allowed free time",
+        "example_en": "Return the empty container before free time expires to avoid detention.",
+        "example_cn": "在免费期内归还空箱以避免滞箱费。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Detention",
+      "domain": "charges",
+      "pro_def_cn": "集装箱离开港口后超过规定的免费使用期（通常5-14天）仍未归还空箱，船公司向托运人/收货人收取的费用。进口需及时卸货还箱，出口需按时装箱还港。",
+      "pro_def_en": "Fee when container is outside terminal beyond free time. Import: late empty return after delivery. Export: late return of full container to port before cut-off.",
+      "biz_example_1": "进口方须尽快安排收货卸箱并归还空箱；出口方须按时装箱并在S/O注明时间前送达CY。",
+      "biz_example_2": "Demurrage+Detention合称D&D费，是集装箱业务中最常见的额外成本，需在合同中明确责任方。",
+      "related": "Demurrage,Free Time,Empty Return,D&D",
+      "tags": "charges,container,port"
+    },
+    "cn_keywords": "滞箱费,超期使用费,超期用箱费,超箱期"
+  },
+  {
+    "word": "THC",
+    "phonetic_uk": "/ˌtiː.eɪtʃˈsiː/",
+    "phonetic_us": "/ˌtiː.eɪtʃˈsiː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "码头操作费；港口吊箱费",
+        "def_en": "Terminal Handling Charge — fee for container operations at port terminal (loading/unloading/moving)",
+        "example_en": "THC is charged at both origin and destination ports.",
+        "example_cn": "装卸两港均收取码头操作费。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "THC",
+      "full_form": "Terminal Handling Charge",
+      "domain": "charges",
+      "pro_def_cn": "船公司向货主收取的在起运港/目的港对集装箱进行装卸、搬运、堆存等操作的费用。分Origin THC（起运港）和Destination THC（目的港）。",
+      "pro_def_en": "Fee for container handling at terminal. Covers crane lifts, tractor transport, and yard storage. Charged at both origin and destination terminals.",
+      "biz_example_1": "报价时须明确是否All-In含THC，很多运价只含海运费BAS，THC需另行计算加入总报价。",
+      "biz_example_2": "中国港口THC参考（2024）：20GP约RMB 530，40GP/40HQ约RMB 800，按实际船公司收费单为准。",
+      "related": "BAF,CAF,LSS,PSS,All-In Rate",
+      "tags": "charges,ocean freight,port"
+    },
+    "cn_keywords": "码头操作费,港口操作费,港杂费,装卸费"
+  },
+  {
+    "word": "BAF",
+    "phonetic_uk": "/ˌbiː.eɪˈef/",
+    "phonetic_us": "/ˌbiː.eɪˈef/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "燃油附加费；燃油调整费",
+        "def_en": "Bunker Adjustment Factor — surcharge compensating for bunker fuel price fluctuations",
+        "example_en": "BAF is adjusted quarterly based on bunker oil prices.",
+        "example_cn": "燃油附加费按季度根据油价调整。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "BAF",
+      "full_form": "Bunker Adjustment Factor",
+      "domain": "charges",
+      "pro_def_cn": "船公司为应对燃油价格波动向货主征收的附加费，也称Fuel Surcharge（FSC）或EBS（Emergency Bunker Surcharge）。根据燃油价格定期（每月/每季度）调整。",
+      "pro_def_en": "Surcharge to offset bunker fuel cost fluctuations. Also known as FSC, EBS, or IFO surcharge. Periodically adjusted based on fuel market prices.",
+      "biz_example_1": "欧美主干线BAF通常USD 100-400+/TEU，旺季可更高，是运价报价中仅次于海运费的第二大成本项。",
+      "biz_example_2": "2020年IMO低硫燃油规定实施后，BAF包含了低硫燃油溢价，整体附加费水平较前有所上升。",
+      "related": "THC,LSS,CAF,PSS,Freight Charges,EBS",
+      "tags": "charges,ocean freight,surcharge"
+    },
+    "cn_keywords": "燃油附加费,燃油费,油价附加费"
+  },
+  {
+    "word": "free time",
+    "phonetic_uk": "/ˈfriː.taɪm/",
+    "phonetic_us": "/ˈfriː.taɪm/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "免费期；免费使用天数",
+        "def_en": "The number of days a container may remain at the port or with consignee at no extra charge",
+        "example_en": "You have 7 free days at destination terminal before demurrage starts.",
+        "example_cn": "目的港有7天免费堆存期，超期后收滞期费。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Free Time",
+      "domain": "charges",
+      "pro_def_cn": "分为港口免堆期（Terminal Free Time，超期收Demurrage）和港外免用期（Detention Free Time，超期收Detention）。免费期长短由船公司决定，批量货源可协商延长。",
+      "pro_def_en": "Two types: Terminal free time (before Demurrage starts) and Detention free time (before Detention starts). Duration varies by carrier, port, and season. Can be negotiated for large cargo volumes.",
+      "biz_example_1": "繁忙港口（洛杉矶、汉堡）旺季免堆期短至3-4天，须提前清关安排；小港口可有10-14天免期。",
+      "biz_example_2": "大货量客户可向船公司争取更长免期（如14天Terminal Free Time），降低运营中D&D风险。",
+      "related": "Demurrage,Detention,CY,D&D",
+      "tags": "charges,container,port"
+    },
+    "cn_keywords": "免费期,免费使用期,免箱期,免堆期,免租期"
+  },
+  {
+    "word": "surcharge",
+    "phonetic_uk": "/ˈsɜː.tʃɑːdʒ/",
+    "phonetic_us": "/ˈsɜːr.tʃɑːrdʒ/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "附加费",
+        "def_en": "Additional charge on top of the base freight rate covering specific costs or market conditions",
+        "example_en": "Total surcharges this month exceed the base freight rate.",
+        "example_cn": "本月附加费总额超过基础海运费。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Surcharge",
+      "domain": "charges",
+      "pro_def_cn": "除基础海运费（BAS/Base Rate）之外的各类附加费。常见包括：BAF（燃油）、THC（码头操作）、PSS（旺季）、GRI（运价上调）、CAF（货币）、LSS（低硫）、SWF（邮船燃油）、War Risk（战争险）等。",
+      "pro_def_en": "Extra fees beyond base ocean freight. Common types: BAF (fuel), THC (terminal), PSS (peak season), GRI (general rate increase), CAF (currency), LSS (low sulfur), War Risk Surcharge.",
+      "biz_example_1": "对客户报价时必须包含全部相关附加费，只报BAS的低价会误导客户，收费时引发纠纷。",
+      "biz_example_2": "PSS（旺季附加费）通常8-11月征收，欧美主干线PSS USD 200-600/TEU，旺季成本提升显著。",
+      "related": "BAF,THC,PSS,GRI,CAF,Freight Rate",
+      "tags": "charges,ocean freight,surcharge"
+    },
+    "cn_keywords": "附加费,额外收费,附加运费,附加收费"
+  },
+  {
+    "word": "shipper",
+    "phonetic_uk": "/ˈʃɪp.ər/",
+    "phonetic_us": "/ˈʃɪp.ɚ/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "托运人；发货人",
+        "def_en": "The party that ships goods — the seller or exporter who arranges and pays for shipping",
+        "example_en": "The shipper must prepare all export documents before the cut-off.",
+        "example_cn": "托运人须在截关前准备好所有出口单证。",
+        "domain": "logistics",
+        "is_pro": 0,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Shipper",
+      "domain": "parties",
+      "pro_def_cn": "提单（B/L）上的发货人，即出口方（卖方）。负责提供SI（提单补料）、申报VGM、安排出口清关、将货物交付到指定CY等。NVOCC模式下，货代在MBL上作为Shipper。",
+      "pro_def_en": "Party listed as shipper on B/L. Usually the exporter/seller. Responsible for SI, VGM, export customs, and cargo delivery to port. In NVOCC context, forwarder appears as MBL shipper.",
+      "biz_example_1": "提单上的Shipper信息须与出口报关单一致，不一致会导致海关系统比对异常，引发查验。",
+      "biz_example_2": "NVOCC在MBL上作为统一Shipper（代表所有货主），在HBL上则显示各自实际出口商名称。",
+      "related": "Consignee,Notify Party,NVOCC,B/L,Exporter",
+      "tags": "parties,shipping,documentation"
+    },
+    "cn_keywords": "发货人,托运人,货主,发货方,起运方"
+  },
+  {
+    "word": "consignee",
+    "phonetic_uk": "/ˌkɒn.saɪˈniː/",
+    "phonetic_us": "/ˌkɑːn.saɪˈniː/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "收货人；被托运方",
+        "def_en": "The party designated to receive the goods at destination — usually the buyer or importer",
+        "example_en": "The consignee full name and address must appear on the B/L.",
+        "example_cn": "提单上须填写收货人的完整名称和地址。",
+        "domain": "logistics",
+        "is_pro": 0,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Consignee",
+      "domain": "parties",
+      "pro_def_cn": "提单上指定的收货方，即进口方（买方）。凭提单或到货通知在目的港提货、完成进口清关。信用证项下Consignee通常写To Order of [Issuing Bank]，保护银行权益。",
+      "pro_def_en": "Party to receive goods at destination. Responsible for import customs, duties, and cargo pickup. Under L/C, often listed as To Order of issuing bank.",
+      "biz_example_1": "信用证（L/C）项下，Consignee通常写To Order of XX Bank，进口商凭背书提单到目的港提货。",
+      "biz_example_2": "Consignee信息须与进口国预申报（如美国ISF/AMS）中的收货人一致，不符会触发CBP查验。",
+      "related": "Shipper,Notify Party,B/L,L/C,Importer",
+      "tags": "parties,shipping,documentation"
+    },
+    "cn_keywords": "收货人,提货人,收货方,到货方"
+  },
+  {
+    "word": "NVOCC",
+    "phonetic_uk": "/ˌen.viː.əʊ.siː.ˈsiː/",
+    "phonetic_us": "/ˌen.viː.oʊ.siː.ˈsiː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "无船承运人；非船舶经营性运输人",
+        "def_en": "Non-Vessel Operating Common Carrier — forwarder acting as carrier, issuing own B/L without owning vessels",
+        "example_en": "Most international freight forwarders operate as NVOCCs.",
+        "example_cn": "大多数国际货代以无船承运人身份运营。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "NVOCC",
+      "full_form": "Non-Vessel Operating Common Carrier",
+      "domain": "logistics",
+      "pro_def_cn": "不拥有船舶但以承运人身份经营海运业务的企业。向实际船公司（VOCC）订舱，向货主签发自己的提单（HBL），赚取舱位差价。在中国需向交通运输部（MOT）备案取得资质。",
+      "pro_def_en": "Entity that acts as carrier without owning vessels. Books with VOCC (actual carrier), issues HBL to shippers, earns margin between buy/sell rates. Requires regulatory registration in China (MOT filing).",
+      "biz_example_1": "中国大多数货代公司是NVOCC，经交通部备案后可合法签发提单，承担承运人责任。",
+      "biz_example_2": "NVOCC对货主承担承运人完全责任，货主无需了解实际船公司，发生货损向NVOCC索赔即可。",
+      "related": "Freight Forwarder,MBL,HBL,VOCC",
+      "tags": "logistics,freight forwarder,carrier"
+    },
+    "cn_keywords": "无船承运人,货代,无船公共承运人"
+  },
+  {
+    "word": "freight forwarder",
+    "phonetic_uk": "/ˈfreɪt ˈfɔː.wəd.ər/",
+    "phonetic_us": "/ˈfreɪt ˈfɔːr.wɚd.ɚ/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "货运代理；货代",
+        "def_en": "Company arranging cargo transportation on behalf of shippers, acting as intermediary",
+        "example_en": "We use a freight forwarder to handle all export shipments.",
+        "example_cn": "我们委托货代处理所有出口业务。",
+        "domain": "logistics",
+        "is_pro": 0,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Freight Forwarder",
+      "domain": "logistics",
+      "pro_def_cn": "代表货主安排货物运输、通关、保险等服务的中间商。一站式服务包含：订舱、拖车、报关、提单签发、目的港代理等。通常以NVOCC身份签发HBL。",
+      "pro_def_en": "Intermediary arranging transport, customs, and logistics services for shippers. Full-service scope: booking, trucking, customs, B/L issuance, destination agent coordination.",
+      "biz_example_1": "好的货代能帮助客户优化路线、降低成本，并在货物出现问题时快速协调各环节解决方案。",
+      "biz_example_2": "选择货代要看：运价竞争力、目的港代理网络、单证质量、售后响应速度四个维度综合评估。",
+      "related": "NVOCC,Broker,Carrier,Agent,Shipping Line",
+      "tags": "logistics,services,shipping"
+    },
+    "cn_keywords": "货代,货运代理,国际货代,物流代理"
+  },
+  {
+    "word": "L/C",
+    "phonetic_uk": "/ˌel.ˈsiː/",
+    "phonetic_us": "/ˌel.ˈsiː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "信用证",
+        "def_en": "Letter of Credit — bank-guaranteed conditional payment instrument in international trade",
+        "example_en": "Payment by irrevocable L/C at sight.",
+        "example_cn": "即期不可撤销信用证付款。",
+        "domain": "trade",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "L/C",
+      "full_form": "Letter of Credit",
+      "domain": "trade finance",
+      "pro_def_cn": "由进口方开证行向受益人（卖方）开立的有条件付款承诺。只要卖方提交符合信用证要求的单据，银行即无条件付款。分即期（Sight L/C）和远期（Usance L/C）。",
+      "pro_def_en": "Bank-issued conditional payment guarantee. Bank pays seller upon compliant document presentation. Sight L/C: pay on presentation; Usance L/C: pay at future maturity date.",
+      "biz_example_1": "L/C项下单证不符（Discrepancy）是最常见纠纷，每个字段须与信用证要求完全一致（包括标点和大小写）。",
+      "biz_example_2": "信用证付款对卖方最有保障，但开证费用高（约发票额0.1-0.3%），操作复杂，实际外贸中T/T更常用。",
+      "related": "T/T,D/P,D/A,SWIFT,Discrepancy,Sight L/C",
+      "tags": "trade finance,payment,banking"
+    },
+    "cn_keywords": "信用证,跟单信用证"
+  },
+  {
+    "word": "T/T",
+    "phonetic_uk": "/ˌtiː.ˈtiː/",
+    "phonetic_us": "/ˌtiː.ˈtiː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "电汇；银行电汇转账",
+        "def_en": "Telegraphic Transfer — international bank wire transfer for trade payment",
+        "example_en": "Payment terms: 30% T/T deposit, 70% against copy B/L.",
+        "example_cn": "付款条件：30%电汇定金，70%凭提单副本付清。",
+        "domain": "trade",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "T/T",
+      "full_form": "Telegraphic Transfer",
+      "domain": "trade finance",
+      "pro_def_cn": "通过SWIFT网络进行的国际银行电汇。常见方式：预付款（Advance T/T全款）、30%+70%（定金+尾款）、货到付款（后T/T）。最灵活但某一方风险最大。",
+      "pro_def_en": "Bank wire transfer via SWIFT. Common terms: full advance T/T, 30/70 split (deposit + balance before or after shipment), or post-shipment T/T (highest risk for seller).",
+      "biz_example_1": "30% T/T定金+70%见提单副本是最常见的平衡方式：定金保障生产，尾款保障发货后回款。",
+      "biz_example_2": "T/T汇款手续费约USD 25-50/笔，收款方需提供SWIFT Code(BIC)、账号、开户行名称地址等信息。",
+      "related": "L/C,D/P,D/A,SWIFT,Wire Transfer",
+      "tags": "trade finance,payment,banking"
+    },
+    "cn_keywords": "电汇,银行转账"
+  },
+  {
+    "word": "commercial invoice",
+    "phonetic_uk": "/kəˈmɜː.ʃəl ˈɪn.vɔɪs/",
+    "phonetic_us": "/kəˈmɜːr.ʃəl ˈɪn.vɔɪs/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "商业发票",
+        "def_en": "Document issued by seller listing goods, quantities, and agreed prices for customs and payment",
+        "example_en": "The commercial invoice must exactly match the L/C requirements.",
+        "example_cn": "商业发票须与信用证要求完全一致。",
+        "domain": "trade",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Commercial Invoice",
+      "domain": "trade documents",
+      "pro_def_cn": "出口方签发的商业单据，是进出口报关、货款结算的基础文件。须包含：买卖双方名称地址、货描（与HS Code对应）、数量单价总价、贸易术语、付款方式等。",
+      "pro_def_en": "Key trade document for customs clearance and payment. Must include: parties, goods description, HS code, quantity, unit price, total amount, Incoterms, payment terms. Must match L/C exactly.",
+      "biz_example_1": "商业发票（CI）、装箱单（PL）、提单（B/L）是国际贸易中最核心的三份单据，进出口双方均需仔细审核。",
+      "biz_example_2": "信用证项下发票金额不能超过L/C金额，货描须与L/C逐字一致，否则银行拒付构成不符点。",
+      "related": "Packing List,B/L,L/C,Customs Clearance,Proforma Invoice",
+      "tags": "trade documents,customs,finance"
+    },
+    "cn_keywords": "商业发票,贸易发票"
+  },
+  {
+    "word": "packing list",
+    "phonetic_uk": "/ˈpæk.ɪŋ lɪst/",
+    "phonetic_us": "/ˈpæk.ɪŋ lɪst/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "装箱单；包装清单",
+        "def_en": "Document listing contents, quantity, weight, and dimensions of each package in a shipment",
+        "example_en": "Packing list shows 20 cartons, net 500 kg, gross 550 kg, 3.5 CBM.",
+        "example_cn": "装箱单显示20箱，净重500公斤，毛重550公斤，体积3.5CBM。",
+        "domain": "trade",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Packing List",
+      "domain": "trade documents",
+      "pro_def_cn": "详细列明货物包装情况的单据，包含：箱号、品名规格、数量、净重（Net Weight）、毛重（Gross Weight）、尺寸（Dimensions）、CBM等。是海关查验、仓库收货、保险理赔的重要依据。",
+      "pro_def_en": "Itemized document: box numbers, contents, quantity, net/gross weight, dimensions, CBM. Used for customs inspection, cargo handling, insurance claims, and VGM calculation.",
+      "biz_example_1": "装箱单上的重量体积数据须与VGM申报、提单数据三方一致，任何不一致都可能导致查验。",
+      "biz_example_2": "海关查验时查验员核对装箱单与实际货物，单货不符将被处罚并影响企业海关信用评级（AEO）。",
+      "related": "Commercial Invoice,B/L,Customs Clearance,VGM",
+      "tags": "trade documents,customs,shipping"
+    },
+    "cn_keywords": "装箱单,箱单"
+  },
+  {
+    "word": "transshipment",
+    "phonetic_uk": "/trænsˈʃɪp.mənt/",
+    "phonetic_us": "/trænsˈʃɪp.mənt/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "中转；转船运输",
+        "def_en": "Transfer of cargo from one vessel to another at an intermediate port",
+        "example_en": "This routing transships at Singapore with a 3-day connection.",
+        "example_cn": "此路线经新加坡中转，换船时间3天。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Transshipment",
+      "domain": "ocean freight",
+      "pro_def_cn": "货物在起运港至目的港之间，在中转港（Hub Port）换装另一艘船继续运输的过程。常见中转港：新加坡、釜山、香港、科伦坡、塞得港、丹吉尔等。增加运输时间和中转风险。",
+      "pro_def_en": "Cargo transferred between vessels at intermediate hub port. Common hubs: Singapore, Busan, Colombo, Port Said. Adds transit time and risk of missing connection (Rolling).",
+      "biz_example_1": "部分信用证禁止中转（Transshipment Prohibited），订舱时须选择直达航班，否则提单不符。",
+      "biz_example_2": "转船延误（Missing Connection）是货代售后跟踪重点，及时通知客户并重新安排二程船（Feeder）。",
+      "related": "Direct Service,Hub Port,Connection,Transit Time",
+      "tags": "ocean freight,routing,shipping"
+    },
+    "cn_keywords": "中转,转船,换船,中转港,中转运输"
+  },
+  {
+    "word": "manifest",
+    "phonetic_uk": "/ˈmæn.ɪ.fest/",
+    "phonetic_us": "/ˈmæn.ɪ.fest/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "舱单；货物清单",
+        "def_en": "Official list of all cargo on a vessel, filed with customs authorities",
+        "example_en": "Carrier must submit the cargo manifest to customs before arrival.",
+        "example_cn": "承运人须在抵港前向海关提交货物舱单。",
+        "domain": "customs",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Cargo Manifest",
+      "domain": "customs",
+      "pro_def_cn": "详列船舶所载全部货物的清单，由承运人向目的港海关申报。分主舱单（Master Manifest，MBL汇总）和分舱单（House Manifest，HBL汇总）。是AMS/ACE/ENS等预申报系统的核心数据。",
+      "pro_def_en": "Official cargo list filed with customs. Master manifest (carrier level, MBL summary) and House manifest (forwarder level, HBL summary). Basis for AMS, ACE, ENS security filings.",
+      "biz_example_1": "美国AMS、欧盟ENS、加拿大ACI等系统要求开船前提交舱单，用于货物安全审查和反恐筛查。",
+      "biz_example_2": "舱单错误（Manifest Error）需向海关申请更正（Amendment），产生额外费用和时间成本。",
+      "related": "AMS,ISF,B/L,Customs Filing",
+      "tags": "customs,shipping,documentation"
+    },
+    "cn_keywords": "舱单,货物清单,舱单申报,报关舱单"
+  },
+  {
+    "word": "CBM",
+    "phonetic_uk": "/ˌsiː.biːˈem/",
+    "phonetic_us": "/ˌsiː.biːˈem/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "立方米（体积单位）",
+        "def_en": "Cubic Meter — standard unit of volume measurement in international shipping",
+        "example_en": "The cargo measures 15 CBM, weighing 800 kg.",
+        "example_cn": "货物体积15立方米，重量800公斤。",
+        "domain": "logistics",
+        "is_pro": 0,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "CBM",
+      "full_form": "Cubic Meter",
+      "domain": "measurements",
+      "pro_def_cn": "国际货运最常用的体积计量单位（m³）。计算：长(m)×宽(m)×高(m)。LCL拼箱按CBM计费；超重时按重量计（1 CBM=1 Freight Ton=1000 kg），取两者较大值（W/M原则）。",
+      "pro_def_en": "Volume unit in shipping: Length × Width × Height in meters. LCL billing: per CBM or per 1000kg freight ton, whichever greater (W/M principle). 1 CBM = 1 Freight Ton.",
+      "biz_example_1": "计算CBM例：箱子60cm×40cm×50cm=0.6×0.4×0.5=0.12 CBM，100箱=12 CBM。",
+      "biz_example_2": "泡货（体积大重量轻）LCL按CBM计费；重货按W/M原则换算重量CBM后比较取大值计费。",
+      "related": "Freight Ton,W/M,LCL,Chargeable Weight",
+      "tags": "measurements,shipping,LCL"
+    },
+    "cn_keywords": "立方米,体积,方,立方,体积计费"
+  },
+  {
+    "word": "ocean freight",
+    "phonetic_uk": "/ˈəʊ.ʃən freɪt/",
+    "phonetic_us": "/ˈoʊ.ʃən freɪt/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "海运费",
+        "def_en": "The cost of shipping goods by sea",
+        "example_en": "Ocean freight rates surged due to Red Sea disruptions.",
+        "example_cn": "因红海局势，海运费大幅上涨。",
+        "domain": "logistics",
+        "is_pro": 0,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Ocean Freight",
+      "domain": "shipping",
+      "pro_def_cn": "通过海运方式运输货物的费用，是整个运输成本的核心部分。受航线供需、燃油价格、季节性旺季（8-11月）、地缘政治（红海危机、苏伊士运河封锁）等因素影响，波动较大。",
+      "pro_def_en": "Core cost of sea transport. Highly volatile, influenced by supply/demand imbalances, fuel prices, seasonal peaks, and geopolitical events. FCL: per TEU/FEU; LCL: per CBM.",
+      "biz_example_1": "2021-22年疫情期间上海至洛杉矶40HQ运费突破USD 20,000（正常水平USD 1,500-2,500），极端行情。",
+      "biz_example_2": "运费报价通常有效期7-14天，旺季前（7-9月）建议提前锁价，避免临近旺季运费暴涨。",
+      "related": "BAF,THC,Bunker Surcharge,Freight Rate,Spot Rate",
+      "tags": "ocean freight,pricing,shipping"
+    },
+    "cn_keywords": "海运费,运费,海洋运费,海运运价,运价,海运价格"
+  },
+  {
+    "word": "port of loading",
+    "phonetic_uk": "/pɔːt əv ˈləʊd.ɪŋ/",
+    "phonetic_us": "/pɔːrt əv ˈloʊd.ɪŋ/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "装货港；起运港",
+        "def_en": "The port where cargo is loaded onto the vessel for transport",
+        "example_en": "Port of Loading: Ningbo, China (CNNGB).",
+        "example_cn": "装货港：中国宁波（CNNGB）。",
+        "domain": "logistics",
+        "is_pro": 0,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Port of Loading",
+      "domain": "shipping",
+      "pro_def_cn": "提单上标注货物装船港口，即货物开始海运的起点，简称POL。中国主要出口港：CNNGB（宁波）、CNSHA（上海）、CNTAO（青岛）、CNSZX（深圳）、CNXMN（厦门）。",
+      "pro_def_en": "Origin port where cargo is loaded onto vessel. Shown as POL on B/L. Major China POLs: CNNGB (Ningbo), CNSHA (Shanghai), CNTAO (Qingdao), CNSZX (Shenzhen), CNXMN (Xiamen).",
+      "biz_example_1": "BC团队负责的5个POL：NGB（宁波）、XMN（厦门）、SZX（深圳/蛇口）、SHA（上海）、TAO（青岛）。",
+      "biz_example_2": "每个POL有独立的截关时间和CY地址，同一航次不同POL的截关不同，须分别确认。",
+      "related": "Port of Discharge,POD,POL,B/L",
+      "tags": "ports,shipping,documentation"
+    },
+    "cn_keywords": "装货港,起运港,装港,起运地,起始港,POL"
+  },
+  {
+    "word": "port of discharge",
+    "phonetic_uk": "/pɔːt əv dɪsˈtʃɑːdʒ/",
+    "phonetic_us": "/pɔːrt əv dɪsˈtʃɑːrdʒ/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "卸货港；目的港",
+        "def_en": "The port where cargo is discharged from the vessel",
+        "example_en": "Port of Discharge: Long Beach, USA (USLGB).",
+        "example_cn": "卸货港：美国长滩港（USLGB）。",
+        "domain": "logistics",
+        "is_pro": 0,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Port of Discharge",
+      "domain": "shipping",
+      "pro_def_cn": "货物从船上卸下的港口，提单上标注为POD。卸货港可能与最终目的地（Place of Delivery）不同，尤其有内陆段运输时须分别填写。",
+      "pro_def_en": "Port where cargo is unloaded from vessel. Shown as POD on B/L. May differ from final place of delivery when inland transport follows sea leg. Both must appear on B/L when different.",
+      "biz_example_1": "常见美西POD：USLAX（洛杉矶）、USLGB（长滩）；美东：USNYC（纽约/纽瓦克）、USSAV（萨凡纳）。",
+      "biz_example_2": "目的港（POD）与交货地（Place of Delivery）不同时，提单上须分别填写，单证审核须注意区分。",
+      "related": "Port of Loading,POL,Final Destination,B/L",
+      "tags": "ports,shipping,documentation"
+    },
+    "cn_keywords": "卸货港,目的港,卸港,目的地,到货港,POD"
+  },
+  {
+    "word": "incoterms",
+    "phonetic_uk": "/ˈɪŋ.kəʊ.tɜːmz/",
+    "phonetic_us": "/ˈɪŋ.koʊ.tɜːrmz/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "国际商会贸易术语；国贸术语",
+        "def_en": "International Commercial Terms — ICC-published rules defining buyer and seller responsibilities in international trade",
+        "example_en": "Incoterms 2020 is the current ICC edition.",
+        "example_cn": "国际商会当前版本贸易术语为Incoterms 2020。",
+        "domain": "trade",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "International Commercial Terms",
+      "domain": "trade",
+      "pro_def_cn": "国际商会（ICC）发布的国际贸易术语标准，规定买卖双方在交付、风险转移、费用承担方面的权责边界。最新版Incoterms 2020共11种（EXW、FCA、CPT、CIP、DAP、DPU、DDP通用；FAS、FOB、CFR、CIF仅适用海运）。",
+      "pro_def_en": "ICC rules defining 11 trade terms for cost/risk/responsibility division. Incoterms 2020: 7 terms for any mode (EXW to DDP) and 4 sea-only terms (FAS, FOB, CFR, CIF). Does not cover title transfer or payment.",
+      "biz_example_1": "Incoterms只规定费用和风险边界，不涉及货款所有权转移，也不替代合同中的付款条款（T/T、L/C等）。",
+      "biz_example_2": "选择贸易术语时须考虑：双方在当地的操作能力、退税安排、风险偏好和市场惯例，不能只看表面报价高低。",
+      "related": "FOB,CIF,DDP,EXW,FCA",
+      "tags": "trade terms,incoterms,international trade"
+    },
+    "cn_keywords": "国际贸易术语,贸易条款,贸易术语解释"
+  },
+  {
+    "word": "consolidation",
+    "phonetic_uk": "/kənˌsɒl.ɪˈdeɪ.ʃən/",
+    "phonetic_us": "/kənˌsɑːl.ɪˈdeɪ.ʃən/",
+    "pos": "n.",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "拼箱；拼货；集货",
+        "def_en": "Combining multiple small shipments into one container for cost-effective LCL shipping",
+        "example_en": "We offer weekly consolidation to all US and EU main ports.",
+        "example_cn": "我们提供每周一班至美国和欧盟主要港口的拼箱服务。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "full_form": "Consolidation (LCL Consol)",
+      "domain": "LCL",
+      "pro_def_cn": "将多个托运人的小批量货物合并装入同一集装箱的操作，在CFS（集装箱货运站）完成。货代（Consolidator）负责：向各货主签发HBL，向船公司提交统一MBL，并在目的港安排拆箱（Deconsolidation）。",
+      "pro_def_en": "Combining multiple shippers LCL cargo into one FCL at a CFS. Consolidator issues individual HBLs and holds one MBL with carrier. Deconsolidation done at destination CFS.",
+      "biz_example_1": "拼箱适合货量5-15 CBM的小批量出口，拼箱费（CFS Charge）通常约USD 15-25/CBM起运港+目的港分别计。",
+      "biz_example_2": "拼箱班期通常为每周1-2班，货量不足时需等待，比FCL整箱运输周期长约3-7天。",
+      "related": "LCL,CFS,HBL,MBL,Deconsolidation",
+      "tags": "LCL,consolidation,shipping"
+    },
+    "cn_keywords": "拼箱,拼货,拼柜,散货拼装,拼装货"
+  },
+  {
+    "word": "pre-alert",
+    "pos": "n.",
+    "cn_keywords": "预报,预先通知,到港预报,船前通知,预报文件",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "预报；船舶到达目的港前，提前向目的港代理发出的货物信息通知",
+        "def_en": "Advance notification sent to destination agent before vessel arrival",
+        "example_en": "Please send the pre-alert to HK agent 3 days before vessel arrival.",
+        "example_cn": "请在船到港前3天向香港代理发送预报。",
+        "domain": "operations",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "pre-alert",
+      "full_form": "Pre-Arrival Alert",
+      "domain": "operations",
+      "pro_def_cn": "发货人或货代在船舶到港前，向目的港代理发送包含提单号、货物明细、装船确认等信息的通知文件。确保代理提前安排清关和提货事宜。",
+      "pro_def_en": "Document sent to destination agent before vessel arrival.",
+      "biz_example_1": "BC确认完成后需立即向目的港代理发送pre-alert，包含MBL/HBL号、装箱单及发票。",
+      "biz_example_2": "Pre-alert发晚会导致目的港代理来不及安排清关，影响货物准时提取。",
+      "related": "booking confirmation,MBL,HBL,ETA",
+      "tags": "operations"
+    }
+  },
+  {
+    "word": "rolling",
+    "pos": "n.",
+    "cn_keywords": "甩柜,甩货,延误装船,滚动订舱,甩单,被甩",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "甩柜；因舱位不足或截关错过，货物被滚至下一航次",
+        "def_en": "Cargo that misses its scheduled vessel and is moved to the next available sailing",
+        "example_en": "Due to port congestion, our shipment was rolled to the next voyage.",
+        "example_cn": "由于港口拥堵，我们的货物被甩到下一航次。",
+        "domain": "operations",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "rolling",
+      "full_form": "Rolling / Rollover",
+      "domain": "operations",
+      "pro_def_cn": "集装箱因舱位超卖、港口拥堵、重量超限或截关错过，被从原定航次移至下一班次的情况，需重新申请订舱或额外沟通。",
+      "pro_def_en": "Moving cargo from its booked vessel to a later sailing.",
+      "biz_example_1": "旺季甩柜风险高，需提前确认舱位并在截关前完成进港，避免rolling。",
+      "biz_example_2": "客户货物rolling后，需第一时间通知并提供新ETD，同时重发pre-alert。",
+      "related": "cut-off,port congestion,ETA,ETD",
+      "tags": "operations"
+    }
+  },
+  {
+    "word": "D/O",
+    "pos": "n.",
+    "cn_keywords": "提货单,提单,放货凭证,提箱,D/O单,提货",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "提货单；收货人凭此单在目的港提取货物的授权凭证",
+        "def_en": "Delivery Order — document authorizing release of cargo to the consignee at destination",
+        "example_en": "The consignee must present the D/O to collect cargo from the CY.",
+        "example_cn": "收货人必须持提货单到集装箱堆场提货。",
+        "domain": "shipping docs",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "D/O",
+      "full_form": "Delivery Order",
+      "domain": "shipping docs",
+      "pro_def_cn": "目的港代理或船公司签发的放货文件，持有正本提单或经电放后，代理向收货人签发D/O，凭此单到堆场提取集装箱。",
+      "pro_def_en": "Document issued at destination allowing consignee to collect cargo from the CY.",
+      "biz_example_1": "收货人完成清关、缴清目的港费用后，向代理申请D/O，再持D/O到CY提箱。",
+      "biz_example_2": "电放货物不需要正本提单，代理核实电放通知后可直接签发D/O。",
+      "related": "B/L,telex release,CY,customs clearance",
+      "tags": "shipping docs"
+    }
+  },
+  {
+    "word": "telex release",
+    "pos": "n.",
+    "cn_keywords": "电放,电放提单,电子放货,无需正本提单,电放放货",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "电放；发货人在装运港交还正本提单，通知目的港代理无需正本即可放货",
+        "def_en": "Surrender of original B/Ls at loading port allowing consignee to collect cargo without originals",
+        "example_en": "The shipper requested telex release so the consignee can collect cargo immediately.",
+        "example_cn": "发货人申请电放，以便收货人在货到后可立即提货。",
+        "domain": "documentation",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "T/R",
+      "full_form": "Telex Release",
+      "domain": "documentation",
+      "pro_def_cn": "发货人将所有正本提单交还给装运港代理，代理向船公司发出电传通知目的港放货，收货人无需持正本提单即可提货，节省快递时间。",
+      "pro_def_en": "After shipper surrenders originals at origin, carrier confirms release to destination agent.",
+      "biz_example_1": "老客户可以申请电放，避免邮寄正本提单的时间风险，加快目的港清关提货。",
+      "biz_example_2": "电放前务必确认收货人已付清货款，一旦电放发出无法撤回。",
+      "related": "B/L,OBL,D/O,consignee",
+      "tags": "documentation"
+    }
+  },
+  {
+    "word": "OOG",
+    "pos": "n.",
+    "cn_keywords": "超规格货物,超大货,超高超宽,特种货,超尺货",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "超规格货物；尺寸或重量超出标准集装箱限制的货物",
+        "def_en": "Out of Gauge — cargo whose dimensions exceed the measurements of a standard container",
+        "example_en": "The machinery is OOG; we need to book a flat rack container.",
+        "example_cn": "该机械为超规格货物，需要预订平板箱。",
+        "domain": "container shipping",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "OOG",
+      "full_form": "Out of Gauge",
+      "domain": "container shipping",
+      "pro_def_cn": "货物的长、宽、高或重量超出标准集装箱的装载规格，需使用平板箱、开顶箱或特种柜承运，运费通常更高。",
+      "pro_def_en": "Cargo exceeding standard container dimensions, requiring flat racks or open-tops.",
+      "biz_example_1": "OOG货物报价时需提供精确尺寸和重量，船公司据此判断用何种特种柜。",
+      "biz_example_2": "超限货需申报OOG申请，港口装卸需特种吊机，费用比普通整柜高30-50%。",
+      "related": "FCL,lashing,stowage",
+      "tags": "container shipping"
+    }
+  },
+  {
+    "word": "DG cargo",
+    "pos": "n.",
+    "cn_keywords": "危险品,危险货物,危货,危化品,IMDG,危险品舱位",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "危险品；按国际海运危规（IMDG）分类，在运输中存在安全风险的货物",
+        "def_en": "Dangerous Goods — cargo classified as hazardous under the IMDG Code",
+        "example_en": "DG cargo must be declared with a MSDS and DG packing declaration.",
+        "example_cn": "危险品必须提供安全数据表和危险品装箱证明。",
+        "domain": "cargo",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "DG",
+      "full_form": "Dangerous Goods",
+      "domain": "cargo",
+      "pro_def_cn": "按IMDG规则划分为9大类的危险货物，须提供MSDS、危险品申报单及特殊包装。大多数船公司对DG货物收取附加费。",
+      "pro_def_en": "Goods classified under IMDG requiring MSDS, DG declaration, and special packaging.",
+      "biz_example_1": "客户询问锂电池出口，需确认UN号和包装类别，部分船公司拒载Class 9危险品。",
+      "biz_example_2": "DG货物订舱需提前确认船公司是否接受，并额外准备危包证和DG申报单。",
+      "related": "OOG,VGM,booking confirmation",
+      "tags": "cargo"
+    }
+  },
+  {
+    "word": "reefer",
+    "pos": "n.",
+    "cn_keywords": "冷藏箱,冷冻柜,温控货,冷链运输,冷柜,reefer箱",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "冷藏集装箱；配有制冷设备，用于运输对温度敏感货物的集装箱",
+        "def_en": "A refrigerated container with cooling unit for transporting temperature-sensitive cargo",
+        "example_en": "The seafood shipment requires a reefer set at -18 degrees C.",
+        "example_cn": "海鲜货物需要冷藏箱，温控设定为零下18摄氏度。",
+        "domain": "container shipping",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "RF",
+      "full_form": "Refrigerated Container / Reefer",
+      "domain": "container shipping",
+      "pro_def_cn": "内置制冷系统的温控集装箱，可维持-30至+30摄氏度的设定温度，用于冷冻食品、医药等货物的国际运输。租箱费及用电费高于普通干货柜。",
+      "pro_def_en": "Insulated container with refrigeration maintaining temperatures from -30C to +30C.",
+      "biz_example_1": "冷藏箱报价需确认设定温度、货物类型，部分港口还需预约reefer插电位。",
+      "biz_example_2": "接到reefer询价时，需核实货物是否属于冷链，并确认目的港是否有冷库。",
+      "related": "FCL,DG cargo,OOG",
+      "tags": "container shipping"
+    }
+  },
+  {
+    "word": "load list",
+    "pos": "n.",
+    "cn_keywords": "配载表,配舱单,装载清单",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "配载表；列明船舶各舱位货物配置情况的装船计划文件",
+        "def_en": "Document listing all cargo and containers to be loaded on a vessel for stowage planning",
+        "example_en": "The terminal needs the final load list 24 hours before loading.",
+        "example_cn": "码头需要在装船前24小时收到最终配载表。",
+        "domain": "operations",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "load list",
+      "full_form": "Load List",
+      "domain": "operations",
+      "pro_def_cn": "由货代或船公司制作，列明每一航次所有装船集装箱的箱号、尺寸、重量、货物类型和目的港等信息，供码头安排装卸和积载计划使用。",
+      "pro_def_en": "List detailing container numbers, sizes, weights and destinations for all shipments on a voyage.",
+      "biz_example_1": "BC岗位每次出货后需汇总制作load list，提前提交给码头以便安排配舱。",
+      "biz_example_2": "Load list数据出错会导致货物放错舱位，严重时需移箱，产生额外费用。",
+      "related": "stowage,vessel,manifest,booking confirmation",
+      "tags": "operations"
+    }
+  },
+  {
+    "word": "SOC",
+    "pos": "n.",
+    "cn_keywords": "托运人自有箱,自备箱,自带集装箱",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "托运人自有集装箱；由货主自备或租用的集装箱，非船公司提供",
+        "def_en": "Shipper Own Container — container owned or leased by shipper rather than provided by carrier",
+        "example_en": "The shipper is using a SOC, so no carrier equipment is required.",
+        "example_cn": "货主使用自备箱，无需向船公司租用设备。",
+        "domain": "container shipping",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "SOC",
+      "full_form": "Shipper Own Container",
+      "domain": "container shipping",
+      "pro_def_cn": "货主自行持有或向第三方租用的集装箱，非由船公司（COC）提供。SOC箱的维修责任和归还安排由货主负责，船公司对SOC箱的接受政策各异。",
+      "pro_def_en": "Container supplied by the shipper, not the shipping line.",
+      "biz_example_1": "长期出货量大的货主可以考虑SOC，减少对船公司箱源的依赖。",
+      "biz_example_2": "SOC订舱需提前告知船公司，并提供箱子的具体信息（箱号、箱型、检验报告）。",
+      "related": "FCL,container specs,booking confirmation",
+      "tags": "container shipping"
+    }
+  },
+  {
+    "word": "NOR",
+    "pos": "n.",
+    "cn_keywords": "准备就绪通知,船舶就绪通知,抵港通知",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "准备就绪通知；船舶到达指定地点并准备装卸时向相关方发出的书面通知",
+        "def_en": "Notice of Readiness — document stating the ship has arrived and is ready to load or discharge",
+        "example_en": "NOR was tendered upon arrival at anchorage.",
+        "example_cn": "船舶抵达锚地时已提交准备就绪通知。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "NOR",
+      "full_form": "Notice of Readiness",
+      "domain": "port",
+      "pro_def_cn": "船长在船舶抵达约定港口并满足装卸条件时出具的正式通知书。NOR的递交时间是计算装卸时间（laytime）起算点，与滞期费直接相关。",
+      "pro_def_en": "Formal notice that vessel has arrived and is ready. Triggers commencement of laytime.",
+      "biz_example_1": "散杂货业务中NOR递交时间直接影响laytime计算，需严格记录时间节点。",
+      "biz_example_2": "集装箱班轮业务中NOR较少使用，但在港口拥堵导致滞期费争议时会被提及。",
+      "related": "berth,demurrage,anchorage",
+      "tags": "port"
+    }
+  },
+  {
+    "word": "trucking",
+    "pos": "n.",
+    "cn_keywords": "卡车运输,陆运,公路运输,拖车运输,陆路运输",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "卡车运输；以卡车在公路上运输货物的方式",
+        "def_en": "Transportation of goods by road using trucks or heavy goods vehicles",
+        "example_en": "Inland trucking from the factory to the port costs USD 300.",
+        "example_cn": "从工厂到港口的内陆卡车运费为300美元。",
+        "domain": "land transport",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "trucking",
+      "full_form": "Road Trucking",
+      "domain": "land transport",
+      "pro_def_cn": "利用卡车或重型货车在公路运输货物，是集装箱运输中港到门、门到港的重要一环，包括整车（FTL）和零担（LTL）两种模式。",
+      "pro_def_en": "Road-based freight movement using trucks, covering port-to-door or door-to-port segments.",
+      "biz_example_1": "DDP条款下，卖方需安排目的地卡车运输，须提前询价并计入总成本。",
+      "biz_example_2": "内陆地区提货如需trucking，需提前确认卡车尺寸限制和当地道路规定。",
+      "related": "drayage,inland haulage,pre-carriage,on-carriage,FTL,LTL",
+      "tags": "land transport"
+    }
+  },
+  {
+    "word": "drayage",
+    "pos": "n.",
+    "cn_keywords": "拖车费,短途陆运,集装箱拖车,港口拖车,本地拖车",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "拖车费/短途陆运；集装箱在港口与附近仓库或铁路站之间的短途运输",
+        "def_en": "Short-distance movement of containers between a port terminal and a nearby warehouse or rail yard",
+        "example_en": "Drayage from the CY to the client warehouse is arranged by the freight forwarder.",
+        "example_cn": "从堆场到客户仓库的短途拖车由货代安排。",
+        "domain": "land transport",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "drayage",
+      "full_form": "Container Drayage",
+      "domain": "land transport",
+      "pro_def_cn": "集装箱在港口、堆场与客户仓库或内陆铁路场站之间的短距离公路运输，费用按距离、重量及等候时间计算，是整个运输链的最后一公里服务。",
+      "pro_def_en": "Short-haul trucking of containers between a port terminal and an inland facility.",
+      "biz_example_1": "客户需要港到门服务时，货代须安排drayage，并核实客户地址是否在卡车通行范围内。",
+      "biz_example_2": "旺季拖车资源紧张，需提前预约，否则会影响提箱时效并产生堆存费。",
+      "related": "trucking,CY,inland haulage,chassis fee",
+      "tags": "land transport"
+    }
+  },
+  {
+    "word": "chassis fee",
+    "pos": "n.",
+    "cn_keywords": "底盘费,底架费,拖车底盘租用费",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "底盘费；使用集装箱运输底盘车（拖车架）产生的租用费用",
+        "def_en": "Fee charged for use of a container chassis when transporting a container over the road",
+        "example_en": "An additional chassis fee of USD 25 per day applies after the free period.",
+        "example_cn": "超过免费期后，每日额外收取25美元底盘费。",
+        "domain": "charges",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "chassis fee",
+      "full_form": "Chassis Usage Fee",
+      "domain": "charges",
+      "pro_def_cn": "在美国等市场，拖车司机使用集装箱底盘车需向设备提供方支付租用费，按天计算，超过免费期后产生额外费用，是美国进出口陆运中常见的附加费用。",
+      "pro_def_en": "Daily rental fee for a chassis. Common in North American markets.",
+      "biz_example_1": "美国进口货物报价需包含chassis fee，通常每天20-30美元，免费期2-3天。",
+      "biz_example_2": "提箱后尽快完成送货并还箱，超出免费期的chassis fee会显著增加物流成本。",
+      "related": "drayage,trucking,detention,free time",
+      "tags": "charges"
+    }
+  },
+  {
+    "word": "CFS",
+    "pos": "n.",
+    "cn_keywords": "集装箱货运站,拼箱站,货运站,散货站",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "集装箱货运站；负责拼箱货物集散、装拆箱的场所",
+        "def_en": "Container Freight Station — facility where LCL cargo is consolidated into containers or de-stuffed",
+        "example_en": "LCL cargo must arrive at the CFS before the CFS cut-off time.",
+        "example_cn": "拼箱货物必须在CFS截止时间前到达货运站。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "CFS",
+      "full_form": "Container Freight Station",
+      "domain": "port",
+      "pro_def_cn": "拼箱业务的核心设施，发货方向CFS交货后由操作人员将多家货物并装入同一集装箱；目的港CFS负责拆箱并分别通知收货人提取。CFS有专属的截货时间（CFS cut-off）。",
+      "pro_def_en": "A depot where multiple LCL shipments are consolidated at origin, or de-consolidated at destination.",
+      "biz_example_1": "LCL货物须在CFS cut-off前送到货运站，否则会被甩到下一班，产生额外仓储费。",
+      "biz_example_2": "CFS to CFS价格包含两端拆拼箱费用，CFS to door则含目的港派送。",
+      "related": "LCL,consolidation,cut-off,CY",
+      "tags": "port"
+    }
+  },
+  {
+    "word": "LTL",
+    "pos": "n.",
+    "cn_keywords": "零担,零担运输,拼车运输,不足整车",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "零担运输；货物不足一整车，与其他货物合并用同一辆卡车运输",
+        "def_en": "Less than Truckload — freight that does not fill an entire truck, consolidated with other cargo",
+        "example_en": "For small volumes LTL is more cost-effective than booking a full truck.",
+        "example_cn": "货量较小时，零担比租整车更经济。",
+        "domain": "land transport",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "LTL",
+      "full_form": "Less than Truckload",
+      "domain": "land transport",
+      "pro_def_cn": "货物体积或重量不足一整辆卡车，承运人将多家货主的货物合并装车运输。按重量或体积计费，运输周期通常比FTL稍长。",
+      "pro_def_en": "Trucking for shipments not large enough to fill a full truck. Consolidates multiple shippers.",
+      "biz_example_1": "客户内陆货量小，可推荐LTL方案降低运输成本，但需告知时效可能稍慢。",
+      "biz_example_2": "LTL货物可能经过多个中转站，破损率略高于FTL，需提醒客户做好包装。",
+      "related": "FTL,trucking,LCL,drayage",
+      "tags": "land transport"
+    }
+  },
+  {
+    "word": "FTL",
+    "pos": "n.",
+    "cn_keywords": "整车,整车运输,包车,专车",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "整车运输；货物占用整辆卡车，不与其他货主拼车",
+        "def_en": "Full Truckload — a shipment that occupies the full capacity of a truck without consolidation",
+        "example_en": "With FTL the goods go directly from factory to destination without stops.",
+        "example_cn": "整车运输中，货物从工厂直接运往目的地，无需中途停靠。",
+        "domain": "land transport",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "FTL",
+      "full_form": "Full Truckload",
+      "domain": "land transport",
+      "pro_def_cn": "整辆卡车专用于一家货主的货物，从出发地直接运至目的地，无需中途分拣或中转。时效快、破损率低，适合大货量或对时效要求高的货物。",
+      "pro_def_en": "A dedicated truck for a single shipper transported point-to-point without intermediate stops.",
+      "biz_example_1": "FTL适合工厂直送港口，一票货装满一辆车，时效稳定且安全性好。",
+      "biz_example_2": "FTL报价需提供货物尺寸、重量和路线，不同司机和路段价格差异较大。",
+      "related": "LTL,trucking,drayage,inland haulage",
+      "tags": "land transport"
+    }
+  },
+  {
+    "word": "gate pass",
+    "pos": "n.",
+    "cn_keywords": "出闸单,进闸单,港口通行证,提箱凭证",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "出/进闸单；在港口、码头或堆场进出闸口的通行证明文件",
+        "def_en": "A document or electronic authorization permitting a truck to enter or exit a port terminal gate",
+        "example_en": "The driver presented the gate pass to collect the empty container from the depot.",
+        "example_cn": "司机出示出闸单，从场站提取空箱。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "gate pass",
+      "full_form": "Terminal Gate Pass",
+      "domain": "port",
+      "pro_def_cn": "港口或堆场对进出闸口的卡车及集装箱进行授权的凭证，可为纸质或电子形式。提箱时需持有有效的出箱指令方可申请gate pass，是集装箱陆运进出港的关键文件。",
+      "pro_def_en": "Authorization document for truck and container entry/exit at a terminal gate.",
+      "biz_example_1": "提箱前确认是否有gate pass（或电子放行码），避免司机到了闸口进不去耽误时间。",
+      "biz_example_2": "Gate pass与D/O配合使用：清关后取D/O，凭D/O申请gate pass，司机才能进港提箱。",
+      "related": "D/O,EIR,CY,drayage",
+      "tags": "port"
+    }
+  },
+  {
+    "word": "pre-carriage",
+    "pos": "n.",
+    "cn_keywords": "前程运输,起运前运输,内陆运输,门到港",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "前程运输；货物从发货人仓库/工厂到起运港之间的内陆运输段",
+        "def_en": "The inland transport leg from the shipper premises to the port of loading",
+        "example_en": "Pre-carriage from the factory to Ningbo port is included in the quoted price.",
+        "example_cn": "从工厂到宁波港的前程运输已包含在报价中。",
+        "domain": "land transport",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "pre-carriage",
+      "full_form": "Pre-Carriage",
+      "domain": "land transport",
+      "pro_def_cn": "在整个运输链中，货物从托运人出发地到装运港的运输段，可以是卡车、铁路或驳船。FOB条款下卖方负责前程。",
+      "pro_def_en": "Transport segment from the shipper location to the port of loading.",
+      "biz_example_1": "报价FOB宁波时需明确是否含工厂到港口的前程运费，否则容易产生争议。",
+      "biz_example_2": "前程运费受油价、旺季和道路政策影响，建议以实际成本加价而非固定报价。",
+      "related": "on-carriage,trucking,inland haulage,FOB",
+      "tags": "land transport"
+    }
+  },
+  {
+    "word": "on-carriage",
+    "pos": "n.",
+    "cn_keywords": "后程运输,末程运输,港到门,目的地内陆运输",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "后程运输；货物从目的港到收货人最终地址的运输段",
+        "def_en": "The inland transport leg from the port of discharge to the consignee final destination",
+        "example_en": "On-carriage to the customer warehouse in Chicago is not included in the CIF price.",
+        "example_cn": "运至芝加哥客户仓库的后程运输不包含在CIF价格内。",
+        "domain": "land transport",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "on-carriage",
+      "full_form": "On-Carriage",
+      "domain": "land transport",
+      "pro_def_cn": "货物从目的卸货港到买方最终地址的运输段。CIF/CFR条款下买方负责安排，DDP条款下卖方负责到门。",
+      "pro_def_en": "Transport from the port of discharge to the consignee final delivery point.",
+      "biz_example_1": "客户要求DDP条款时，货代需报价包含目的国的on-carriage及清关，风险和成本较高。",
+      "biz_example_2": "目的港有港口拥堵时，on-carriage时效会受影响，需提前告知客户预留缓冲时间。",
+      "related": "pre-carriage,trucking,DDP,inland haulage",
+      "tags": "land transport"
+    }
+  },
+  {
+    "word": "inland haulage",
+    "pos": "n.",
+    "cn_keywords": "内陆运费,内陆运输,陆路运输费用",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "内陆运费；承运人安排的港口与内陆地点之间的运输及费用",
+        "def_en": "Overland transportation arranged by the carrier between a port and an inland location",
+        "example_en": "The all-in rate includes inland haulage to the dry port.",
+        "example_cn": "包干价含至内陆干港的内陆运费。",
+        "domain": "charges",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "IHC",
+      "full_form": "Inland Haulage Charge",
+      "domain": "charges",
+      "pro_def_cn": "由承运人安排并收取的，从港口到内陆目的地（或反向）的卡车、铁路或驳船运费，通常包含在海运费或包干价中。",
+      "pro_def_en": "Transport charge covering the inland leg of a door-to-door shipment, arranged by the carrier.",
+      "biz_example_1": "内陆运费是DDP或包干价报价的重要组成，需提前询价各内陆目的地的具体费用。",
+      "biz_example_2": "中欧班列兴起后，内陆运费（铁路段）成为中欧货物运输方案中的关键成本项。",
+      "related": "trucking,drayage,pre-carriage,on-carriage",
+      "tags": "charges"
+    }
+  },
+  {
+    "word": "RFQ",
+    "pos": "n.",
+    "cn_keywords": "询价单,询价,询价请求,报价请求,询价邮件",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "询价单；向承运人或货代发出的正式运费报价请求",
+        "def_en": "Request for Quotation — formal document requesting a freight rate proposal",
+        "example_en": "The client sent an RFQ for 50 FCL shipments per month.",
+        "example_cn": "客户发出询价单，询问每月50票整柜运费。",
+        "domain": "business",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "RFQ",
+      "full_form": "Request for Quotation",
+      "domain": "business",
+      "pro_def_cn": "客户发给服务商的正式询价文件，通常包含货物信息、航线、运量、时效要求等，服务商据此提供书面报价。RFQ是商务拓展的起点，回复质量直接影响赢单率。",
+      "pro_def_en": "A formal inquiry sent to service providers specifying shipment requirements.",
+      "biz_example_1": "BC收到RFQ后需在24小时内回复，首次回复速度和报价准确性对建立客户信任至关重要。",
+      "biz_example_2": "批量RFQ可以申请合同价，单票询价通常按即期价报价，利润空间不同。",
+      "related": "quotation,RFP,spot rate,contract rate",
+      "tags": "business"
+    }
+  },
+  {
+    "word": "quotation",
+    "pos": "n.",
+    "cn_keywords": "报价,运费报价,运费方案,价格方案,运价单",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "报价；承运人或货代针对客户询价提供的运费及费用明细",
+        "def_en": "A detailed pricing proposal from a carrier or forwarder in response to a shipping inquiry",
+        "example_en": "The quotation includes ocean freight, THC, and documentation fees.",
+        "example_cn": "报价包含海运费、码头操作费和文件费。",
+        "domain": "business",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "quot.",
+      "full_form": "Freight Quotation",
+      "domain": "business",
+      "pro_def_cn": "对客户询价的书面回复，包含海运费、各项附加费、文件费、有效期及适用条件。报价的完整性和竞争力直接决定是否赢得订单，需明确注明有效期和条款。",
+      "pro_def_en": "Written response detailing all applicable freight charges, surcharges, validity period, and conditions.",
+      "biz_example_1": "报价需包含所有费用明细（海运费+THC+附加费），避免客户确认后因漏费产生纠纷。",
+      "biz_example_2": "市场行情波动时，报价有效期不宜超过3天，并注明以最终确认时市场价为准。",
+      "related": "RFQ,all-in rate,spot rate,contract rate",
+      "tags": "business"
+    }
+  },
+  {
+    "word": "all-in rate",
+    "pos": "n.",
+    "cn_keywords": "包干价,一口价,全包运费,综合运价",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "包干价；包含海运费及所有附加费用的综合报价，客户无需另付额外费用",
+        "def_en": "An all-inclusive freight rate covering ocean freight plus all applicable surcharges",
+        "example_en": "Our all-in rate from Ningbo to LA is USD 2500 per FEU.",
+        "example_cn": "我们宁波至洛杉矶的包干价为每40尺柜2500美元。",
+        "domain": "business",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "all-in",
+      "full_form": "All-In Rate",
+      "domain": "business",
+      "pro_def_cn": "将海运费（base rate）和各种附加费（BAF、THC、ISPS、War Risk等）打包后的综合报价，客户只需支付这一总价，不会有额外账单。",
+      "pro_def_en": "A bundled freight rate combining base ocean freight and all surcharges into one price.",
+      "biz_example_1": "客户要求包干价时，需将当前所有附加费汇总后加入，并注明有效期以控制成本风险。",
+      "biz_example_2": "包干价报价时要核实目的港是否有特殊收费，如终止费、修改费等，避免亏损。",
+      "related": "quotation,spot rate,contract rate,surcharge",
+      "tags": "business"
+    }
+  },
+  {
+    "word": "spot rate",
+    "pos": "n.",
+    "cn_keywords": "即期运价,现货运价,市场价,随行就市",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "即期运价；按当前市场实时确定的运费，适用于单票货物",
+        "def_en": "A one-time market rate for a specific shipment at the current market level",
+        "example_en": "Due to high demand the spot rate for Asia-Europe has surged to USD 5000/TEU.",
+        "example_cn": "由于需求旺盛，亚欧航线的即期运价已涨至每TEU 5000美元。",
+        "domain": "business",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "spot",
+      "full_form": "Spot Rate",
+      "domain": "business",
+      "pro_def_cn": "在没有长期合同保护的情况下，按当前市场供需关系确定的单票运价，随市场波动而变化，旺季可能大幅高于合同价，淡季则可能更低。",
+      "pro_def_en": "Market rate negotiated on a per-shipment basis reflecting current supply-demand conditions.",
+      "biz_example_1": "疫情、港口拥堵或旺季时，spot rate可能比合同价高出数倍，客户需尽早锁仓。",
+      "biz_example_2": "淡季时spot rate低于合同价，可建议灵活客户走现货，节省运费成本。",
+      "related": "contract rate,all-in rate,quotation,ocean freight",
+      "tags": "business"
+    }
+  },
+  {
+    "word": "contract rate",
+    "pos": "n.",
+    "cn_keywords": "合同价,协议运价,长期合同价,年度合同",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "合同价；通过长期服务协议锁定的运费，通常低于即期价并提供稳定舱位保障",
+        "def_en": "A negotiated freight rate fixed under a long-term service contract",
+        "example_en": "The contract rate is valid for 12 months with a minimum commitment of 100 TEU.",
+        "example_cn": "合同价有效期12个月，最低承诺货量为100TEU。",
+        "domain": "business",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "contract rate",
+      "full_form": "Service Contract Rate",
+      "domain": "business",
+      "pro_def_cn": "货主与船公司或货代签订的长期服务合同（通常6-12个月），约定固定运价和最低货量，换取价格稳定性和舱位优先保障。货量未达标可能面临违约金。",
+      "pro_def_en": "Rate agreed under a long-term service contract trading volume commitments for price stability.",
+      "biz_example_1": "货量稳定的大客户适合签合同价，既能锁定成本又能保证舱位，旺季不用担心抢不到位。",
+      "biz_example_2": "合同价签订时需谨慎评估客户实际货量，承诺量不足会导致补仓金，影响客情。",
+      "related": "spot rate,SLA,RFQ,quotation",
+      "tags": "business"
+    }
+  },
+  {
+    "word": "SLA",
+    "pos": "n.",
+    "cn_keywords": "服务水平协议,服务承诺,服务标准,响应时效",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "服务水平协议；规定服务质量、响应时效和违约处罚的合同条款",
+        "def_en": "Service Level Agreement — contract defining expected service standards, KPIs, and penalties",
+        "example_en": "Our SLA requires responding to all RFQs within 4 business hours.",
+        "example_cn": "我们的服务水平协议要求在4个工作小时内回复所有询价。",
+        "domain": "business",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "SLA",
+      "full_form": "Service Level Agreement",
+      "domain": "business",
+      "pro_def_cn": "服务商与客户之间明确约定服务质量标准的正式协议，包括响应时效、问题解决时限、准时率目标和违约赔偿条款，是评估物流服务质量的重要依据。",
+      "pro_def_en": "Formal agreement specifying measurable service standards including response times and penalties.",
+      "biz_example_1": "大客户通常会要求签订SLA，BC需评估各项指标是否可达成，避免承诺无法兑现。",
+      "biz_example_2": "SLA中的transit time承诺需基于历史数据，特殊航线或旺季需预留缓冲时间。",
+      "related": "KPI,contract rate,RFP,quotation",
+      "tags": "business"
+    }
+  },
+  {
+    "word": "KPI",
+    "pos": "n.",
+    "cn_keywords": "关键绩效指标,考核指标,绩效考核,绩效指标",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "关键绩效指标；用于衡量物流服务质量和业务表现的量化指标",
+        "def_en": "Key Performance Indicator — measurable value demonstrating how effectively logistics objectives are achieved",
+        "example_en": "Our KPIs include on-time sailing rate, transit time adherence, and booking lead time.",
+        "example_cn": "我们的KPI包括准班率、运输时效达成率和订舱提前期。",
+        "domain": "business",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "KPI",
+      "full_form": "Key Performance Indicator",
+      "domain": "business",
+      "pro_def_cn": "量化服务绩效的关键指标，在物流领域常见KPI包括：准时离港率（OTP）、准时到港率（OTA）、订舱确认率、异常处理时效、客户满意度（CSAT）等。",
+      "pro_def_en": "Quantified metrics measuring logistics performance including on-time performance and satisfaction.",
+      "biz_example_1": "每月BC绩效考核时会审查KPI达成情况，准时率低于95%需分析原因并提交改进方案。",
+      "biz_example_2": "和大客户谈续约时，拿出历史KPI数据可以有效证明服务质量，增强谈判筹码。",
+      "related": "SLA,contract rate,RFP",
+      "tags": "business"
+    }
+  },
+  {
+    "word": "pipeline",
+    "pos": "n.",
+    "cn_keywords": "商机管道,销售漏斗,商机,在谈项目",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "商机管道；销售过程中各阶段潜在商机的集合，反映未来业务增长预期",
+        "def_en": "The collection of active sales opportunities at various stages of the sales cycle",
+        "example_en": "I have three large accounts in the pipeline that could close next quarter.",
+        "example_cn": "我的销售管道中有三个大客户，预计下个季度可以成交。",
+        "domain": "business",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "pipeline",
+      "full_form": "Sales Pipeline",
+      "domain": "business",
+      "pro_def_cn": "可视化销售漏斗，追踪每个潜在客户从初次接触到成交的全过程，通常分为：开发、评估、报价、谈判、成交各阶段。",
+      "pro_def_en": "A visual representation of sales opportunities tracked from initial contact to close.",
+      "biz_example_1": "BC每周需更新pipeline状态，推进停滞的商机，确保月度业绩目标可达成。",
+      "biz_example_2": "Pipeline数量多但成交率低时，需回顾资质评估阶段，筛选真正有需求的目标客户。",
+      "related": "target account,RFQ,RFP,KPI",
+      "tags": "business"
+    }
+  },
+  {
+    "word": "RFP",
+    "pos": "n.",
+    "cn_keywords": "招标书,提案邀请,招投标,方案征集",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "招标书；邀请多家供应商提交综合服务方案（含价格、能力说明）的正式文件",
+        "def_en": "Request for Proposal — document inviting vendors to submit comprehensive service proposals",
+        "example_en": "The client issued an RFP for their annual logistics contract worth USD 5 million.",
+        "example_cn": "客户发出招标书，招标500万美元年度物流合同。",
+        "domain": "business",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "RFP",
+      "full_form": "Request for Proposal",
+      "domain": "business",
+      "pro_def_cn": "比RFQ更正式、范围更广的商务文件，客户要求供应商提交包括定价、服务方案、公司资质和案例的完整投标书，通常用于大型年度合同招投标。",
+      "pro_def_en": "Formal competitive bid document requiring detailed proposals covering pricing, service scope and references.",
+      "biz_example_1": "收到RFP需在截止日期前提交完整投标书，务必按客户模板格式，不遗漏任何要求项。",
+      "biz_example_2": "RFP竞标时除价格外，服务质量、数字化能力和客户案例同样重要，需全面展示优势。",
+      "related": "RFQ,SLA,KPI,contract rate",
+      "tags": "business"
+    }
+  },
+  {
+    "word": "target account",
+    "pos": "n.",
+    "cn_keywords": "目标客户,重点客户,战略客户,潜在客户",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "目标客户；业务拓展中重点争取的潜在或现有大客户",
+        "def_en": "A key prospect or existing customer prioritized for focused business development efforts",
+        "example_en": "Our top 10 target accounts are all Fortune 500 companies.",
+        "example_cn": "我们前十大目标客户均为物流支出可观的财富500强企业。",
+        "domain": "business",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "target acct.",
+      "full_form": "Target Account",
+      "domain": "business",
+      "pro_def_cn": "根据企业战略确定的高价值潜在客户或现有客户，通常基于货量、利润空间、战略契合度等维度筛选，针对其制定专属服务方案和拜访计划。",
+      "pro_def_en": "High-value prospects or clients selected for focused sales effort based on volume potential and strategic fit.",
+      "biz_example_1": "BC每季度需对target account进行拜访和业务回顾，持续加深客户关系，防止竞争对手切入。",
+      "biz_example_2": "拿到target account的RFQ是很好的切入机会，报价需精准且有竞争力。",
+      "related": "pipeline,RFQ,KPI,SLA",
+      "tags": "business"
+    }
+  },
+  {
+    "word": "berth",
+    "pos": "n.",
+    "cn_keywords": "泊位,船位,靠泊位,码头泊位,靠泊",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "泊位；港口内供船舶靠泊装卸的指定停泊位置",
+        "def_en": "A designated space at a port where a vessel moors for loading and discharging",
+        "example_en": "The vessel is waiting at anchorage due to lack of available berth.",
+        "example_cn": "由于泊位不足，船舶正在锚地等候。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "berth",
+      "full_form": "Berth / Dock",
+      "domain": "port",
+      "pro_def_cn": "港口码头上划定的停泊位置，每个泊位配有系缆设施和装卸设备。港口拥堵时泊位等候时间可能数天，直接影响ETA和整个供应链。",
+      "pro_def_en": "A docking space with mooring points and cranes. Berth availability is key to port congestion.",
+      "biz_example_1": "船期表中显示的预计靠泊时间与ETA不同，实际靠泊前可能在锚地等候。",
+      "biz_example_2": "港口旺季泊位紧张，需提前关注港口公告，提醒客户可能影响到货时间。",
+      "related": "terminal,anchorage,port congestion,ETA",
+      "tags": "port"
+    }
+  },
+  {
+    "word": "voyage",
+    "pos": "n.",
+    "cn_keywords": "航次,船次,船舶航次,航行,航程",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "航次；船舶一次完整的航行，由船名和航次号共同标识",
+        "def_en": "A single sailing of a vessel identified by vessel name and voyage number",
+        "example_en": "Your cargo is booked on vessel CSCL GLOBE voyage 0124E.",
+        "example_cn": "您的货物已订舱在中海环球号0124E航次。",
+        "domain": "shipping",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "voyage",
+      "full_form": "Voyage Number",
+      "domain": "shipping",
+      "pro_def_cn": "标识船舶单次航行的编号，通常由数字和字母组成，配合船名使用可唯一确定某次航行。查询货物状态、核对舱单、申报AMS/ISF时均需填写正确的船名和航次号。",
+      "pro_def_en": "A unique identifier for a single vessel sailing. Required for cargo tracking and customs filings.",
+      "biz_example_1": "BC确认订舱后需将船名+航次号通知客户，用于申报AMS/ISF和追踪货物状态。",
+      "biz_example_2": "同一船舶不同航次的截关时间不同，需每次确认最新的cut-off时间。",
+      "related": "vessel schedule,ETD,ETA,booking confirmation",
+      "tags": "shipping"
+    }
+  },
+  {
+    "word": "terminal",
+    "pos": "n.",
+    "cn_keywords": "码头,集装箱码头,港口码头,装卸码头",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "集装箱码头；负责集装箱装卸、堆存和转运的港口专业设施",
+        "def_en": "A port facility equipped with cranes and yard space for loading, discharging, and storing containers",
+        "example_en": "The vessel calls at Yangshan Deep-Water Terminal Phase 4.",
+        "example_cn": "船舶停靠洋山深水港四期码头。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "terminal",
+      "full_form": "Container Terminal",
+      "domain": "port",
+      "pro_def_cn": "港口集装箱专业化作业区域，包括岸壁（quay）、堆场（yard）、闸口（gate）和装卸设备。不同船公司可能停靠不同的码头，订舱确认书会注明具体terminal。",
+      "pro_def_en": "Specialized port facility including quay, container yard, gate, and handling equipment.",
+      "biz_example_1": "宁波港有多个码头（穿山、梅山、北仑），订舱后需确认具体terminal告知拖车公司。",
+      "biz_example_2": "目的港terminal不同，D/O申请地点也不同，需提前告知代理具体码头信息。",
+      "related": "berth,CY,quay,stevedore",
+      "tags": "port"
+    }
+  },
+  {
+    "word": "pilot",
+    "pos": "n.",
+    "cn_keywords": "引水员,领航员,引航,港口引航",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "引水员；在港口、航道等水域引导船舶安全进出的专业持证人员",
+        "def_en": "A licensed mariner who boards vessels to guide them through ports and restricted waterways",
+        "example_en": "The pilot boarded the vessel at the pilot station outside the harbor.",
+        "example_cn": "引水员在港外引水站登上船舶。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "pilot",
+      "full_form": "Harbor Pilot / Marine Pilot",
+      "domain": "port",
+      "pro_def_cn": "具有专业资质的领航员，负责驾驶船舶通过复杂水域（港口、运河、狭窄航道）。大多数港口强制要求使用引水员，引水费（pilotage fee）是港口费用的一部分。",
+      "pro_def_en": "A certified maritime professional who guides ships through hazardous waters. Pilotage is compulsory in most major ports.",
+      "biz_example_1": "引水费（pilotage）是港口费用（port dues）的组成部分，在成本核算时不可遗漏。",
+      "biz_example_2": "特殊恶劣天气时引水员可能无法登轮，导致船舶推迟进港，影响整体船期。",
+      "related": "berth,anchorage,terminal,port congestion",
+      "tags": "port"
+    }
+  },
+  {
+    "word": "anchorage",
+    "pos": "n.",
+    "cn_keywords": "锚地,停泊锚地,等泊区,船舶锚地",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "锚地；船舶在等待泊位或检疫清关期间抛锚停泊的指定水域",
+        "def_en": "A designated sea area where vessels anchor while awaiting berth allocation or port clearance",
+        "example_en": "Over 50 vessels are waiting at anchorage due to the port congestion.",
+        "example_cn": "因港口拥堵，超过50艘船在锚地等候。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "anchorage",
+      "full_form": "Anchorage Area",
+      "domain": "port",
+      "pro_def_cn": "港口附近划定的水域，供船舶在等待泊位、检验检疫或海关放行期间停泊。锚地等候时间过长是港口拥堵的重要信号，影响货物ETA预测。",
+      "pro_def_en": "Designated offshore area for vessels to wait for berth assignment or customs approval.",
+      "biz_example_1": "洛杉矶塞港最严重时，锚地等泊超过20天，需持续跟踪并更新客户。",
+      "biz_example_2": "关注主要港口的anchorage vessel count是判断港口拥堵程度的重要依据。",
+      "related": "berth,port congestion,NOR,ETA",
+      "tags": "port"
+    }
+  },
+  {
+    "word": "draft",
+    "pos": "n.",
+    "cn_keywords": "吃水,吃水深度,船舶吃水,吃水限制",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "吃水深度；船体浸入水面以下的垂直距离，决定船舶是否能进入特定港口或航道",
+        "def_en": "The vertical distance between the waterline and the lowest point of the hull",
+        "example_en": "The vessel has a maximum draft of 14m which restricts access to some shallow ports.",
+        "example_cn": "该船最大吃水14米，限制了其进入部分浅水港口的能力。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "draft/draught",
+      "full_form": "Draft (Draught)",
+      "domain": "port",
+      "pro_def_cn": "船舶吃水深度随货物重量、燃油量变化。港口、航道均有最大允许吃水限制，超过则无法进港。巴拿马运河、苏伊士运河等都有严格吃水要求。",
+      "pro_def_en": "The depth of water a vessel displaces. Ports and canals enforce maximum draft limits.",
+      "biz_example_1": "安排超大型船舶挂港时，需核查港口允许最大吃水，避免因超吃水被拒绝进港。",
+      "biz_example_2": "旱季水位下降时，部分内河或浅水港口的可用吃水减小，影响船型选择和装载量。",
+      "related": "vessel,berth,terminal,anchorage",
+      "tags": "port"
+    }
+  },
+  {
+    "word": "quay",
+    "pos": "n.",
+    "cn_keywords": "码头,岸壁,停靠码头,泊岸",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "码头岸壁；港口供船舶靠泊的硬化固定岸边设施",
+        "def_en": "A solid hardened platform alongside water where vessels moor for loading and unloading",
+        "example_en": "The quay at Berth 5 is equipped with two post-Panamax gantry cranes.",
+        "example_cn": "5号泊位岸壁配备了两台超巴拿马型岸桥。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "quay",
+      "full_form": "Quay / Wharf",
+      "domain": "port",
+      "pro_def_cn": "港口固定的停靠设施，为船舶提供系泊点和货物装卸平台。岸壁长度和承重能力决定港口可接纳的船型，岸桥数量影响装卸效率。",
+      "pro_def_en": "Fixed harbor structure alongside which ships moor. Quay length and crane capacity determine vessel handling.",
+      "biz_example_1": "港口改扩建后quay延伸，可停靠更大船型，运力增加后通常会引入新航线。",
+      "biz_example_2": "Quay congestion（岸壁堵塞）是港口效率的关键指标，直接影响船舶靠泊等候时间。",
+      "related": "berth,terminal,stevedore",
+      "tags": "port"
+    }
+  },
+  {
+    "word": "stevedore",
+    "pos": "n.",
+    "cn_keywords": "装卸公司,装卸工,码头工人,理货公司",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "装卸公司/码头工；在港口负责装卸船舶货物的专业工人或服务公司",
+        "def_en": "Company or individual responsible for loading and unloading cargo at a port terminal",
+        "example_en": "The stevedore reported damage to 3 containers during discharge.",
+        "example_cn": "装卸公司报告在卸货期间发现3个集装箱有损坏。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "stevedore",
+      "full_form": "Stevedore / Stevedoring Company",
+      "domain": "port",
+      "pro_def_cn": "提供港口装卸服务的专业公司，负责操作岸桥、轮胎吊等设备将集装箱从船上移至堆场。发现货损时须出具损坏报告（damage report），是货物索赔的重要依据。",
+      "pro_def_en": "Specialized port company operating cranes. Issues damage reports when cargo damage is detected.",
+      "biz_example_1": "货物抵港发现破损时，需及时联系目的港代理取得stevedore出具的货损报告，作为保险索赔依据。",
+      "biz_example_2": "部分港口stevedore效率较低，装卸时间长，会影响船期和滞留时间。",
+      "related": "terminal,quay,berth,lashing",
+      "tags": "port"
+    }
+  },
+  {
+    "word": "feeder vessel",
+    "pos": "n.",
+    "cn_keywords": "支线船,喂给船,内贸船,支线运输",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "支线船；在区域小港与主要枢纽港之间运输集装箱的中小型船舶",
+        "def_en": "A smaller vessel that carries containers between regional ports and major hub ports",
+        "example_en": "The feeder vessel connects Qingdao to the Shanghai hub for onward connection to Europe.",
+        "example_cn": "支线船连接青岛与上海枢纽港，货物从上海转乘远洋干线船至欧洲。",
+        "domain": "shipping",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "feeder",
+      "full_form": "Feeder Vessel / Feeder Service",
+      "domain": "shipping",
+      "pro_def_cn": "体型较小（通常1000-3000 TEU）的集装箱船，在区域港口间或区域港与干线枢纽港之间运营，将货物汇集至枢纽港换乘干线船出洋。是干支线联运体系的重要组成部分。",
+      "pro_def_en": "Small to medium container vessels connecting smaller ports to major hub ports for onward transhipment.",
+      "biz_example_1": "走支线中转的货物需要额外留出转运时间，总转运时间会比直航长3-7天。",
+      "biz_example_2": "旺季抢不到直航时可考虑走支线+中转方案，但需告知客户时效影响。",
+      "related": "mother vessel,transshipment,ETD,ETA",
+      "tags": "shipping"
+    }
+  },
+  {
+    "word": "mother vessel",
+    "pos": "n.",
+    "cn_keywords": "干线船,主干船,母船,远洋大船",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "干线船；在主要远洋航线上运营的大型集装箱船，通常途经多个枢纽港",
+        "def_en": "A large container vessel operating on long-haul mainline routes between major hub ports",
+        "example_en": "The feeder service connects to the mother vessel at Hong Kong for Asia-Europe service.",
+        "example_cn": "货物经支线船送至香港，再转至干线船走亚欧航线。",
+        "domain": "shipping",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "mother vessel",
+      "full_form": "Mother Vessel / Mainline Vessel",
+      "domain": "shipping",
+      "pro_def_cn": "承担洲际远洋运输的大型集装箱船（通常8000 TEU以上），运营亚欧、亚美等主要远洋航线，在多个枢纽港停靠，与支线船形成干支线联运网络。",
+      "pro_def_en": "Large container ship (8000+ TEU) operating transcontinental mainline routes, calling at major hub ports.",
+      "biz_example_1": "干线船舱位紧张时，货代需提前锁定舱位，否则只能选择支线中转方案，时效更长。",
+      "biz_example_2": "母船航线的班期和挂港顺序固定，BC需了解主要航线的船期结构，帮客户规划最优方案。",
+      "related": "feeder vessel,transshipment,TEU,voyage",
+      "tags": "shipping"
+    }
+  },
+  {
+    "word": "EIR",
+    "pos": "n.",
+    "cn_keywords": "设备交接单,箱子交接单,进出闸记录,集装箱交接单",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "设备交接单；集装箱在码头进出闸时记录箱体状态的官方凭证",
+        "def_en": "Equipment Interchange Receipt — document recording container condition at terminal gate",
+        "example_en": "The driver must obtain an EIR when picking up an empty container from the depot.",
+        "example_cn": "司机从场站提空箱时必须取得设备交接单。",
+        "domain": "operations",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "EIR",
+      "full_form": "Equipment Interchange Receipt",
+      "domain": "operations",
+      "pro_def_cn": "集装箱在交接时双方共同签署的状态记录文件，注明箱号、箱型、外观损坏情况。有货损纠纷时，EIR是判断损坏发生时间节点的关键证据。",
+      "pro_def_en": "A jointly-signed document recording container condition at interchange. Critical evidence in damage disputes.",
+      "biz_example_1": "提空箱时务必在EIR上如实标注已有的损坏，否则还箱时可能被要求承担非本次产生的维修费用。",
+      "biz_example_2": "进港时EIR与B/L上的箱况描述不符时需及时提出异议，防止被错误追责。",
+      "related": "gate pass,D/O,CY,booking confirmation",
+      "tags": "operations"
+    }
+  },
+  {
+    "word": "stowage",
+    "pos": "n.",
+    "cn_keywords": "积载,配载,货物配置,积载计划",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "积载；对船舱内货物进行科学排列和固定，以确保船舶稳定性和货物安全",
+        "def_en": "The planning and arrangement of cargo within a vessel to ensure stability and safety",
+        "example_en": "Proper stowage of dangerous goods requires segregation from other cargo.",
+        "example_cn": "危险品的正确积载需要与其他货物隔离。",
+        "domain": "operations",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "stowage",
+      "full_form": "Cargo Stowage",
+      "domain": "operations",
+      "pro_def_cn": "集装箱或散货在船舱、甲板上的位置安排，需考虑船舶重心、稳性、货物特性（危险品隔离、冷藏箱用电位置、OOG超重舱位限制等）。",
+      "pro_def_en": "Systematic arrangement of cargo on a vessel considering stability, weight distribution, and dangerous goods segregation.",
+      "biz_example_1": "OOG和DG货物对积载有特殊要求，订舱时须提供详细信息，船公司据此安排舱位。",
+      "biz_example_2": "甲板装载（on-deck stowage）费用通常低于舱内，但货物暴露在风雨中风险较高。",
+      "related": "load list,lashing,OOG,DG cargo",
+      "tags": "operations"
+    }
+  },
+  {
+    "word": "lashing",
+    "pos": "n.",
+    "cn_keywords": "绑扎,固定货物,绑扎费,捆扎",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "绑扎；使用钢丝绳、绑带等工具将货物固定在集装箱或船甲板上，防止运输途中移位",
+        "def_en": "Securing cargo using wire ropes, chains, or straps to prevent shifting during sea transit",
+        "example_en": "OOG cargo on deck must have a proper lashing plan approved by the carrier.",
+        "example_cn": "甲板超规格货物必须有船公司批准的绑扎方案。",
+        "domain": "operations",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "lashing",
+      "full_form": "Cargo Lashing / Securing",
+      "domain": "operations",
+      "pro_def_cn": "对装载在集装箱内或船甲板上的货物进行固定的作业，使用钢丝绳、链条、气囊、木楔等工具。OOG甲板货必须提交绑扎方案供船公司审批，绑扎费用通常由托运人承担。",
+      "pro_def_en": "Use of wire ropes and straps to secure cargo. A formal lashing plan is required for OOG deck cargo.",
+      "biz_example_1": "OOG超限货物的绑扎方案由货主或专业绑扎公司出具，费用计入总运输成本。",
+      "biz_example_2": "绑扎不当导致的货损，保险公司可能以不符合绑扎规范为由拒赔，需特别注意。",
+      "related": "stowage,OOG,load list,DG cargo",
+      "tags": "operations"
+    }
+  },
+  {
+    "word": "port congestion",
+    "pos": "n.",
+    "cn_keywords": "港口拥堵,塞港,港口积压,压港,拥堵费",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "港口拥堵；因船舶积压导致的港口停滞，严重影响装卸效率和船期稳定性",
+        "def_en": "A situation where excessive vessel traffic causes delays at a port terminal impacting schedules",
+        "example_en": "Severe port congestion at Los Angeles has pushed transit times up by 2 weeks.",
+        "example_cn": "洛杉矶严重港口拥堵导致运输时间延长了2周。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "congestion",
+      "full_form": "Port Congestion",
+      "domain": "port",
+      "pro_def_cn": "当港口处理能力无法满足船舶和货物需求时，出现大量船舶在锚地等泊、码头堆存超限等现象，导致船期延误、ETA不准、demurrage和detention费用大幅增加。常见于旺季、疫情、工人罢工或恶劣天气期间。",
+      "pro_def_en": "Operational gridlock at a port caused by vessel queuing and yard overflow. Results in sailing delays.",
+      "biz_example_1": "遇到塞港时，BC需主动预警客户可能出现的延误，提供替代方案（绕港、转运）并更新ETA。",
+      "biz_example_2": "主要港口的congestion surcharge（拥堵附加费）在塞港期间会额外收取，需提前告知客户。",
+      "related": "anchorage,berth,demurrage,detention,ETA",
+      "tags": "port"
+    }
+  },
+  {
+    "word": "vessel waiting",
+    "pos": "n.",
+    "cn_keywords": "等泊,等锚,锚地等候,等泊期",
+    "defs": [
+      {
+        "pos": "n.",
+        "def_cn": "等泊；船舶因泊位不足在锚地等候靠港的状态，通常以等泊天数衡量拥堵程度",
+        "def_en": "The period during which a vessel waits at anchorage due to berth unavailability",
+        "example_en": "Average vessel waiting time at Yantian port has reached 5 days due to congestion.",
+        "example_cn": "由于拥堵，盐田港平均等泊时间已达5天。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "vessel waiting",
+      "full_form": "Vessel Waiting Time",
+      "domain": "port",
+      "pro_def_cn": "船舶在锚地等待泊位的时间，是衡量港口拥堵程度的关键指标，直接影响ETA预测准确性。等泊时间长时，船公司可能调整后续挂港计划，甩货风险随之增加。",
+      "pro_def_en": "Time a vessel spends at anchorage waiting for a berth. Key congestion indicator impacting ETA reliability.",
+      "biz_example_1": "每周跟踪主要目的港的vessel waiting days数据，可提前预判ETA延误风险并告知客户备货节奏。",
+      "biz_example_2": "等泊超过7天时，需重新评估运输时效承诺，与客户沟通调整交货计划。",
+      "related": "port congestion,anchorage,berth,ETA",
+      "tags": "port"
+    }
+  },
+  {
+    "word": "ENS",
+    "phonetic_uk": "/ˌiː.en.ˈes/",
+    "phonetic_us": "/ˌiː.en.ˈes/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "进境摘要申报；欧盟海关安全预报",
+        "def_en": "Entry Summary Declaration — EU pre-arrival customs security filing required for all goods entering the European Union by sea",
+        "example_en": "ENS must be filed at least 24 hours before arrival at the first EU port of entry.",
+        "example_cn": "ENS须在抵达欧盟第一入境港至少24小时前完成申报。",
+        "domain": "customs",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "ENS",
+      "full_form": "Entry Summary Declaration",
+      "domain": "customs",
+      "pro_def_cn": "欧盟海关进口管制系统（ICS）要求的货物预报申报，相当于美线的AMS。由货代或船公司在货物抵达欧盟第一港口前24小时提交，内容包含收发货人、货物描述、HS编码、集装箱及封条信息。未及时申报将被拒绝卸货并产生罚款。",
+      "pro_def_en": "Pre-arrival security declaration required by the EU Import Control System (ICS/ICS2). Functionally equivalent to AMS for US-bound cargo. Must include shipper, consignee, cargo description, HS codes, and container details.",
+      "biz_example_1": "欧线截单资料 = ENS + VGM；ENS表头由OPS放舱时预填，seller需补充柜封号、毛件体、HS编码和打托信息。",
+      "biz_example_2": "ENS检查要点：CNEE地址不能为亚马逊仓库；Buyer名称不能含C/O FBA等连接词；多品名需分行填写对应件毛体。",
+      "related": "AMS,ISF,VGM,HBL,MBL",
+      "tags": "customs,EU,pre-arrival,filing"
+    },
+    "cn_keywords": "欧盟预报,进境申报,欧线安全申报,欧线截单"
+  },
+  {
+    "word": "BCO",
+    "phonetic_uk": "/ˌbiː.siː.ˈəʊ/",
+    "phonetic_us": "/ˌbiː.siː.ˈoʊ/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "实际货主；直接货主",
+        "def_en": "Beneficial Cargo Owner — shipper who contracts directly with the ocean carrier, bypassing freight forwarders, and holds its own bill of lading",
+        "example_en": "BCO shipments may not carry standard AMS template headers from the forwarder.",
+        "example_cn": "BCO货主的AMS可能没有货代预填的标准表头。",
+        "domain": "shipping",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "BCO",
+      "full_form": "Beneficial Cargo Owner",
+      "domain": "shipping",
+      "pro_def_cn": "直接与船公司签订运输合同、持有主提单（MBL）的实际货主，区别于通过NVOCC或货代安排运输的托运人。BCO的AMS通常无货代预填表头，截单当天前收到的需让客户用放舱模板重填；紧急截单可直接无表头发给LSP，由AMS/HBL team根据SI Reminder Report补全表头。",
+      "pro_def_en": "A cargo owner who contracts directly with ocean carriers. BCOs hold their own contract rates and MBLs but may lack standard AMS header templates.",
+      "biz_example_1": "BCO单AMS没有表头：截单当天之前收到的，让客户用放舱AMS模板重填；紧急截单可直接发给LSP和HBL/AMS/ISF Team。",
+      "biz_example_2": "BCO与NVOCC区别：BCO直接持有船司合约；NVOCC向船司买舱位后再以HBL转卖给货主。",
+      "related": "NVOCC,HBL,MBL,AMS",
+      "tags": "shipping,cargo owner,contract"
+    },
+    "cn_keywords": "实际货主,直接货主,自有提单货主"
+  },
+  {
+    "word": "CHB",
+    "phonetic_uk": "/ˌsiː.eɪtʃ.ˈbiː/",
+    "phonetic_us": "/ˌsiː.eɪtʃ.ˈbiː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "报关行；海关经纪人",
+        "def_en": "Customs House Broker — licensed professional or firm authorized to handle customs clearance on behalf of importers or exporters",
+        "example_en": "The CHB filed the entry and obtained customs release within 48 hours of arrival.",
+        "example_cn": "报关行在到港48小时内完成报关并取得放行。",
+        "domain": "customs",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "CHB",
+      "full_form": "Customs House Broker",
+      "domain": "customs",
+      "pro_def_cn": "持有海关资质，代理进出口商办理报关手续（含申报、纳税、查验协调）的专业机构。BC team根据LSP每日发送的CHB Reminder Report核查委托报关情况，追催还未提供报关资料的seller；各港口CHB不同，如上海由宁波浙商报关，宁波由捷达报关。",
+      "pro_def_en": "Licensed agent managing import/export customs formalities including tariff classification, duty payment, and regulatory compliance. BC team tracks CHB Reminder Reports daily to ensure customs documents are submitted on time.",
+      "biz_example_1": "CHB Reminder Report：LSP每日发给BC team，提示未收到报关资料的订单，BC需核查并催客户提供或修改OC系统的报关方式。",
+      "biz_example_2": "报关行资质号示例：上海/天津/青岛用宁波浙商3302980205；宁波用捷达3302480003；厦门用旭盈3502180169。",
+      "related": "Customs Clearance,IOR,LSP,报关",
+      "tags": "customs,clearance,broker"
+    },
+    "cn_keywords": "报关行,海关经纪人,报关代理"
+  },
+  {
+    "word": "IOR",
+    "phonetic_uk": "/ˌaɪ.əʊ.ˈɑː/",
+    "phonetic_us": "/ˌaɪ.oʊ.ˈɑːr/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "进口申报人；进口商（法律意义上的进口责任方）",
+        "def_en": "Importer of Record — the legal entity responsible for customs filing, duty payment, and regulatory compliance at the destination country",
+        "example_en": "For standard FBA shipments, Amazon serves as the Importer of Record in the US.",
+        "example_cn": "标准FBA货件中，亚马逊作为美国的进口申报人。",
+        "domain": "customs",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "IOR",
+      "full_form": "Importer of Record",
+      "domain": "customs",
+      "pro_def_cn": "在目的国海关系统登记在案、承担进口申报义务（含缴税、合规）的法律实体。亚马逊清关时亚马逊为IOR；卖家自清关时，卖家或其清关行为IOR。IOR信息在ETD-7/CRD-5前可在线更改；截单后需修改的，须在截单邮件中备注给ISF Team跟进；若改为亚马逊清关，需先确认IOR为Approve状态。",
+      "pro_def_en": "The legal entity responsible for import compliance, duty payment, and entry filing at destination. For Amazon-cleared shipments, Amazon is the IOR; for self-clearance shipments, the seller or their broker is the IOR.",
+      "biz_example_1": "IOR修改截止时间：ETD-7 或 CRD-5，超期需联系PA Team线下处理，或将邮件转至agl-ctu11brokerage@amazon.com。",
+      "biz_example_2": "自清关改亚马逊清关前必须确认IOR是否Approve状态；账户余额不足时需先充值再修改清关方式。",
+      "related": "ISF,Customs Clearance,FBA,CHB,CRD",
+      "tags": "customs,import,compliance,clearance"
+    },
+    "cn_keywords": "进口申报人,进口商,清关责任方,清关担保人"
+  },
+  {
+    "word": "LSP",
+    "phonetic_uk": "/ˌel.es.ˈpiː/",
+    "phonetic_us": "/ˌel.es.ˈpiː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "物流服务提供商",
+        "def_en": "Logistics Service Provider — a third-party company offering integrated logistics services including freight forwarding, customs clearance, warehousing, and inland transport",
+        "example_en": "Our LSPs, Maersk and Sinotrans, manage booking, documentation, and customs for all FCL shipments.",
+        "example_cn": "马士基和中外运作为我们的LSP，负责所有整柜货件的订舱、文件和清关。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "LSP",
+      "full_form": "Logistics Service Provider",
+      "domain": "logistics",
+      "pro_def_cn": "提供综合物流外包服务的第三方机构，业务涵盖国际货代、报关、仓储和内陆运输。BC team日常工作中与LSP（马士基MSK/中外运SINO）的交互包括：发送截单/报关资料、申请晚截单、处理SI异常、接收CHB Reminder Report和船期更新通知。禁止将LSP联系信息透露给seller。",
+      "pro_def_en": "A third-party company providing outsourced logistics services. In the BC context, LSP (Maersk/Sinotrans) receives shipping instructions, handles customs filing, and notifies of schedule changes. BC must never share LSP contact details with sellers.",
+      "biz_example_1": "BC规范：截单/报关资料只能用公邮发给LSP，LSP不接受私邮；邮件主题必须含完整AL0号，中间不能有空格。",
+      "biz_example_2": "LSP SI Reminder Report：SINO每日早9点前发送，MSK工作日中午11点发送，BC核查AMS/VGM NOT RECEIVED项目。",
+      "related": "Freight Forwarder,MSK,SINO,CHB,SI",
+      "tags": "logistics,service,forwarder"
+    },
+    "cn_keywords": "物流服务商,货代,中外运,马士基,物流外包"
+  },
+  {
+    "word": "EDI",
+    "phonetic_uk": "/ˌiː.diː.ˈaɪ/",
+    "phonetic_us": "/ˌiː.diː.ˈaɪ/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "电子数据交换",
+        "def_en": "Electronic Data Interchange — computer-to-computer exchange of standardized business documents between trading partners without human intervention",
+        "example_en": "LSP EDI delay may cause ASI template headers to arrive without vessel information.",
+        "example_cn": "LSP的EDI延迟可能导致ASI模板收到时表头信息为空。",
+        "domain": "it-logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "EDI",
+      "full_form": "Electronic Data Interchange",
+      "domain": "it-logistics",
+      "pro_def_cn": "贸易伙伴之间按照国际标准（如EDIFACT、X12）进行计算机对计算机自动传输业务数据的技术体系。在航运中用于订舱确认、提单发行、舱单申报（EDI舱单）和货物追踪。天津EDI舱单模板已更新至V4版本可填写分票数据；XMN用EDI方式刷申报。",
+      "pro_def_en": "Automated exchange of structured business data (bookings, bills of lading, manifests) in standardized electronic formats between carriers, forwarders, and customs. EDI delay requires manual data entry.",
+      "biz_example_1": "LSP EDI延迟时OPS/TR需手动补充ASI表头后发给seller；天津EDI舱单V4模板支持分票数据填写。",
+      "biz_example_2": "XMN刷申报通过EDI方式处理：有委托代码的由OPS/TR发给LSP；与截单资料同时提供的由BC发给LSP。",
+      "related": "AMS,ENS,ASI,VGM,Manifest",
+      "tags": "technology,data,manifest,IT"
+    },
+    "cn_keywords": "电子数据交换,EDI舱单,电子报文传输"
+  },
+  {
+    "word": "ACI",
+    "phonetic_uk": "/ˌeɪ.siː.ˈaɪ/",
+    "phonetic_us": "/ˌeɪ.siː.ˈaɪ/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "预报货物信息；加拿大海关货物预申报",
+        "def_en": "Advance Cargo Information — Canada Border Services Agency pre-arrival reporting system requiring cargo details 24 hours before departure from the last foreign port",
+        "example_en": "ACI filing is mandatory for sea shipments to Canada before the vessel's last port of call.",
+        "example_cn": "发往加拿大的海运货物须在末港出发前完成ACI预报。",
+        "domain": "customs",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "ACI",
+      "full_form": "Advance Cargo Information",
+      "domain": "customs",
+      "pro_def_cn": "加拿大边境服务署（CBSA）要求的货物预申报制度，类似美国AMS，适用于海运、航空或陆路方式进入加拿大的货物。海运须在最后外国装港出发前24小时完成申报。由LSP代发时，OP在OC系统中直接确认相关费用，无需向seller额外收取。",
+      "pro_def_en": "Canada's mandatory pre-arrival cargo reporting system (CBSA). For ocean shipments, must be submitted 24 hours before departure from the last foreign port. Similar to US AMS.",
+      "biz_example_1": "BC需确认目的地为加拿大的货件是否需发ACI；LSP代发ACI时，OP在OC系统中直接确认相关费用。",
+      "biz_example_2": "ACI vs AMS vs ENS：均为货物预报制度，分别适用于加拿大、美国和欧盟，申报时间节点和数据要求略有差异。",
+      "related": "AMS,ISF,ENS,Customs Clearance",
+      "tags": "customs,canada,pre-arrival,security"
+    },
+    "cn_keywords": "加拿大预报,货物预申报,加拿大海关"
+  },
+  {
+    "word": "A/N",
+    "phonetic_uk": "/ˌeɪ.ˈen/",
+    "phonetic_us": "/ˌeɪ.ˈen/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "到港通知",
+        "def_en": "Arrival Notice — official notification issued by the carrier or freight forwarder to the consignee or notify party advising that cargo has arrived or is about to arrive at the destination port",
+        "example_en": "If the A/N has not been received by ETA-5, contact the carrier immediately.",
+        "example_cn": "若ETA前5天仍未收到到港通知，需立即联系船公司。",
+        "domain": "shipping",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "A/N",
+      "full_form": "Arrival Notice",
+      "domain": "shipping",
+      "pro_def_cn": "船公司或货代在货物到港前（通常为ETA-5天）向提单通知方发出的正式通知文件，包含船名航次、预计到港时间、提箱地点、免费用箱期及相关费用信息。自清关订单须提醒seller在第一卸货港ETA-5前确认A/N是否已收到，未收到须及时告知BC team协调。",
+      "pro_def_en": "Formal notice from the carrier (usually 5 days before ETA) to the bill of lading notify party, confirming vessel arrival and providing pickup instructions, free time, and demurrage terms.",
+      "biz_example_1": "BC回复自清关客户模板：如第一卸货港ETA-5前未收到A/N，请及时通知我司协调，否则晚了责任自行承担。",
+      "biz_example_2": "HMM订单：通知方邮箱不能是QQ邮箱，否则A/N无法正常发送和接收，影响目的港提货。",
+      "related": "ETA,MBL,HBL,Consignee,Demurrage",
+      "tags": "shipping,notification,delivery"
+    },
+    "cn_keywords": "到港通知,到货通知,AN单,船到通知"
+  },
+  {
+    "word": "COV",
+    "phonetic_uk": "/ˌsiː.əʊ.ˈviː/",
+    "phonetic_us": "/ˌsiː.oʊ.ˈviː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "换船；更换承运船只",
+        "def_en": "Change of Vessel — amendment replacing the originally booked vessel with a different one, requiring all shipping documents to be updated accordingly",
+        "example_en": "After the COV notification, AMS headers need to reflect the new vessel name and voyage number.",
+        "example_cn": "收到换船通知后，AMS表头需更新为新船名和航次。",
+        "domain": "shipping",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "COV",
+      "full_form": "Change of Vessel",
+      "domain": "shipping",
+      "pro_def_cn": "因运力调整、港口拥堵或船期变动，将货物从原订船只转移至另一艘船只的操作。COV后所有截单文件（AMS/ENS表头）需同步更新新船名和航次。若客户要求BC代为修改表头，作为hypercare每票同类情况均需主动更新，无需再次与客户确认。",
+      "pro_def_en": "Substitution of the booked vessel due to schedule changes or capacity issues. Requires updating AMS/ENS headers, stowage plans, manifests, and OC system ETD/SI CUT times.",
+      "biz_example_1": "COV处理：未截单时，根据新放舱AMS模板更新表头后发给LSP；已截单的由后端AMS/HBL team处理。",
+      "biz_example_2": "换船需更新OC中ETD和SI CUT时间；若客人自发舱单（SHA/TAO），还需通知seller更新舱单表头后重新提交。",
+      "related": "AMS,ENS,ETD,SI CUT,MBL",
+      "tags": "shipping,amendment,vessel,schedule"
+    },
+    "cn_keywords": "换船,更换船只,换舱,换载"
+  },
+  {
+    "word": "CRD",
+    "phonetic_uk": "/ˌsiː.ɑː.ˈdiː/",
+    "phonetic_us": "/ˌsiː.ɑːr.ˈdiː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "货物就绪日；备货完成日",
+        "def_en": "Cargo Ready Date — the confirmed date when goods are fully manufactured, packed, labelled, and available for pickup or loading at origin",
+        "example_en": "Vessel booking is only confirmed after the seller provides a firm CRD.",
+        "example_cn": "只有卖家提供确定的货物就绪日后，船期预订才能确认。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "CRD",
+      "full_form": "Cargo Ready Date",
+      "domain": "logistics",
+      "pro_def_cn": "货物完成生产、包装和贴标后可供提货的最早日期，是订舱排船和制定SI CUT时间的关键依据。IOR修改在CRD-5前可在线操作；若因CRD Delay导致出运延迟，须将OC中SO_SI_CUT更新为3000/01/01；Everest Task中标注Miss SLA Reason。",
+      "pro_def_en": "The earliest date cargo is ready for pickup. Used to plan vessel schedules and SI cut-off deadlines. CRD Delay requires OC SO_SI_CUT to be set to 3000/01/01.",
+      "biz_example_1": "CRD Delay：Everest Task出现CRD延期，修改OC中SO_SI_CUT为3000/01/01 00:00，并在Task中填写Miss SLA Reason。",
+      "biz_example_2": "IOR修改时间窗口：ETD-7 且 CRD-5之前，超过截止时间需联系PA Team或转发至agl-ctu11brokerage@amazon.com处理。",
+      "related": "ETD,SI CUT,IOR,Booking,ETA",
+      "tags": "logistics,timeline,booking,planning"
+    },
+    "cn_keywords": "备货日期,货物就绪日,出货日期,备货完成"
+  },
+  {
+    "word": "FBA",
+    "phonetic_uk": "/ˌef.biː.ˈeɪ/",
+    "phonetic_us": "/ˌef.biː.ˈeɪ/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "亚马逊代发货；亚马逊配送服务",
+        "def_en": "Fulfillment by Amazon — Amazon's logistics service where third-party sellers ship inventory to Amazon fulfillment centers and Amazon handles storage, picking, packing, and last-mile delivery",
+        "example_en": "FBA ocean shipments require the CNEE on the B/L to be the Amazon FC address.",
+        "example_cn": "FBA海运货件的提单收货人地址须为亚马逊配送中心地址。",
+        "domain": "ecommerce-logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "FBA",
+      "full_form": "Fulfillment by Amazon",
+      "domain": "ecommerce-logistics",
+      "pro_def_cn": "亚马逊提供的仓储配送模式：卖家将批量货物海运至亚马逊FC（配送中心），由亚马逊完成仓储、分拣、包装及尾程配送。BC团队专门处理FBA Ocean FCL货件的截单（SI）和报关（CHB）操作。提单收货人须以C/O FBA结尾，通知方不能填写亚马逊仓库。",
+      "pro_def_en": "Amazon's fulfillment service for third-party marketplace sellers. Sellers ship inventory in bulk (FCL ocean) to Amazon fulfillment centers. BC team handles booking confirmations for all FBA Ocean FCL shipments.",
+      "biz_example_1": "FBA提单核查：CNEE地址须为亚马逊FC，格式以C/O FBA结尾；自清关订单通知方不能填写亚马逊，需填卖家清关行信息。",
+      "biz_example_2": "ENS检查项：Buyer地址不能为亚马逊仓库；Buyer名称不能出现C/O FBA连接词（CNEE字段可以出现）。",
+      "related": "FCL,HBL,MBL,IOR,Customs Clearance,ISF",
+      "tags": "ecommerce,amazon,fulfillment,B2C"
+    },
+    "cn_keywords": "亚马逊代发货,FBA发货,亚马逊入仓,配送中心"
+  },
+  {
+    "word": "VAS",
+    "phonetic_uk": "/ˌviː.eɪ.ˈes/",
+    "phonetic_us": "/ˌviː.eɪ.ˈes/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "增值服务",
+        "def_en": "Value Added Service — supplementary logistics services beyond basic freight transport, including customs clearance, trucking, labelling, palletizing, and insurance",
+        "example_en": "VAS includes export customs declaration, inland trucking, and destination clearance options.",
+        "example_cn": "增值服务包括起运港报关、内陆拖车和目的港清关等选项。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "VAS",
+      "full_form": "Value Added Service",
+      "domain": "logistics",
+      "pro_def_cn": "在基础海运服务之上，由物流服务提供商额外提供的配套服务，包括起运港报关（Export Customs Declaration）、内陆拖车（Container Loading）、目的港清关（Import Customs Clearance/ICC）、保险和打托等。BC在OC系统中核查VAS配置是否与客户实际提供的资料一致，如不符需与seller确认后再截单。",
+      "pro_def_en": "Additional logistics services beyond core ocean freight. Includes export customs brokerage, inland trucking, destination clearance, cargo insurance, and palletizing. BC verifies VAS settings in OC system match actual seller-provided documents before submitting SI.",
+      "biz_example_1": "VAS核查：若OC显示亚马逊清关但seller选择了自清关，或seller提供ISF但OC显示自清关，须与seller邮件确认后再截单。",
+      "biz_example_2": "OPS-TR负责拖车VAS；BC负责截单/报关VAS；清关VAS修改须在OC中更新Export Customs Declaration和ICC字段。",
+      "related": "Customs Clearance,Trucking,IOR,LSP,OC",
+      "tags": "logistics,service,customs,trucking"
+    },
+    "cn_keywords": "增值服务,附加服务,报关服务,拖车服务"
+  },
+  {
+    "word": "ASI",
+    "phonetic_uk": "/ˌeɪ.es.ˈaɪ/",
+    "phonetic_us": "/ˌeɪ.es.ˈaɪ/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "自动化装运指示；CDA系统装运申报表",
+        "def_en": "Automated Shipping Instructions — Amazon's CDA system shipping instruction format that replaces the traditional AMS template for eligible bookings",
+        "example_en": "CDA bookings require an ASI file, not the standard AMS template.",
+        "example_cn": "CDA订单须提交ASI文件，而非传统AMS模板。",
+        "domain": "customs",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "ASI",
+      "full_form": "Automated Shipping Instructions",
+      "domain": "customs",
+      "pro_def_cn": "亚马逊CDA（海关清关文件自动化）系统下的装运申报格式，替代传统AMS模板用于符合条件的CDA订单。OPS放舱时从OC系统下载ASI模板并附在放舱邮件中发给seller；LSP EDI延迟时OPS/TR需手动补充ASI表头后转发。HBL team负责核查ASI各栏位是否合规并上传，上传被Reject时BC需跟进通知seller。",
+      "pro_def_en": "Amazon's automated shipping instruction format used in CDA (Customs Document Automation) bookings. Downloaded from the OC system at SO release, replaces traditional AMS templates. HBL team reviews and uploads ASI; BC follows up if rejected.",
+      "biz_example_1": "CDA订单截单资料：seller提供ASI+VGM（不是传统AMS+ISF+VGM）；BC需核实客户是否提供ASI文件，上传Reject时BC通知seller并抄送HBL公邮。",
+      "biz_example_2": "ASI检查要点：每个栏位（收发通/container/SKU）是否齐全；箱封号不能有空格；件毛体不能带单位；任何栏位不能带公式。",
+      "related": "AMS,CDA,HBL,ISF,VGM,EDI",
+      "tags": "customs,amazon,CDA,documentation"
+    },
+    "cn_keywords": "自动化装运指示,CDA申报表,ASI文件"
+  },
+  {
+    "word": "MSK",
+    "phonetic_uk": "/ˌem.es.ˈkeɪ/",
+    "phonetic_us": "/ˌem.es.ˈkeɪ/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "马士基（船司代码）",
+        "def_en": "Maersk — the world's largest container shipping company (SCAC: MAEU); one of Amazon AGL's primary LSP carrier partners for FCL ocean freight",
+        "example_en": "MSK requires AMS to be submitted before the SI cut-off; any changes are subject to amendment fees.",
+        "example_cn": "马士基要求在截单时间前提交AMS，任何更改须支付改单费。",
+        "domain": "carrier",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "MSK",
+      "full_form": "Maersk (A.P. Møller-Mærsk)",
+      "domain": "carrier",
+      "pro_def_cn": "全球最大集装箱航运公司，总部丹麦哥本哈根，SCAC代码MAEU，业界通称MSK。AGL Amazon的主要LSP之一，负责部分航线的订舱、SI处理和目的港安排。MSK节假日加班需提前申请并支付费用（CNY100/AL0）；MSK的SI Reminder Report每工作日中午11点左右发送。",
+      "pro_def_en": "A.P. Møller-Mærsk A/S — world's largest container carrier. SCAC: MAEU. Amazon AGL's primary LSP carrier partner. Provides daily SI reminder reports around 11 AM on business days. Holiday surcharge: CNY100 per booking.",
+      "biz_example_1": "MSK节假日加班：须单票提前邮件申请，确认费用CNY100/AL0；取消须节假日前最后工作日18:00前邮件通知MSK。",
+      "biz_example_2": "MSK CHB Reminder：截单后单票提醒报关资料，MSK只做一次性提醒，需及时催seller提供以避免延误报关。",
+      "related": "LSP,SI,AMS,CHB,HBL,SINO",
+      "tags": "carrier,shipping line,ocean freight"
+    },
+    "cn_keywords": "马士基,马士基航运,丹麦船司,MAEU"
+  },
+  {
+    "word": "HMM",
+    "phonetic_uk": "/ˌeɪtʃ.em.ˈem/",
+    "phonetic_us": "/ˌeɪtʃ.em.ˈem/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "现代商船（韩国集装箱船司）",
+        "def_en": "HMM Co., Ltd. (formerly Hyundai Merchant Marine) — South Korean container shipping company; SCAC code HDMU",
+        "example_en": "For HMM bookings, the notify party email cannot be a QQ address or the A/N will not be delivered.",
+        "example_cn": "HMM订单通知方邮箱不能是QQ邮箱，否则到港通知无法正常收到。",
+        "domain": "carrier",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "HMM",
+      "full_form": "HMM Co., Ltd.",
+      "domain": "carrier",
+      "pro_def_cn": "韩国集装箱航运公司，原名现代商船（Hyundai Merchant Marine），2023年更名。SCAC代码HDMU。特殊注意：①盐田港口会在提单号后添加001字样；②宁波以外港口均需提供多品名明细表补料；③自清关HMM订单，通知方邮箱不能是QQ邮箱，否则无法收到A/N。",
+      "pro_def_en": "South Korean container carrier (formerly Hyundai Merchant Marine). SCAC: HDMU. Key rules: appends '001' to B/L numbers at Yantian port; requires multi-commodity forms at all ports except Ningbo; QQ email not accepted for notify party.",
+      "biz_example_1": "HMM盐田：提单号后自动添加001字样，BC核查舱单时需注意AMS与舱单提单号的对应关系。",
+      "biz_example_2": "HMM多品名补料：除宁波港外所有港口均需（与MSC规则不同——MSC仅XMN/YTN需要）。",
+      "related": "MSK,MSC,YML,HPL,A/N,AMS",
+      "tags": "carrier,shipping line,Korea"
+    },
+    "cn_keywords": "现代商船,韩国船司,HMM,HDMU"
+  },
+  {
+    "word": "MSC",
+    "phonetic_uk": "/ˌem.es.ˈsiː/",
+    "phonetic_us": "/ˌem.es.ˈsiː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "地中海航运（全球第二大集装箱船司）",
+        "def_en": "Mediterranean Shipping Company — world's second-largest container shipping company, headquartered in Geneva; SCAC code MSCU",
+        "example_en": "MSC bookings from XMN and YTN require a multi-commodity detail form in addition to the standard AMS.",
+        "example_cn": "MSC厦门和盐田启运的货件需额外提供多品名明细表补料。",
+        "domain": "carrier",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "MSC",
+      "full_form": "Mediterranean Shipping Company",
+      "domain": "carrier",
+      "pro_def_cn": "全球第二大集装箱航运公司，总部瑞士日内瓦，SCAC代码MSCU。特殊规则：①美线盐田/厦门MSC截单须提供多品名明细表补料；②与HPL/YML同属SO No.和MBL No.可能不一致的三家船司之一，须通过QS report核实SO号、通过SI Reminder Report核实MBL号，两者确认后才能截单。",
+      "pro_def_en": "World's second-largest container carrier headquartered in Geneva. SCAC: MSCU. Special rule: MSC shipments from XMN and YTN require multi-commodity supplement forms. One of three carriers (with HPL/YML) where SO No. and MBL No. may differ.",
+      "biz_example_1": "MSC多品名补料：美线启运港为XMN和YTN时需提供多品名明细表，其他港口无需。",
+      "biz_example_2": "MSC SO-MBL不一致：与HPL/YML共同列为需要双重核实的船司，必须同时通过QS Report和SI Reminder Report确认后才截单。",
+      "related": "MSK,HMM,YML,HPL,MBL,S/O",
+      "tags": "carrier,shipping line,Mediterranean"
+    },
+    "cn_keywords": "地中海航运,瑞士船司,MSC,MSCU"
+  },
+  {
+    "word": "YML",
+    "phonetic_uk": "/ˌwaɪ.em.ˈel/",
+    "phonetic_us": "/ˌwaɪ.em.ˈel/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "阳明海运（台湾集装箱船司）",
+        "def_en": "Yang Ming Marine Transport Corp. — Taiwanese container shipping company; SCAC code YMLU",
+        "example_en": "YML, like MSC and HPL, may have a different SO number and MBL number — verify both before filing SI.",
+        "example_cn": "阳明海运与MSC、赫伯罗特一样，SO号与MBL号可能不一致，截单前须双重核实。",
+        "domain": "carrier",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "YML",
+      "full_form": "Yang Ming Marine Transport Corp.",
+      "domain": "carrier",
+      "pro_def_cn": "台湾集装箱航运公司，SCAC代码YMLU。与MSC/HPL同属SO No.和MBL No.可能不一致的三家船司之一，BC在截单前须通过QS Report核实SO号码、通过SI Reminder Report核实MBL号码，两者均确认正确后才能操作截单。",
+      "pro_def_en": "Taiwanese container carrier. SCAC: YMLU. One of three carriers (with MSC and HPL) where SO No. and MBL No. may differ — always verify both reference numbers before submitting SI.",
+      "biz_example_1": "YML核实流程：QS Report核对SO号 + SI Reminder Report核实MBL号，两者均正确才截单，避免AMS申报错误产生罚金。",
+      "biz_example_2": "欧线TXG YML须单独联系LSP获取分单号；新增YML预配舱单表需特别注意。",
+      "related": "MSK,MSC,HPL,HMM,MBL,S/O",
+      "tags": "carrier,shipping line,Taiwan"
+    },
+    "cn_keywords": "阳明海运,台湾船司,YML,阳明"
+  },
+  {
+    "word": "HPL",
+    "phonetic_uk": "/ˌeɪtʃ.piː.ˈel/",
+    "phonetic_us": "/ˌeɪtʃ.piː.ˈel/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "赫伯罗特（德国集装箱船司）",
+        "def_en": "Hapag-Lloyd AG — German container shipping company, one of the world's top-five carriers; SCAC code HLCU",
+        "example_en": "HPL shipments from Tianjin require a separate application to LSP for split B/L numbers.",
+        "example_cn": "天津赫伯罗特货件须单独向LSP申请分票提单号。",
+        "domain": "carrier",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "HPL",
+      "full_form": "Hapag-Lloyd AG",
+      "domain": "carrier",
+      "pro_def_cn": "德国汉堡总部的全球五大集装箱船司之一，SCAC代码HLCU。特殊规则：①与MSC/YML同属SO No.和MBL No.可能不一致的三家船司，截单前须双重核实；②欧线TXG（天津）HPL需单独联系LSP获取分单号，不适用其他船司TXG自行+ABC的规则。",
+      "pro_def_en": "German container carrier headquartered in Hamburg. SCAC: HLCU. One of three carriers (with MSC and YML) where SO No. and MBL No. may differ. TXG EU HPL requires separate LSP application for split B/L numbers.",
+      "biz_example_1": "HPL天津欧线分单号：欧线TXG HPL须单独联系LSP获取分单号，不适用其他船司TXG无需特殊申请的规则。",
+      "biz_example_2": "HPL SO-MBL不一致处理：QS Report核对SO号 + SI Reminder Report核实MBL号，两者确认后才截单。",
+      "related": "MSK,MSC,YML,HMM,MBL,S/O",
+      "tags": "carrier,shipping line,Germany"
+    },
+    "cn_keywords": "赫伯罗特,德国船司,HPL,HLCU"
+  },
+  {
+    "word": "ZIM",
+    "phonetic_uk": "/ˈzɪm/",
+    "phonetic_us": "/ˈzɪm/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "以星综合航运（以色列船司）",
+        "def_en": "ZIM Integrated Shipping Services — Israeli container shipping company; SCAC code ZIMU",
+        "example_en": "ZIM requires a signed Letter of Indemnity for consolidated declarations on SHA US routes.",
+        "example_cn": "上海至美国的ZIM货件，多票报关情况下须提供并单保函。",
+        "domain": "carrier",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "ZIM",
+      "full_form": "ZIM Integrated Shipping Services",
+      "domain": "carrier",
+      "pro_def_cn": "以色列集装箱航运公司，总部海法，SCAC代码ZIMU。特殊要求：上海ZIM美线若客户多票报关需提供并单保函（LOI），由BC收取客户签署的保函后转给LSP；一票订单多票报关走SHA ZIM US时，除正常截单资料外需额外提供并单保函。",
+      "pro_def_en": "Israeli container carrier. SCAC: ZIMU. Special requirement: SHA ZIM US multi-declaration shipments require a Letter of Indemnity (LOI) for consolidated bills of lading. BC collects LOI from seller before submitting SI.",
+      "biz_example_1": "ZIM保函（SHA美线）：一票订单多票报关走SHA ZIM US，需客户回传并单保函，BC转给LSP后才能操作截单。",
+      "biz_example_2": "ZIM属于Amazon改单保函通用模板适用范围——YMPR/HMM/CMA有特殊版本，其他船司（含ZIM）用通用模板。",
+      "related": "MSK,HMM,MSC,MBL,HBL",
+      "tags": "carrier,shipping line,Israel"
+    },
+    "cn_keywords": "以星综合航运,以色列船司,ZIM,以星"
+  },
+  {
+    "word": "CMA",
+    "phonetic_uk": "/ˌsiː.em.ˈeɪ/",
+    "phonetic_us": "/ˌsiː.em.ˈeɪ/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "达飞轮船；达飞集运（法国船司）",
+        "def_en": "CMA CGM — French container shipping company and one of the world's top-three carriers; SCAC code CMDU",
+        "example_en": "CMA CGM has its own special B/L amendment form, different from the standard Amazon template.",
+        "example_cn": "达飞轮船有专属改单保函模板，与亚马逊通用模板不同。",
+        "domain": "carrier",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "CMA",
+      "full_form": "CMA CGM",
+      "domain": "carrier",
+      "pro_def_cn": "法国马赛总部的全球三大集装箱船司之一，全称CMA CGM，SCAC代码CMDU。在BC SOP中特别提及：改单保函有CMA专属版本，须使用特定模板而非通用Amazon改单保函模板（与YMPR/HMM同属需使用特殊版本模板的船司）。",
+      "pro_def_en": "French container carrier headquartered in Marseille. SCAC: CMDU. One of three carriers (with YMPR/HMM) requiring a special version of the Amazon B/L amendment Letter of Indemnity, rather than the standard template.",
+      "biz_example_1": "CMA改单保函：须使用CMA专属模板，不能用通用Amazon模板；同样情况的还有YMPR和HMM，其他船司用通用模板。",
+      "biz_example_2": "CMA CGM是全球三大船司之一，承运跨太平洋及欧亚航线，挂靠NGB/SHA/TAO/XMN/YTN等各大港口。",
+      "related": "MSK,HMM,MSC,YML,HPL,ZIM,MBL",
+      "tags": "carrier,shipping line,France"
+    },
+    "cn_keywords": "达飞轮船,法国船司,CMA CGM,达飞集运"
+  },
+  {
+    "word": "SINO",
+    "phonetic_uk": "/ˈsaɪ.nəʊ/",
+    "phonetic_us": "/ˈsaɪ.noʊ/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "中外运（中国外运）",
+        "def_en": "Sinotrans — China's largest state-owned freight forwarding and logistics company, one of Amazon AGL's primary LSP partners",
+        "example_en": "Sino provides daily CHB reminder reports and handles customs declaration for AGL Amazon FCL shipments.",
+        "example_cn": "中外运每日提供报关催单报告，并负责AGL亚马逊整柜货件的报关事宜。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "SINO",
+      "full_form": "Sinotrans Limited",
+      "domain": "logistics",
+      "pro_def_cn": "中国外运股份有限公司，中国最大国有货代和物流集团之一。作为AGL Amazon的主要LSP之一（与马士基MSK并列），负责SHA/NGB/TAO/TXG/YTN等港口的订舱、SI处理、舱单申报、报关及目的港安排。SINO的SI Reminder每个自然日早9点前发送，覆盖前一天/当天/次日的截单信息；SINO每日发送CHB Reminder Report批量提醒报关资料。",
+      "pro_def_en": "Sinotrans Limited — China's major state-owned freight forwarder and logistics company. One of Amazon AGL's two primary LSPs (with Maersk), covering multiple China export ports. Sends SI reminder reports before 9 AM daily (all calendar days).",
+      "biz_example_1": "SINO SI Reminder：每自然日早9点前发送（含周末和节假日），包含SI cut为前一天/当天/第二天的截单信息，BC核查AMS/VGM NOT RECEIVED。",
+      "biz_example_2": "SINO各港口报关行：上海/天津/青岛→宁波浙商3302980205；宁波→捷达3302480003；福州→福建中外运3501982512。",
+      "related": "LSP,MSK,CHB,AMS,SI",
+      "tags": "logistics,China,forwarder,state-owned"
+    },
+    "cn_keywords": "中外运,中国外运,Sinotrans,国有货代"
+  },
+  {
+    "word": "NGB",
+    "phonetic_uk": "/ˌen.dʒiː.ˈbiː/",
+    "phonetic_us": "/ˌen.dʒiː.ˈbiː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "宁波港（港口代码）",
+        "def_en": "Ningbo — UNLOCODE / shipping port code for Ningbo-Zhoushan Port, Zhejiang Province; one of the world's top container ports by throughput",
+        "example_en": "NGB manifest can only be submitted by Amazon or its agent through the sino56 platform.",
+        "example_cn": "宁波港舱单只能由亚马逊或其代理通过sino56平台提交。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "NGB",
+      "full_form": "Ningbo-Zhoushan Port",
+      "domain": "port",
+      "pro_def_cn": "宁波舟山港，浙江省，全球货物吞吐量最大港口之一（UN/LOCODE: CNNBG）。AGL BC五大操作港口之一。舱单规则：①只能由亚马逊/代理在sino56平台提交；②无需加拼申请，自行加拼即可；③多票报关须截单前一工作日向LSP申请加拼关单号。",
+      "pro_def_en": "Ningbo-Zhoushan Port, Zhejiang Province (UN/LOCODE: CNNBG). One of world's largest container ports. BC rules: manifest via sino56 platform (Amazon/agent only); no split application needed; multi-declaration requires split customs number one business day before SI cut.",
+      "biz_example_1": "NGB舱单平台：sino56.com — 无需加拼申请，自行加拼；单票报关委托亚马逊代做舱单，以AMS数据为准。",
+      "biz_example_2": "BC对应NGB公邮：agloperation-doc-ngb@amazon.com；报关行SINO用宁波浙商（3302480003→捷达）。",
+      "related": "SHA,TAO,XMN,YTN,TXG,AMS,SI",
+      "tags": "port,China,Ningbo,Zhejiang"
+    },
+    "cn_keywords": "宁波港,宁波舟山港,NGB,浙江港口"
+  },
+  {
+    "word": "SHA",
+    "phonetic_uk": "/ˌes.eɪtʃ.ˈeɪ/",
+    "phonetic_us": "/ˌes.eɪtʃ.ˈeɪ/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "上海港（港口代码，通常指洋山深水港）",
+        "def_en": "Shanghai — shipping port code for Shanghai Port (Yangshan Deep-Water Port); the world's busiest container port by TEU throughput",
+        "example_en": "SHA customs must be cleared BEFORE cargo enters the port; entry is required within 72 hours of customs release.",
+        "example_cn": "上海洋山港必须先报关后进港，报关后72小时内柜子须进港。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "SHA",
+      "full_form": "Shanghai Yangshan Port",
+      "domain": "port",
+      "pro_def_cn": "上海洋山深水港，全球吞吐量最大集装箱港口（UN/LOCODE: CNSHA）。BC操作关键规则：①必须先报关后进港（区别于其他港口的先进港后报关）；②报关后72小时内柜子须进港；③拼票报关需提供规定格式舱单，单票可用AMS数据发送舱单；④SHA可自发舱单（需提前告知BC）；⑤多票报关须截单前一工作日申请加拼关单号。",
+      "pro_def_en": "Shanghai Yangshan Deep-Water Port — world's busiest container port (UN/LOCODE: CNSHA). Key rule: customs clearance must precede port entry; cargo must enter within 72 hours post-clearance. Unique among BC ports for this customs-first requirement.",
+      "biz_example_1": "上海特殊操作：先报关后进港（洋山），报关后72小时内进港；与青岛/宁波等先进港后报关的流程完全相反。",
+      "biz_example_2": "SHA自发舱单：可以，须告知BC；舱单在sinotrans公共平台填写导出；多票报关须提前一工作日向LSP申请加拼关单号。",
+      "related": "NGB,TAO,XMN,YTN,TXG,AMS,舱单",
+      "tags": "port,China,Shanghai,Yangshan"
+    },
+    "cn_keywords": "上海港,洋山港,SHA,上海洋山"
+  },
+  {
+    "word": "TAO",
+    "phonetic_uk": "/ˌtiː.eɪ.ˈəʊ/",
+    "phonetic_us": "/ˌtiː.eɪ.ˈoʊ/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "青岛港（港口代码）",
+        "def_en": "Qingdao — shipping port code for Qingdao Port, Shandong Province; major container hub in northern China",
+        "example_en": "For TAO single-declaration bookings, Amazon can input the manifest without requiring the seller to provide a form.",
+        "example_cn": "青岛单票报关订单，委托亚马逊录入舱单的可以不提供舱单表格。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "TAO",
+      "full_form": "Qingdao Port",
+      "domain": "port",
+      "pro_def_cn": "山东省青岛港，中国北方重要集装箱枢纽港（UN/LOCODE: CNTAO）。舱单规则：①TAO可自发舱单（须先告知BC）；②有固定格式；③一票报关委托亚马逊录入可不提供舱单表格；④多票报关委托亚马逊须提供舱单表格；⑤无需加拼申请，自行加拼即可。",
+      "pro_def_en": "Qingdao Port, Shandong Province (UN/LOCODE: CNTAO). Major northern China container port. BC rules: self-manifest allowed (notify BC first); single-declaration — no manifest form required; multi-declaration — manifest form required; no split application needed.",
+      "biz_example_1": "TAO舱单规则：单票委托亚马逊录入→无需提供表格；多票委托亚马逊→需提供表格；自发时须先告知BC。",
+      "biz_example_2": "BC对应TAO公邮：agloperation-doc-other@amazon.com（与FOC/TSN共用）；SINO报关行：宁波浙商3302980205。",
+      "related": "NGB,SHA,XMN,YTN,TXG,AMS",
+      "tags": "port,China,Qingdao,Shandong"
+    },
+    "cn_keywords": "青岛港,TAO,山东港口,青岛"
+  },
+  {
+    "word": "XMN",
+    "phonetic_uk": "/ˌeks.em.ˈen/",
+    "phonetic_us": "/ˌeks.em.ˈen/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "厦门港（港口代码）",
+        "def_en": "Xiamen — shipping port code for Xiamen Port, Fujian Province; a major container export port in southeast China",
+        "example_en": "XMN allows EDI-based manifest self-submission; sellers with a commission code can have OPS/TR send it to the LSP.",
+        "example_cn": "厦门港可通过EDI方式刷申报；有委托代码的由OPS/TR发给LSP处理。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "XMN",
+      "full_form": "Xiamen Port",
+      "domain": "port",
+      "pro_def_cn": "福建省厦门港，中国东南沿海重要集装箱港口（UN/LOCODE: CNXMN）。特殊规则：①XMN可刷申报（EDI舱单申报），有委托代码的在给排载时由OPS/TR发给LSP，与截单资料同时提供的由BC发给LSP；②刷申报需提供柜封号/VGM/报关清单；③刷关单（FOC，福州类型关单）须由订舱代理操作；④MSC从XMN启运需提供多品名明细表补料。",
+      "pro_def_en": "Xiamen Port, Fujian Province (UN/LOCODE: CNXMN). BC procedures: EDI manifest (刷申报) self-submission with commission code; FOC customs documents processed by booking agent; MSC from XMN requires multi-commodity supplement forms.",
+      "biz_example_1": "XMN刷申报：截单资料前提供委托代码→OPS/TR发给LSP；与截单资料同时提供→BC发给LSP；LSP回传电子申报单给客人。",
+      "biz_example_2": "MSK厦门报关行：厦门旭盈物流3502180169；BC对应XMN公邮：agloperation-doc-xmn@amazon.com。",
+      "related": "NGB,SHA,TAO,YTN,TXG,EDI,AMS",
+      "tags": "port,China,Xiamen,Fujian"
+    },
+    "cn_keywords": "厦门港,XMN,福建港口,厦门"
+  },
+  {
+    "word": "YTN",
+    "phonetic_uk": "/ˌwaɪ.tiː.ˈen/",
+    "phonetic_us": "/ˌwaɪ.tiː.ˈen/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "盐田港（港口代码，深圳盐田国际集装箱码头）",
+        "def_en": "Yantian — shipping port code for Yantian International Container Terminal, Shenzhen, Guangdong Province",
+        "example_en": "YTN does not require a manifest; HMM at YTN appends '001' after the bill of lading number.",
+        "example_cn": "盐田港无需舱单；HMM在盐田港会在提单号后面添加001字样。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "YTN",
+      "full_form": "Yantian International Container Terminal",
+      "domain": "port",
+      "pro_def_cn": "深圳盐田国际集装箱码头，珠三角主要出口港之一（UN/LOCODE: CNYTB）。特殊规则：①盐田无需舱单（截单资料不含舱单，区别于其他港口）；②HMM盐田港口会在提单号后添加001字样，核查舱单时需注意；③MSC从YTN启运需提供多品名明细表补料（美线）。",
+      "pro_def_en": "Yantian International Container Terminal (YICT), Shenzhen, Guangdong (UN/LOCODE: CNYTB). Key rules: NO manifest required (unique among BC ports); HMM appends '001' to B/L numbers; MSC shipments require multi-commodity supplement forms.",
+      "biz_example_1": "YTN无需舱单：盐田是BC操作港口中唯一不需要舱单的，截单资料只需AMS/ENS+ISF+VGM，无舱单。",
+      "biz_example_2": "HMM盐田特殊：提单号后添加001（如HDMU1234567→HDMU1234567001），BC核查AMS/舱单时须注意匹配。",
+      "related": "NGB,SHA,TAO,XMN,TXG,AMS,HMM",
+      "tags": "port,China,Shenzhen,Yantian"
+    },
+    "cn_keywords": "盐田港,深圳盐田,YTN,盐田国际"
+  },
+  {
+    "word": "TXG",
+    "phonetic_uk": "/ˌtiː.eks.ˈdʒiː/",
+    "phonetic_us": "/ˌtiː.eks.ˈdʒiː/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "天津港（港口代码，天津新港）",
+        "def_en": "Tianjin Xingang — shipping port code for Tianjin Port (Xingang terminal), the main container gateway for Beijing and northern China",
+        "example_en": "TXG manifest can only be submitted by Amazon or its agent; a separate VGM declaration form is also required.",
+        "example_cn": "天津港舱单只能由亚马逊或代理提交；天津出运还须单独提供VGM称重声明。",
+        "domain": "port",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "TXG",
+      "full_form": "Tianjin Xingang Port",
+      "domain": "port",
+      "pro_def_cn": "天津新港，华北最大集装箱港口（UN/LOCODE: CNTXG）。特殊规则：①舱单只能由亚马逊/代理发送，不可自发；②需提供件毛体及品名，有分票须注明分票明细；③天津EDI舱单模板已更新至V4版本（可填写分票数据）；④天津出运须单独提供VGM称重声明文件（其他港口无此要求）；⑤欧线TXG HPL须特别向LSP申请分单号；⑥新增YML预配舱单表。",
+      "pro_def_en": "Tianjin Xingang Port (UN/LOCODE: CNTXG). Key rules: manifest by Amazon/agent only (no self-submission); separate VGM declaration form required; EDI manifest V4 template supports split consignment data; HPL EU shipments need separate split B/L application.",
+      "biz_example_1": "天津VGM声明：出运货物须单独提供对应称重方式的VGM声明文件，这是TXG独有要求，其他港口无需。",
+      "biz_example_2": "TXG报关行：SINO用宁波浙商3302980205；MSK用中集世联达1207280020；BC对应公邮：agloperation-doc-other@amazon.com。",
+      "related": "NGB,SHA,TAO,XMN,YTN,AMS,VGM",
+      "tags": "port,China,Tianjin,North China"
+    },
+    "cn_keywords": "天津港,天津新港,TXG,华北港口"
+  },
+  {
+    "word": "CY_CUT",
+    "phonetic_uk": "/ˌsiː.waɪ kʌt/",
+    "phonetic_us": "/ˌsiː.waɪ kʌt/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "截重柜时间；集装箱堆场截关截止时间",
+        "def_en": "Container Yard Cut-off — the latest time by which a laden (full) container must be gate-in at the designated CY for a specific vessel/voyage",
+        "example_en": "All laden containers must arrive at CY before CY_CUT; late containers will be rolled to the next sailing.",
+        "example_cn": "所有重柜必须在CY截关时间前进港，超时将被甩柜滚装至下一班船。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "CY_CUT",
+      "full_form": "Container Yard Cut-off",
+      "domain": "port",
+      "pro_def_cn": "装满货物的重柜（Laden Container）最迟必须进港抵达堆场（CY）的截止时间。超过CY_CUT后，码头不再接受该航次的重柜入场，货物将被甩柜（Roll）至下一班船。通常比开船时间（ETD）提前1-3天，具体时间由船公司/码头在S/O上标注。CY_CUT ≠ 文件截关（Doc Cut-off/SI截关），两者需分别关注。",
+      "pro_def_en": "The terminal gate-in deadline for laden containers on a specific voyage. Containers arriving after CY_CUT will be refused and rolled to the next available sailing. Typically 1-3 days before ETD. Distinct from document cut-off (SI deadline).",
+      "biz_example_1": "S/O上CY_CUT显示「5月20日16:00」，意味着拖车必须在当日16点前完成进港扫箱，16点01分即超时被甩柜。",
+      "biz_example_2": "旺季货量大时，即使在CY_CUT之前进港也可能因码头爆仓被甩柜，须提前与货代/船司确认实际接受能力。",
+      "related": "CY,CV_CUT,Cut-off,S/O,ETD,Roll",
+      "tags": "port,cut-off,container,FCL"
+    },
+    "cn_keywords": "截重柜,截重柜时间,CY截关,进港截止,堆场截关"
+  },
+  {
+    "word": "CV_CUT",
+    "phonetic_uk": "/ˌsiː.viː kʌt/",
+    "phonetic_us": "/ˌsiː.viː kʌt/",
+    "pos": "abbrev.",
+    "defs": [
+      {
+        "pos": "abbrev.",
+        "def_cn": "截放行条时间；海关放行条提交截止时间",
+        "def_en": "Customs Verification Cut-off — the latest time by which the customs release note must be submitted to the terminal/carrier for cargo to be loaded on the vessel",
+        "example_en": "Customs inspection is complete; submit the release note before CV_CUT or the cargo misses this sailing.",
+        "example_cn": "查验已完成，须在CV截关时间前将放行条提交码头，否则货物赶不上本班船。",
+        "domain": "logistics",
+        "is_pro": 1,
+        "order": 0
+      }
+    ],
+    "pro": {
+      "abbrev": "CV_CUT",
+      "full_form": "Customs Verification Cut-off",
+      "domain": "customs",
+      "pro_def_cn": "海关对货物完成查验并签发放行条（放行单）后，托运人/货代必须将该放行条提交给码头或船公司的最晚时间。放行条是海关允许货物出境的书面凭证，码头凭此为货物办理装船手续。CV_CUT通常与CY_CUT挂钩，若放行条未在此时限前到达码头系统，货物视同未清关，无法装船。",
+      "pro_def_en": "Deadline for submitting customs-issued release note (放行条) to the terminal/carrier after customs inspection clearance. The release note authorizes the terminal to load the cargo. Missing CV_CUT means cargo cannot be loaded regardless of physical container arrival at CY.",
+      "biz_example_1": "货物被海关抽中查验（打X），即使重柜已进港，也必须等待查验完成并拿到放行条后才能装船，此时须盯紧CV_CUT时间节点。",
+      "biz_example_2": "CV_CUT通常在CY_CUT之前或同时，放行条滞后是导致甩柜的常见原因之一，需提前报关并跟进查验进度。",
+      "related": "CY_CUT,Cut-off,Customs Inspection,放行条,S/O,Roll",
+      "tags": "customs,cut-off,inspection,FCL"
+    },
+    "cn_keywords": "截放行条,放行条截关,海关放行截止,查验放行,CV截关"
+  }
+]

@@ -1,0 +1,350 @@
+
+/* ─── Global ─── */
+QMainWindow, QWidget {
+    background: #1e1e2e;
+    color: #cdd6f4;
+    font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+    font-size: 13px;
+}
+QScrollBar:vertical {
+    background: #1e1e2e;
+    width: 8px;
+    border-radius: 4px;
+}
+QScrollBar::handle:vertical {
+    background: #45475a;
+    border-radius: 4px;
+    min-height: 20px;
+}
+QScrollBar::handle:vertical:hover { background: #585b70; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0; }
+
+/* ─── Search Bar ─── */
+#SearchBar {
+    background: #181825;
+    border-bottom: 1px solid #313244;
+}
+#SearchInput {
+    background: #313244;
+    border: 1px solid #45475a;
+    border-radius: 6px;
+    padding: 0 12px;
+    color: #cdd6f4;
+    font-size: 14px;
+}
+#SearchInput:focus {
+    border: 1px solid #89b4fa;
+}
+#SearchBtn {
+    background: #89b4fa;
+    color: #1e1e2e;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 13px;
+}
+#SearchBtn:hover { background: #74c7ec; }
+#SearchBtn:pressed { background: #b4befe; }
+
+/* ─── Side Panel ─── */
+#SidePanel {
+    background: #181825;
+    border-right: 1px solid #313244;
+}
+#SideTabBtn {
+    background: #181825;
+    color: #6c7086;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 8px 0;
+    font-size: 12px;
+}
+#SideTabBtn:checked {
+    color: #cdd6f4;
+    border-bottom: 2px solid #89b4fa;
+}
+#SideTabBtn:hover { color: #cdd6f4; }
+#SideList {
+    background: #181825;
+    border: none;
+    color: #a6adc8;
+    font-size: 12px;
+}
+#SideList::item { padding: 5px 12px; }
+#SideList::item:hover { background: #313244; color: #cdd6f4; }
+#SideList::item:selected { background: #313244; color: #89b4fa; }
+
+/* ─── Dividers ─── */
+#VertDiv { background: #313244; }
+#Separator { background: #313244; border: none; }
+
+/* ─── Result Panel ─── */
+#ResultPanel, #ResultContainer { background: #1e1e2e; border: none; }
+
+#WordHead {
+    font-size: 28px;
+    font-weight: 700;
+    color: #cdd6f4;
+    letter-spacing: 1px;
+}
+#Phonetic {
+    font-size: 13px;
+    color: #6c7086;
+    padding-left: 12px;
+}
+#PosTag {
+    color: #a6e3a1;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 600;
+}
+#DefCn {
+    font-size: 15px;
+    color: #cdd6f4;
+    font-weight: 500;
+}
+#DefEn {
+    font-size: 12px;
+    color: #7f849c;
+    padding-left: 4px;
+}
+#ExampleEn {
+    font-size: 12px;
+    color: #6c7086;
+    padding-left: 8px;
+    border-left: 2px solid #313244;
+    margin-left: 4px;
+}
+#ExampleCn {
+    font-size: 12px;
+    color: #585b70;
+    padding-left: 8px;
+}
+#SectionTitle {
+    font-size: 11px;
+    color: #6c7086;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 8px 0 4px 0;
+}
+
+/* ─── Pro Card ─── */
+#ProCard {
+    background: #181825;
+    border: 1px solid #313244;
+    border-left: 3px solid #89b4fa;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 4px 0;
+}
+#ProTitle {
+    font-size: 14px;
+    color: #89b4fa;
+    font-weight: 700;
+}
+#DomainTag {
+    background: #313244;
+    color: #74c7ec;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+#ProDefCn {
+    font-size: 13px;
+    color: #cdd6f4;
+    line-height: 1.6;
+}
+#ProDefEn {
+    font-size: 12px;
+    color: #7f849c;
+    line-height: 1.5;
+}
+#BizExample {
+    font-size: 12px;
+    color: #a6adc8;
+    background: #24273a;
+    border-radius: 4px;
+    padding: 6px 8px;
+    line-height: 1.5;
+}
+#RelatedTerms {
+    font-size: 11px;
+    color: #6c7086;
+}
+
+/* ─── Buttons ─── */
+#IconBtn {
+    background: transparent;
+    border: none;
+    color: #6c7086;
+    font-size: 16px;
+    border-radius: 4px;
+}
+#IconBtn:hover { background: #313244; color: #cdd6f4; }
+#FavBtn {
+    background: transparent;
+    border: none;
+    color: #f9e2af;
+    font-size: 16px;
+    border-radius: 4px;
+}
+#FavBtn:hover { background: #313244; }
+#SourceTag {
+    font-size: 10px;
+    color: #74c7ec;
+    background: #24273a;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* ─── Status / Empty ─── */
+#EmptyHint, #LoadingHint, #NotFound {
+    color: #45475a;
+    font-size: 18px;
+}
+
+/* ─── Floating Window ─── */
+#FloatCard {
+    background: #1e1e2e;
+    border: 1px solid #313244;
+    border-radius: 10px;
+}
+#FloatWord {
+    font-size: 18px;
+    font-weight: 700;
+    color: #cdd6f4;
+}
+#FloatPhonetic { font-size: 11px; color: #6c7086; }
+#FloatDef { font-size: 13px; color: #cdd6f4; }
+#FloatPro { font-size: 11px; color: #74c7ec; }
+#FloatIconBtn {
+    background: transparent;
+    border: none;
+    color: #6c7086;
+    border-radius: 4px;
+    font-size: 13px;
+}
+#FloatIconBtn:hover { background: #313244; color: #cdd6f4; }
+#FloatCloseBtn {
+    background: transparent;
+    border: none;
+    color: #6c7086;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+#FloatCloseBtn:hover { background: #f38ba8; color: #fff; }
+
+/* ─── System Tray / Tooltip ─── */
+QToolTip {
+    background: #313244;
+    color: #cdd6f4;
+    border: 1px solid #45475a;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+/* ─── Completer popup ─── */
+QAbstractItemView {
+    background: #313244;
+    color: #cdd6f4;
+    border: 1px solid #45475a;
+    border-radius: 4px;
+    selection-background-color: #45475a;
+}
+
+/* ─── Context Menu ─── */
+QMenu {
+    background: #313244;
+    border: 1px solid #45475a;
+    border-radius: 6px;
+    padding: 4px;
+    color: #cdd6f4;
+}
+QMenu::item {
+    padding: 6px 20px 6px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+QMenu::item:selected {
+    background: #45475a;
+}
+QMenu::item:disabled {
+    color: #585b70;
+}
+QMenu::separator {
+    height: 1px;
+    background: #45475a;
+    margin: 3px 8px;
+}
+
+/* ── 释义分组 DefGroup ─────────────────────────────────────── */
+#DefGroup {
+    margin-bottom: 4px;
+}
+
+#DefNum {
+    color: #89b4fa;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#DefCn {
+    color: #cdd6f4;
+    font-size: 14px;
+}
+
+#DefEn {
+    color: #a6adc8;
+    font-size: 12px;
+}
+
+#ExampleFrame {
+    border-left: 2px solid #313244;
+    margin-top: 2px;
+}
+
+#ExampleEn {
+    color: #89b4fa;
+    font-size: 12px;
+    font-style: italic;
+}
+
+#ExampleCn {
+    color: #9399b2;
+    font-size: 12px;
+}
+
+/* ── 搜索候选词面板 SuggestionPanel ────────────────────────────────────────── */
+#SuggestionPanel {
+    background: #1e1e2e;
+    border: 1px solid #45475a;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#SugList {
+    background: transparent;
+    color: #cdd6f4;
+    font-size: 14px;
+    outline: none;
+}
+
+#SugList::item {
+    padding: 10px 16px;
+    border-bottom: 1px solid #313244;
+    min-height: 36px;
+}
+
+#SugList::item:last-child {
+    border-bottom: none;
+}
+
+#SugList::item:selected,
+#SugList::item:hover {
+    background: #313244;
+    color: #89b4fa;
+}

@@ -1,0 +1,33 @@
+# ===== 构建产物 =====
+dist/
+build/
+*.spec.bak
+
+# ===== 运行时数据（用户本地，不纳入版本） =====
+logidict.db
+logidict.db-shm
+logidict.db-wal
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== 临时/调试文件 =====
+logidict_icon_preview.png
+icon_b64.txt
+_tail.py
+*.log
+*.tmp
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
