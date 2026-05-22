@@ -95,7 +95,11 @@ class SearchEngine:
                       "cn_query": word}
         else:
             # 英文查询：检查 SQLite 在线缓存，再调 API
-            cached = get_online_cache(word)
+            try:
+                cached = get_online_cache(word)
+            except Exception as e:
+                print(f"[Search] online_cache 读取失败: {e}")
+                cached = None
             if cached:
                 result = cached
                 result["source"] = "online"
@@ -105,8 +109,11 @@ class SearchEngine:
                 result = fetch_online(word)
                 result["source"] = "online" if result.get("defs") else "not_found"
                 if result.get("defs"):
-                    set_online_cache(word, result)
-                    persist_online_word(word, result)  # 写入 words/defs 表，支持中文反查
+                    try:
+                        set_online_cache(word, result)
+                        persist_online_word(word, result)  # 写入 words/defs 表，支持中文反查
+                    except Exception as e:
+                        print(f"[Search] 缓存写入失败: {e}")
 
         if result.get("word"):
             add_history(result["word"])

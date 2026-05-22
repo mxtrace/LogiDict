@@ -7,6 +7,7 @@ import concurrent.futures
 
 _DICT_URL  = "https://api.dictionaryapi.dev/api/v2/entries/en/{word}"
 _MM_URL    = "https://api.mymemory.translated.net/get"
+_GT_URL    = "https://translate.googleapis.com/translate_a/single"  # Google 免费备用
 _TIMEOUT   = 5   # 字典 API 超时
 _TIMEOUT_TR = 3  # 翻译超时（单条）
 
@@ -55,18 +56,31 @@ def translate_batch(texts: list, target: str = "zh-CN") -> list:
 
     def _one(idx_text):
         idx, text = idx_text
+        # 1. 先尝试 MyMemory
         try:
             r = requests.get(_MM_URL,
                 params={"q": text, "langpair": f"en|{target}"},
                 timeout=_TIMEOUT_TR)
             if r.status_code == 200:
                 trans = r.json().get("responseData", {}).get("translatedText", "")
-                if trans:
+                if trans and "MYMEMORY WARNING" not in trans:
                     return idx, trans, True
-            return idx, "", False
         except Exception as e:
             print(f"[MyMemory] {e}")
-            return idx, "", False
+        # 2. MyMemory 失败/限流 → 回退 Google Translate
+        try:
+            r = requests.get(_GT_URL,
+                params={"client": "gtx", "sl": "en", "tl": "zh-CN", "dt": "t", "q": text},
+                timeout=_TIMEOUT_TR)
+            if r.status_code == 200:
+                data = r.json()
+                parts = data[0] if data else []
+                trans = "".join(p[0] for p in parts if p and p[0]) if parts else ""
+                if trans:
+                    return idx, trans, True
+        except Exception as e:
+            print(f"[GoogleTrans] {e}")
+        return idx, "", False
 
     any_success = False
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:

@@ -315,12 +315,17 @@ def clear_history() -> bool:
 # ─── Online result cache（联网查词结果持久缓存）───
 def init_online_cache():
     conn = get_conn()
+    # 迁移旧 schema（旧表无 data_json 列）：直接删除重建，缓存数据丢失无影响
+    cols = [r[1] for r in conn.execute("PRAGMA table_info(online_cache)")]
+    if cols and "data_json" not in cols:
+        conn.execute("DROP TABLE online_cache")
+        print("[DB] online_cache 旧 schema 已迁移")
     conn.execute("""
         CREATE TABLE IF NOT EXISTS online_cache (
-            id       INTEGER PRIMARY KEY AUTOINCREMENT,
-            word     TEXT    NOT NULL UNIQUE COLLATE NOCASE,
-            data_json TEXT   NOT NULL,
-            cached_at TEXT   DEFAULT (datetime('now'))
+            id        INTEGER PRIMARY KEY AUTOINCREMENT,
+            word      TEXT    NOT NULL UNIQUE COLLATE NOCASE,
+            data_json TEXT    NOT NULL,
+            cached_at TEXT    DEFAULT (datetime('now'))
         )
     """)
     conn.commit()
@@ -367,11 +372,19 @@ def persist_online_word(word: str, data: dict):
     wid = c.lastrowid
     for i, d in enumerate(data.get("defs", [])):
         c.execute(
-            "INSERT INTO definitions (word_id,pos,def_cn,def_en,example_en,example_cn,domain,is_professional,sort_order) VALUES (?,?,?,?,?,?,?,?,?)",
+            "INSERT INTO definitions (word_id,pos,def_cn,def_en,domain,is_pro,sort_order) VALUES (?,?,?,?,?,?,?)",
             (wid, d.get("pos",""), d.get("def_cn",""), d.get("def_en",""),
-             d.get("example_en",""), d.get("example_cn",""),
              d.get("domain","general"), d.get("is_pro",0), i)
         )
+        def_id = c.lastrowid
+        # 例句存 examples 表（definitions 表无 example 列）
+        ex_en = d.get("example_en","")
+        ex_cn = d.get("example_cn","")
+        if ex_en or ex_cn:
+            c.execute(
+                "INSERT INTO examples (def_id, example_en, example_cn) VALUES (?,?,?)",
+                (def_id, ex_en, ex_cn)
+            )
     conn.commit(); conn.close()
 
 
