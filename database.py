@@ -331,6 +331,28 @@ def init_online_cache():
     conn.commit()
     conn.close()
 
+def clean_stale_online_cache():
+    """清理 online_cache 中所有 def_cn 全为空的旧缓存（无翻译数据，需重新查询）"""
+    import json as _json
+    conn = get_conn()
+    rows = conn.execute("SELECT word, data_json FROM online_cache").fetchall()
+    to_del = []
+    for word, dj in rows:
+        try:
+            d = _json.loads(dj)
+            defs = d.get("defs", [])
+            if defs and all(not df.get("def_cn", "").strip() for df in defs):
+                to_del.append(word)
+        except Exception:
+            to_del.append(word)
+    for w in to_del:
+        conn.execute("DELETE FROM online_cache WHERE LOWER(word)=LOWER(?)", (w,))
+    if to_del:
+        print(f"[DB] 清理无翻译旧缓存 {len(to_del)} 条: {to_del}")
+    conn.commit()
+    conn.close()
+
+
 def get_online_cache(word: str):
     import json
     conn = get_conn()

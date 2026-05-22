@@ -216,6 +216,7 @@ def main():
     db.init_db()
     db.seed_database()
     db.init_online_cache()
+    db.clean_stale_online_cache()  # 清理无翻译旧缓存
 
     # 初始化服务
     engine = SearchEngine()

@@ -100,6 +100,12 @@ class SearchEngine:
             except Exception as e:
                 print(f"[Search] online_cache 读取失败: {e}")
                 cached = None
+            # 缓存中所有 def_cn 都为空（旧版无翻译数据）→ 视为无效，重新查询
+            if cached:
+                defs = cached.get("defs", [])
+                if defs and all(not d.get("def_cn", "").strip() for d in defs):
+                    print(f"[Search] 缓存无中文翻译，重新查询: {word}")
+                    cached = None
             if cached:
                 result = cached
                 result["source"] = "online"
