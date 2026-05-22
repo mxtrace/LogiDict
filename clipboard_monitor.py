@@ -1,36 +1,46 @@
 # -*- coding: utf-8 -*-
-"""剪贴板监听：检测双击 Ctrl+C 划词翻译"""
-from PyQt6.QtCore import QObject, pyqtSignal, QTimer
+"""剪贴板监听：检测双击 Ctrl+C 划词翻译，支持动态启用/禁用"""
+from PyQt6.QtCore import QObject, pyqtSignal
 from PyQt6.QtWidgets import QApplication
 import time
 
 class ClipboardMonitor(QObject):
-    word_captured = pyqtSignal(str)   # 触发时发出选中文本
+    word_captured = pyqtSignal(str)
 
     def __init__(self, parent=None):
         super().__init__(parent)
         self._clipboard = QApplication.clipboard()
         self._last_text = ""
         self._last_time = 0.0
-        self._double_ctrl_c_interval = 0.5  # 两次 Ctrl+C 间隔阈值（秒）
+        self._interval = 0.5
+        self._enabled = False   # 默认禁用
 
-        # 监听剪贴板变化（用于配合 hotkey_manager 的双击 Ctrl+C）
+    def enable(self):
+        if self._enabled:
+            return
         self._clipboard.dataChanged.connect(self._on_clipboard_changed)
+        self._enabled = True
+        print("[Clipboard] 监听已启用")
+
+    def disable(self):
+        if not self._enabled:
+            return
+        try:
+            self._clipboard.dataChanged.disconnect(self._on_clipboard_changed)
+        except Exception:
+            pass
+        self._enabled = False
+        print("[Clipboard] 监听已禁用")
 
     def _on_clipboard_changed(self):
         try:
             text = self._clipboard.text().strip()
         except Exception:
-            return   # 剪贴板内容非文本（图片等），忽略
+            return
         if not text or len(text) > 200:
             return
         now = time.time()
-        # 双击检测：同一文本在 interval 内连续触发两次
-        if text == self._last_text and (now - self._last_time) < self._double_ctrl_c_interval:
+        if text == self._last_text and (now - self._last_time) < self._interval:
             self.word_captured.emit(text)
         self._last_text = text
         self._last_time = now
-
-    def get_selected_text(self) -> str:
-        """直接获取当前剪贴板文本"""
-        return self._clipboard.text().strip()

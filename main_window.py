@@ -4,7 +4,8 @@ from PyQt6.QtWidgets import (
     QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QLineEdit, QPushButton, QLabel, QScrollArea,
     QFrame, QListWidget, QListWidgetItem, QSplitter,
-    QCompleter, QApplication, QStackedWidget
+    QCompleter, QApplication, QStackedWidget,
+    QDialog, QCheckBox, QDialogButtonBox
 )
 from PyQt6.QtCore import (
     Qt, QThread, pyqtSignal, QSize, QPoint
@@ -466,6 +467,8 @@ class SidePanel(QWidget):
 
 
 class MainWindow(QMainWindow):
+    settings_changed = pyqtSignal(dict)   # 设置变更时通知 main 层
+
     def __init__(self, search_engine, tts_service, db_module):
         super().__init__()
         self.engine = search_engine
@@ -510,8 +513,14 @@ class MainWindow(QMainWindow):
         search_btn.setObjectName("SearchBtn")
         search_btn.setFixedSize(64, 36)
         search_btn.clicked.connect(self._do_search)
+        self._settings_btn = QPushButton("⚙")
+        self._settings_btn.setObjectName("IconBtn")
+        self._settings_btn.setFixedSize(36, 36)
+        self._settings_btn.setToolTip("设置")
+        self._settings_btn.clicked.connect(self._open_settings)
         sb_lay.addWidget(self._search_input)
         sb_lay.addWidget(search_btn)
+        sb_lay.addWidget(self._settings_btn)
         root.addWidget(search_bar)
         body = QWidget()
         body_lay = QHBoxLayout(body)
@@ -645,3 +654,53 @@ class MainWindow(QMainWindow):
         self.raise_()
         self.activateWindow()
         self._focus_search()
+
+    def _open_settings(self):
+        from settings import load as load_settings, save as save_settings
+        dlg = SettingsDialog(load_settings(), parent=self)
+        if dlg.exec() == QDialog.DialogCode.Accepted:
+            new_cfg = dlg.get_values()
+            save_settings(new_cfg)
+            # 通知 main 层更新热键状态
+            self.settings_changed.emit(new_cfg)
+
+
+class SettingsDialog(QDialog):
+    """设置弹窗：快捷键开关"""
+    def __init__(self, settings: dict, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle("设置")
+        self.setFixedSize(320, 180)
+        self.setModal(True)
+        lay = QVBoxLayout(self)
+        lay.setSpacing(12)
+        lay.setContentsMargins(20, 20, 20, 16)
+
+        title = QLabel("快捷键设置")
+        title.setObjectName("SectionTitle")
+        lay.addWidget(title)
+
+        self.cb_ocr = QCheckBox("启用取词（Alt+Q 截图识别）")
+        self.cb_ocr.setChecked(settings.get("hotkey_ocr_enabled", False))
+        lay.addWidget(self.cb_ocr)
+
+        self.cb_clip = QCheckBox("启用复制取词（双击 Ctrl+C）")
+        self.cb_clip.setChecked(settings.get("hotkey_clipboard_enabled", False))
+        lay.addWidget(self.cb_clip)
+
+        hint = QLabel("提示：默认关闭以避免与其他程序快捷键冲突")
+        hint.setObjectName("EmptyHint")
+        hint.setWordWrap(True)
+        lay.addWidget(hint)
+
+        btns = QDialogButtonBox(QDialogButtonBox.StandardButton.Ok |
+                                QDialogButtonBox.StandardButton.Cancel)
+        btns.accepted.connect(self.accept)
+        btns.rejected.connect(self.reject)
+        lay.addWidget(btns)
+
+    def get_values(self) -> dict:
+        return {
+            "hotkey_ocr_enabled":       self.cb_ocr.isChecked(),
+            "hotkey_clipboard_enabled": self.cb_clip.isChecked(),
+        }

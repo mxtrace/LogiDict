@@ -170,6 +170,7 @@ def load_app_icon():
 sys.path.insert(0, BASE_DIR)
 
 import database as db
+import settings as app_settings
 from search_engine import SearchEngine
 from tts_service import TTSService
 from hotkey_manager import HotkeyManager
@@ -254,11 +255,35 @@ def main():
     hotkey.show_main_window.connect(window.bring_to_front)
     hotkey.clipboard_search.connect(lambda: _on_clipboard_search(window, float_win))
     hotkey.capture_ocr.connect(lambda: _on_ocr_capture(window, float_win, ocr))
-    hotkey.start()
+    hotkey.start()   # 仅注册 Alt+D
 
-    # 剪贴板监听（双击Ctrl+C兜底）
+    # 剪贴板监听（默认禁用）
     clip = ClipboardMonitor()
     clip.word_captured.connect(lambda text: _on_clipboard_search_text(text, window, float_win))
+
+    # 按已保存设置决定是否启用取词功能
+    cfg = app_settings.load()
+    if cfg.get("hotkey_ocr_enabled"):
+        hotkey.enable_ocr()
+    if cfg.get("hotkey_clipboard_enabled"):
+        hotkey.enable_clipboard()
+        clip.enable()
+
+    # 监听设置变更
+    def _on_settings_changed(new_cfg):
+        app_settings.save(new_cfg)
+        if new_cfg.get("hotkey_ocr_enabled"):
+            hotkey.enable_ocr()
+        else:
+            hotkey.disable_ocr()
+        if new_cfg.get("hotkey_clipboard_enabled"):
+            hotkey.enable_clipboard()
+            clip.enable()
+        else:
+            hotkey.disable_clipboard()
+            clip.disable()
+
+    window.settings_changed.connect(_on_settings_changed)
 
     window.setWindowIcon(load_app_icon())
     window.show()
