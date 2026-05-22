@@ -50,7 +50,7 @@ def init_db():
             pos TEXT, def_cn TEXT, def_en TEXT,
             example_en TEXT, example_cn TEXT,
             domain TEXT DEFAULT 'general',
-            is_professional INTEGER DEFAULT 0, sort_order INTEGER DEFAULT 0);
+            is_pro INTEGER DEFAULT 0, sort_order INTEGER DEFAULT 0);
         CREATE TABLE IF NOT EXISTS pro_cards (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             word_id INTEGER NOT NULL REFERENCES words(id) ON DELETE CASCADE,
@@ -93,6 +93,26 @@ def init_db():
         conn.commit()
     except Exception:
         pass  # 列已存在，忽略
+    # 迁移：旧版列名 is_professional -> is_pro
+    try:
+        conn.execute("ALTER TABLE definitions RENAME COLUMN is_professional TO is_pro")
+        conn.commit()
+    except Exception:
+        pass
+    # 迁移：旧版 definitions 缺少 example_en/example_cn 列
+    for col in ("example_en", "example_cn"):
+        try:
+            conn.execute(f"ALTER TABLE definitions ADD COLUMN {col} TEXT DEFAULT ''")
+            conn.commit()
+        except Exception:
+            pass
+    # 迁移：旧版 definitions 缺少 example_en/example_cn 列
+    for _col in ("example_en", "example_cn"):
+        try:
+            conn.execute(f"ALTER TABLE definitions ADD COLUMN {_col} TEXT DEFAULT ''")
+            conn.commit()
+        except Exception:
+            pass
     # 确保在线缓存表存在（兼容重建场景）
     conn.execute("""
         CREATE TABLE IF NOT EXISTS online_cache (
@@ -130,7 +150,7 @@ def seed_database():
         wid = c.lastrowid
         for d in item.get('defs', []):
             c.execute(
-                "INSERT INTO definitions (word_id,pos,def_cn,def_en,example_en,example_cn,domain,is_professional,sort_order) VALUES (?,?,?,?,?,?,?,?,?)",
+                "INSERT INTO definitions (word_id,pos,def_cn,def_en,example_en,example_cn,domain,is_pro,sort_order) VALUES (?,?,?,?,?,?,?,?,?)",
                 (wid, d.get('pos',''), d.get('def_cn',''), d.get('def_en',''),
                  d.get('example_en',''), d.get('example_cn',''),
                  d.get('domain','general'), d.get('is_pro',0), d.get('order',0))
